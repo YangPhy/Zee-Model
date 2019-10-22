@@ -1,0 +1,105 @@
+(***************************************************************************************************************)
+(******                       This is the FeynRules mod-file for the Zee model                            ******)
+(******                                                                                                   ******)
+(******                                   Authors: Yang Ma                                                ******)
+(******                                                                                                   ******)
+(****** Choose whether Feynman gauge is desired.                                                          ******)
+(****** If set to False, unitary gauge is assumed.                                                          ****)
+(****** Feynman gauge is especially useful for CalcHEP/CompHEP where the calculation is 10-100 times faster. ***)
+(***************************************************************************************************************)
+
+(* ************************** *)
+(* *****  Information   ***** *)
+(* ************************** *)
+M$ModelName = "Zee Model";
+
+M$Information = {
+  Authors      -> {"Yang Ma"}, 
+  Version      -> "1.0.0",
+  Date         -> "04. 09. 2019",
+  Institutions -> {"University of Pittsburgh"},
+  Emails       -> {"mayangluon@pitt.edu"}
+};
+
+FeynmanGauge = True;
+
+(* ************************** *)
+(* ***** NLO Variables ****** *)
+(******************************)
+
+FR$LoopSwitches = {{Gf, MW}};
+FR$RmDblExt = { ymb -> MB, ymc -> MC, ymdo -> MD, yme -> Me, 
+   ymm -> MMU, yms -> MS, ymt -> MT, ymtau -> MTA, ymup -> MU};
+
+(* ************************** *)
+(* *****  Change  log   ***** *)
+(* ************************** *)
+
+(* v1.0.0: Start writing the file *)
+
+(* ************************** *)
+(* *****      vevs      ***** *)
+(* ************************** *)
+M$vevs = { {H1[2],vev},{H2[2],0} };
+
+(* ************************** *)
+(* *****  Gauge groups  ***** *)
+(* ************************** *)
+M$GaugeGroups = {
+  U1Y  == { 
+    Abelian          -> True,  
+    CouplingConstant -> g1, 
+    GaugeBoson       -> B, 
+    Charge           -> Y
+  },
+  SU2L == { 
+    Abelian           -> False, 
+    CouplingConstant  -> gw, 
+    GaugeBoson        -> Wi, 
+    StructureConstant -> Eps, 
+    Representations   -> {Ta,SU2D}, 
+    Definitions       -> {Ta[a_,b_,c_]->PauliSigma[a,b,c]/2, FSU2L[i_,j_,k_]:> I Eps[i,j,k]}
+  },
+  SU3C == { 
+    Abelian           -> False, 
+    CouplingConstant  -> gs, 
+    GaugeBoson        -> G,
+    StructureConstant -> f, 
+    Representations   -> {T,Colour}, 
+    SymmetricTensor   -> dSUN
+  } 
+};
+
+
+(* ************************** *)
+(* *****    Indices     ***** *)
+(* ************************** *)
+
+IndexRange[Index[SU2W      ]] = Unfold[Range[3]]; 
+IndexRange[Index[SU2D      ]] = Unfold[Range[2]];
+IndexRange[Index[Gluon     ]] = NoUnfold[Range[8]];
+IndexRange[Index[Colour    ]] = NoUnfold[Range[3]]; 
+IndexRange[Index[Generation]] = Range[3];
+
+IndexStyle[SU2W,       j];
+IndexStyle[SU2D,       k];
+IndexStyle[Gluon,      a];
+IndexStyle[Colour,     m];
+IndexStyle[Generation, f];
+
+
+(* ************************** *)
+(* *** Interaction orders *** *)
+(* ***  (as used by mg5)  *** *)
+(* ************************** *)
+
+M$InteractionOrderHierarchy = {
+  {QCD, 1},
+  {QED, 2}
+};
+
+Get["Particles.fr"];
+
+Get["Parameters.fr"];
+
+Get["Lagrangian.fr"];

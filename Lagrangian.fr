@@ -1,0 +1,77 @@
+(* ************************** *)
+(* *****   Lagrangian   ***** *)
+(* ************************** *)
+
+LGauge := Block[{mu,nu,ii,aa}, 
+  ExpandIndices[-1/4 FS[B,mu,nu] FS[B,mu,nu] - 1/4 FS[Wi,mu,nu,ii] FS[Wi,mu,nu,ii] - 1/4 FS[G,mu,nu,aa] FS[G,mu,nu,aa], FlavorExpand->SU2W]];
+
+LFermions := Block[{mu}, 
+  ExpandIndices[I*(
+    QLbar.Ga[mu].DC[QL, mu] + LLbar.Ga[mu].DC[LL, mu] + uRbar.Ga[mu].DC[uR, mu] + dRbar.Ga[mu].DC[dR, mu] + lRbar.Ga[mu].DC[lR, mu]), 
+  FlavorExpand->{SU2W,SU2D}]/.{CKM[a_,b_] Conjugate[CKM[a_,c_]]->IndexDelta[b,c], CKM[b_,a_] Conjugate[CKM[c_,a_]]->IndexDelta[b,c]}];
+
+LHiggs := Block[{ii,H11,H12,H21,H22,mu,feynmangaugerules,VScalar,LKine},
+  feynmangaugerules = If[Not[FeynmanGauge], {G0|GP|GPbar ->0}, {}];
+
+  H11 := Module[{nn},H1bar[nn] H1[nn]];
+  H12 := Module[{nn},H1bar[nn] H2[nn]];
+  H21 := Module[{nn},H2bar[nn] H1[nn]];
+  H22 := Module[{nn},H2bar[nn] H2[nn]];
+
+  VScalar := Block[{eps,a,b},eps={{0, 1}, {-1, 0}};
+    -mu12*H11 + mu22*H22 - (mu32*H21 + mu32*H12) + lam1/2*H11*H11 + lam2/2*H22*H22 + lam3*H11*H22 + 
+    lam4*H12*H21 + lam5/2*(H12*H12+H21*H21) +lam6*(H11*H12 + H11*H21) + lam7*(H22*H12 + H22*H21) + mueta2*etap*etapbar + 
+    lameta*(etap*etapbar)^2 + lam8*etap*etapbar*H11 + lam9*etap*etapbar*H22 + lam10*(etap*etapbar*H12 + etap*etapbar*H21) +
+    muzee*(Indexed[eps,{a,b}]*H1[a]*H2[b]*etapbar + Indexed[eps,{a,b}]*H1bar[a]*H2bar[b]*etap)];
+
+ LKine := DC[H1bar[ii],mu] DC[H1[ii],mu] + DC[H2bar[ii],mu] DC[H2[ii],mu] + DC[etapbar,mu] DC[etap,mu];
+
+  ExpandIndices[ LKine - VScalar , FlavorExpand->{SU2D,SU2W}]/.feynmangaugerules
+ ];
+
+LYukawa := Block[{sp,ii,jj,cc,ff1,ff2,ff3,yuk,yukq,yukl1,yukl2,feynmangaugerules},
+  feynmangaugerules = If[Not[FeynmanGauge], {G0|GP|GPbar ->0}, {}];
+  
+  yukq = ExpandIndices[
+   -yd[ff2, ff3] CKM[ff1, ff2] QLbar[sp, ii, ff1, cc].dR [sp, ff3, cc] H1[ii] -  
+    yu[ff1, ff2] QLbar[sp, ii, ff1, cc].uR [sp, ff2, cc] H1bar[jj] Eps[ii, jj], FlavorExpand -> SU2D];
+  yukq = yukq /. { CKM[a_, b_] Conjugate[CKM[a_, c_]] -> IndexDelta[b, c], CKM[b_, a_] Conjugate[CKM[c_, a_]] -> IndexDelta[b, c]};
+
+  yukl1 = ExpandIndices[-2*etap*(fem*( vlbar[sp,1] l[sp,2] - vlbar[sp,2] l[sp,1]) + fet*(vlbar[sp,1] l[sp,3] - vlbar[sp,3] l[sp,1]) + 
+      fmt*(vlbar[sp,2] l[sp,3] - vlbar[sp,3] l[sp,2])),FlavorExpand -> SU2D];
+
+  yukl2= ExpandIndices[ -yl[ff1, ff3] LLbar[sp, ii, ff1].lR [sp, ff3] H1[ii] -
+      ylz[ff1, ff3] LLbar[sp, ii, ff1].lR [sp, ff3] H2[ii], FlavorExpand -> SU2D];
+
+  yuk = yukq + yukl1 + yukl2;
+
+  yuk+HC[yuk]/.feynmangaugerules
+ ];
+
+LGhost := Block[{LGh1,LGhw,LGhs,LGhphi,mu, generators,gh,ghbar,Vectorize,phi1,phi2,togoldstones,doublet,doublet0},
+  (* Pure gauge piece *) 	
+  LGh1 = -ghBbar.del[DC[ghB,mu],mu];
+  LGhw = -ghWibar[ii].del[DC[ghWi[ii],mu],mu];
+  LGhs = -ghGbar[ii].del[DC[ghG[ii],mu],mu];
+
+  (* Scalar pieces: see Peskin pages 739-742 *)
+  (* phi1 and phi2 are the real degrees of freedom of GP *)
+  (* Vectorize transforms a doublet in a vector in the phi-basis, i.e. the basis of real degrees of freedom *)
+  gh    = {ghB, ghWi[1], ghWi[2], ghWi[3]};
+  ghbar = {ghBbar, ghWibar[1], ghWibar[2], ghWibar[3]};
+  generators = {-I/2 g1 IdentityMatrix[2], -I/2 gw PauliSigma[1], -I/2 gw PauliSigma[2], -I/2 gw PauliSigma[3]};
+  doublet = Expand[{(-I phi1 - phi2)/Sqrt[2], Phi[2]} /. MR$Definitions /. vev -> 0]; 
+  doublet0 = {0, vev/Sqrt[2]};
+  Vectorize[{a_, b_}]:= Simplify[{Sqrt[2] Re[Expand[a]], Sqrt[2] Im[Expand[a]], Sqrt[2] Re[Expand[b]], Sqrt[2] Im[Expand[b]]}/.{Im[_]->0, Re[num_]->num}];
+  togoldstones := {phi1 -> (GP + GPbar)/Sqrt[2], phi2 -> (-GP + GPbar)/(I Sqrt[2])};
+  LGhphi=Plus@@Flatten[Table[-ghbar[[kkk]].gh[[lll]] Vectorize[generators[[kkk]].doublet0].Vectorize[generators[[lll]].(doublet+doublet0)],{kkk,4},{lll,4}]] /.togoldstones;
+
+ExpandIndices[ LGhs + If[FeynmanGauge, LGh1 + LGhw + LGhphi,0], FlavorExpand->SU2W]];
+
+(* The Extra ggF vertex used only for MG5 event generation *)
+LggHL := Block[{mu,nu,a},
+    -1/4 GHL FS[G,mu,nu,a] FS[G,mu,nu,a] HL
+];
+
+
+LZEE:= LGauge + LFermions + LHiggs + LYukawa + LGhost;
