@@ -1,6 +1,6 @@
-# This file was automatically created by FeynRules 2.3.35
-# Mathematica version: 12.0.0 for Linux x86 (64-bit) (April 7, 2019)
-# Date: Sun 10 Nov 2019 01:09:21
+# This file was automatically created by FeynRules 2.3.36
+# Mathematica version: 11.3.0 for Linux x86 (64-bit) (March 7, 2018)
+# Date: Thu 12 Dec 2019 23:19:44
 
 
 from object_library import all_couplings, Coupling
@@ -9,1507 +9,1475 @@ from function_library import complexconjugate, re, im, csc, sec, acsc, asec, cot
 
 
 
-R2GC_369_1 = Coupling(name = 'R2GC_369_1',
+R2GC_380_1 = Coupling(name = 'R2GC_380_1',
+                      value = '-(complex(0,1)*G**2)/(16.*cmath.pi**2)',
+                      order = {'QCD':2})
+
+R2GC_381_2 = Coupling(name = 'R2GC_381_2',
+                      value = '(complex(0,1)*G**2)/(48.*cmath.pi**2)',
+                      order = {'QCD':2})
+
+R2GC_382_3 = Coupling(name = 'R2GC_382_3',
                       value = '(ee**2*complex(0,1)*G**2)/(216.*cmath.pi**2)',
                       order = {'QCD':2,'QED':2})
 
-R2GC_369_2 = Coupling(name = 'R2GC_369_2',
+R2GC_382_4 = Coupling(name = 'R2GC_382_4',
                       value = '(ee**2*complex(0,1)*G**2)/(54.*cmath.pi**2)',
                       order = {'QCD':2,'QED':2})
 
-R2GC_370_3 = Coupling(name = 'R2GC_370_3',
+R2GC_383_5 = Coupling(name = 'R2GC_383_5',
                       value = '-(ee*complex(0,1)*G**3)/(144.*cmath.pi**2)',
                       order = {'QCD':3,'QED':1})
 
-R2GC_370_4 = Coupling(name = 'R2GC_370_4',
+R2GC_383_6 = Coupling(name = 'R2GC_383_6',
                       value = '(ee*complex(0,1)*G**3)/(72.*cmath.pi**2)',
                       order = {'QCD':3,'QED':1})
 
-R2GC_371_5 = Coupling(name = 'R2GC_371_5',
+R2GC_384_7 = Coupling(name = 'R2GC_384_7',
                       value = '-(complex(0,1)*G**2*MB**2)/(8.*cmath.pi**2)',
                       order = {'QCD':2})
 
-R2GC_371_6 = Coupling(name = 'R2GC_371_6',
+R2GC_384_8 = Coupling(name = 'R2GC_384_8',
                       value = '-(complex(0,1)*G**2*MC**2)/(8.*cmath.pi**2)',
                       order = {'QCD':2})
 
-R2GC_371_7 = Coupling(name = 'R2GC_371_7',
+R2GC_384_9 = Coupling(name = 'R2GC_384_9',
                       value = '-(complex(0,1)*G**2*MD**2)/(8.*cmath.pi**2)',
                       order = {'QCD':2})
 
-R2GC_371_8 = Coupling(name = 'R2GC_371_8',
-                      value = '-(complex(0,1)*G**2*MS**2)/(8.*cmath.pi**2)',
-                      order = {'QCD':2})
+R2GC_384_10 = Coupling(name = 'R2GC_384_10',
+                       value = '-(complex(0,1)*G**2*MS**2)/(8.*cmath.pi**2)',
+                       order = {'QCD':2})
 
-R2GC_371_9 = Coupling(name = 'R2GC_371_9',
-                      value = '-(complex(0,1)*G**2*MT**2)/(8.*cmath.pi**2)',
-                      order = {'QCD':2})
+R2GC_384_11 = Coupling(name = 'R2GC_384_11',
+                       value = '-(complex(0,1)*G**2*MT**2)/(8.*cmath.pi**2)',
+                       order = {'QCD':2})
 
-R2GC_371_10 = Coupling(name = 'R2GC_371_10',
+R2GC_384_12 = Coupling(name = 'R2GC_384_12',
                        value = '-(complex(0,1)*G**2*MU**2)/(8.*cmath.pi**2)',
                        order = {'QCD':2})
 
-R2GC_372_11 = Coupling(name = 'R2GC_372_11',
+R2GC_385_13 = Coupling(name = 'R2GC_385_13',
                        value = '(cw*ee**2*complex(0,1)*G**2)/(288.*cmath.pi**2*sw) - (ee**2*complex(0,1)*G**2*sw)/(864.*cw*cmath.pi**2)',
                        order = {'QCD':2,'QED':2})
 
-R2GC_372_12 = Coupling(name = 'R2GC_372_12',
+R2GC_385_14 = Coupling(name = 'R2GC_385_14',
                        value = '(cw*ee**2*complex(0,1)*G**2)/(144.*cmath.pi**2*sw) - (5*ee**2*complex(0,1)*G**2*sw)/(432.*cw*cmath.pi**2)',
                        order = {'QCD':2,'QED':2})
 
-R2GC_373_13 = Coupling(name = 'R2GC_373_13',
+R2GC_386_15 = Coupling(name = 'R2GC_386_15',
                        value = '-(cw*ee*complex(0,1)*G**3)/(192.*cmath.pi**2*sw) + (ee*complex(0,1)*G**3*sw)/(576.*cw*cmath.pi**2)',
                        order = {'QCD':3,'QED':1})
 
-R2GC_373_14 = Coupling(name = 'R2GC_373_14',
+R2GC_386_16 = Coupling(name = 'R2GC_386_16',
                        value = '(cw*ee*complex(0,1)*G**3)/(192.*cmath.pi**2*sw) - (5*ee*complex(0,1)*G**3*sw)/(576.*cw*cmath.pi**2)',
                        order = {'QCD':3,'QED':1})
 
-R2GC_374_15 = Coupling(name = 'R2GC_374_15',
+R2GC_387_17 = Coupling(name = 'R2GC_387_17',
                        value = '(-3*cw*ee*complex(0,1)*G**3)/(64.*cmath.pi**2*sw) - (3*ee*complex(0,1)*G**3*sw)/(64.*cw*cmath.pi**2)',
                        order = {'QCD':3,'QED':1})
 
-R2GC_374_16 = Coupling(name = 'R2GC_374_16',
+R2GC_387_18 = Coupling(name = 'R2GC_387_18',
                        value = '(3*cw*ee*complex(0,1)*G**3)/(64.*cmath.pi**2*sw) + (3*ee*complex(0,1)*G**3*sw)/(64.*cw*cmath.pi**2)',
                        order = {'QCD':3,'QED':1})
 
-R2GC_375_17 = Coupling(name = 'R2GC_375_17',
+R2GC_388_19 = Coupling(name = 'R2GC_388_19',
                        value = '(ee**2*complex(0,1)*G**2)/(288.*cmath.pi**2) + (cw**2*ee**2*complex(0,1)*G**2)/(192.*cmath.pi**2*sw**2) + (5*ee**2*complex(0,1)*G**2*sw**2)/(1728.*cw**2*cmath.pi**2)',
                        order = {'QCD':2,'QED':2})
 
-R2GC_375_18 = Coupling(name = 'R2GC_375_18',
+R2GC_388_20 = Coupling(name = 'R2GC_388_20',
                        value = '-(ee**2*complex(0,1)*G**2)/(288.*cmath.pi**2) + (cw**2*ee**2*complex(0,1)*G**2)/(192.*cmath.pi**2*sw**2) + (17*ee**2*complex(0,1)*G**2*sw**2)/(1728.*cw**2*cmath.pi**2)',
                        order = {'QCD':2,'QED':2})
 
-R2GC_376_19 = Coupling(name = 'R2GC_376_19',
+R2GC_389_21 = Coupling(name = 'R2GC_389_21',
                        value = '-(cab*complex(0,1)*G**2*MB*yb)/(8.*cmath.pi**2*cmath.sqrt(2))',
                        order = {'QCD':2,'QED':1})
 
-R2GC_376_20 = Coupling(name = 'R2GC_376_20',
+R2GC_389_22 = Coupling(name = 'R2GC_389_22',
                        value = '-(cab*complex(0,1)*G**2*MC*yc)/(8.*cmath.pi**2*cmath.sqrt(2))',
                        order = {'QCD':2,'QED':1})
 
-R2GC_376_21 = Coupling(name = 'R2GC_376_21',
+R2GC_389_23 = Coupling(name = 'R2GC_389_23',
                        value = '-(cab*complex(0,1)*G**2*MD*ydo)/(8.*cmath.pi**2*cmath.sqrt(2))',
                        order = {'QCD':2,'QED':1})
 
-R2GC_376_22 = Coupling(name = 'R2GC_376_22',
+R2GC_389_24 = Coupling(name = 'R2GC_389_24',
                        value = '-(cab*complex(0,1)*G**2*MS*ys)/(8.*cmath.pi**2*cmath.sqrt(2))',
                        order = {'QCD':2,'QED':1})
 
-R2GC_376_23 = Coupling(name = 'R2GC_376_23',
+R2GC_389_25 = Coupling(name = 'R2GC_389_25',
                        value = '-(cab*complex(0,1)*G**2*MT*yt)/(8.*cmath.pi**2*cmath.sqrt(2))',
                        order = {'QCD':2,'QED':1})
 
-R2GC_376_24 = Coupling(name = 'R2GC_376_24',
+R2GC_389_26 = Coupling(name = 'R2GC_389_26',
                        value = '-(cab*complex(0,1)*G**2*MU*yup)/(8.*cmath.pi**2*cmath.sqrt(2))',
                        order = {'QCD':2,'QED':1})
 
-R2GC_377_25 = Coupling(name = 'R2GC_377_25',
+R2GC_390_27 = Coupling(name = 'R2GC_390_27',
                        value = '(complex(0,1)*G**2*MB*sab*yb)/(8.*cmath.pi**2*cmath.sqrt(2))',
                        order = {'QCD':2,'QED':1})
 
-R2GC_377_26 = Coupling(name = 'R2GC_377_26',
+R2GC_390_28 = Coupling(name = 'R2GC_390_28',
                        value = '(complex(0,1)*G**2*MC*sab*yc)/(8.*cmath.pi**2*cmath.sqrt(2))',
                        order = {'QCD':2,'QED':1})
 
-R2GC_377_27 = Coupling(name = 'R2GC_377_27',
+R2GC_390_29 = Coupling(name = 'R2GC_390_29',
                        value = '(complex(0,1)*G**2*MD*sab*ydo)/(8.*cmath.pi**2*cmath.sqrt(2))',
                        order = {'QCD':2,'QED':1})
 
-R2GC_377_28 = Coupling(name = 'R2GC_377_28',
+R2GC_390_30 = Coupling(name = 'R2GC_390_30',
                        value = '(complex(0,1)*G**2*MS*sab*ys)/(8.*cmath.pi**2*cmath.sqrt(2))',
                        order = {'QCD':2,'QED':1})
 
-R2GC_377_29 = Coupling(name = 'R2GC_377_29',
+R2GC_390_31 = Coupling(name = 'R2GC_390_31',
                        value = '(complex(0,1)*G**2*MT*sab*yt)/(8.*cmath.pi**2*cmath.sqrt(2))',
                        order = {'QCD':2,'QED':1})
 
-R2GC_377_30 = Coupling(name = 'R2GC_377_30',
+R2GC_390_32 = Coupling(name = 'R2GC_390_32',
                        value = '(complex(0,1)*G**2*MU*sab*yup)/(8.*cmath.pi**2*cmath.sqrt(2))',
                        order = {'QCD':2,'QED':1})
 
-R2GC_378_31 = Coupling(name = 'R2GC_378_31',
+R2GC_391_33 = Coupling(name = 'R2GC_391_33',
                        value = '-(complex(0,1)*G**2*yb**2)/(16.*cmath.pi**2)',
                        order = {'QCD':2,'QED':2})
 
-R2GC_378_32 = Coupling(name = 'R2GC_378_32',
+R2GC_391_34 = Coupling(name = 'R2GC_391_34',
                        value = '-(complex(0,1)*G**2*yc**2)/(16.*cmath.pi**2)',
                        order = {'QCD':2,'QED':2})
 
-R2GC_378_33 = Coupling(name = 'R2GC_378_33',
+R2GC_391_35 = Coupling(name = 'R2GC_391_35',
                        value = '-(complex(0,1)*G**2*ydo**2)/(16.*cmath.pi**2)',
                        order = {'QCD':2,'QED':2})
 
-R2GC_378_34 = Coupling(name = 'R2GC_378_34',
+R2GC_391_36 = Coupling(name = 'R2GC_391_36',
                        value = '-(complex(0,1)*G**2*ys**2)/(16.*cmath.pi**2)',
                        order = {'QCD':2,'QED':2})
 
-R2GC_378_35 = Coupling(name = 'R2GC_378_35',
+R2GC_391_37 = Coupling(name = 'R2GC_391_37',
                        value = '-(complex(0,1)*G**2*yt**2)/(16.*cmath.pi**2)',
                        order = {'QCD':2,'QED':2})
 
-R2GC_378_36 = Coupling(name = 'R2GC_378_36',
+R2GC_391_38 = Coupling(name = 'R2GC_391_38',
                        value = '-(complex(0,1)*G**2*yup**2)/(16.*cmath.pi**2)',
                        order = {'QCD':2,'QED':2})
 
-R2GC_379_37 = Coupling(name = 'R2GC_379_37',
+R2GC_392_39 = Coupling(name = 'R2GC_392_39',
                        value = '-(cab**2*complex(0,1)*G**2*yb**2)/(16.*cmath.pi**2)',
                        order = {'QCD':2,'QED':2})
 
-R2GC_379_38 = Coupling(name = 'R2GC_379_38',
+R2GC_392_40 = Coupling(name = 'R2GC_392_40',
                        value = '-(cab**2*complex(0,1)*G**2*yc**2)/(16.*cmath.pi**2)',
                        order = {'QCD':2,'QED':2})
 
-R2GC_379_39 = Coupling(name = 'R2GC_379_39',
+R2GC_392_41 = Coupling(name = 'R2GC_392_41',
                        value = '-(cab**2*complex(0,1)*G**2*ydo**2)/(16.*cmath.pi**2)',
                        order = {'QCD':2,'QED':2})
 
-R2GC_379_40 = Coupling(name = 'R2GC_379_40',
+R2GC_392_42 = Coupling(name = 'R2GC_392_42',
                        value = '-(cab**2*complex(0,1)*G**2*ys**2)/(16.*cmath.pi**2)',
                        order = {'QCD':2,'QED':2})
 
-R2GC_379_41 = Coupling(name = 'R2GC_379_41',
+R2GC_392_43 = Coupling(name = 'R2GC_392_43',
                        value = '-(cab**2*complex(0,1)*G**2*yt**2)/(16.*cmath.pi**2)',
                        order = {'QCD':2,'QED':2})
 
-R2GC_379_42 = Coupling(name = 'R2GC_379_42',
+R2GC_392_44 = Coupling(name = 'R2GC_392_44',
                        value = '-(cab**2*complex(0,1)*G**2*yup**2)/(16.*cmath.pi**2)',
                        order = {'QCD':2,'QED':2})
 
-R2GC_380_43 = Coupling(name = 'R2GC_380_43',
+R2GC_393_45 = Coupling(name = 'R2GC_393_45',
                        value = '(cab*complex(0,1)*G**2*sab*yb**2)/(16.*cmath.pi**2)',
                        order = {'QCD':2,'QED':2})
 
-R2GC_380_44 = Coupling(name = 'R2GC_380_44',
+R2GC_393_46 = Coupling(name = 'R2GC_393_46',
                        value = '(cab*complex(0,1)*G**2*sab*yc**2)/(16.*cmath.pi**2)',
                        order = {'QCD':2,'QED':2})
 
-R2GC_380_45 = Coupling(name = 'R2GC_380_45',
+R2GC_393_47 = Coupling(name = 'R2GC_393_47',
                        value = '(cab*complex(0,1)*G**2*sab*ydo**2)/(16.*cmath.pi**2)',
                        order = {'QCD':2,'QED':2})
 
-R2GC_380_46 = Coupling(name = 'R2GC_380_46',
+R2GC_393_48 = Coupling(name = 'R2GC_393_48',
                        value = '(cab*complex(0,1)*G**2*sab*ys**2)/(16.*cmath.pi**2)',
                        order = {'QCD':2,'QED':2})
 
-R2GC_380_47 = Coupling(name = 'R2GC_380_47',
+R2GC_393_49 = Coupling(name = 'R2GC_393_49',
                        value = '(cab*complex(0,1)*G**2*sab*yt**2)/(16.*cmath.pi**2)',
                        order = {'QCD':2,'QED':2})
 
-R2GC_380_48 = Coupling(name = 'R2GC_380_48',
+R2GC_393_50 = Coupling(name = 'R2GC_393_50',
                        value = '(cab*complex(0,1)*G**2*sab*yup**2)/(16.*cmath.pi**2)',
                        order = {'QCD':2,'QED':2})
 
-R2GC_381_49 = Coupling(name = 'R2GC_381_49',
+R2GC_394_51 = Coupling(name = 'R2GC_394_51',
                        value = '-(complex(0,1)*G**2*sab**2*yb**2)/(16.*cmath.pi**2)',
                        order = {'QCD':2,'QED':2})
 
-R2GC_381_50 = Coupling(name = 'R2GC_381_50',
+R2GC_394_52 = Coupling(name = 'R2GC_394_52',
                        value = '-(complex(0,1)*G**2*sab**2*yc**2)/(16.*cmath.pi**2)',
                        order = {'QCD':2,'QED':2})
 
-R2GC_381_51 = Coupling(name = 'R2GC_381_51',
+R2GC_394_53 = Coupling(name = 'R2GC_394_53',
                        value = '-(complex(0,1)*G**2*sab**2*ydo**2)/(16.*cmath.pi**2)',
                        order = {'QCD':2,'QED':2})
 
-R2GC_381_52 = Coupling(name = 'R2GC_381_52',
+R2GC_394_54 = Coupling(name = 'R2GC_394_54',
                        value = '-(complex(0,1)*G**2*sab**2*ys**2)/(16.*cmath.pi**2)',
                        order = {'QCD':2,'QED':2})
 
-R2GC_381_53 = Coupling(name = 'R2GC_381_53',
+R2GC_394_55 = Coupling(name = 'R2GC_394_55',
                        value = '-(complex(0,1)*G**2*sab**2*yt**2)/(16.*cmath.pi**2)',
                        order = {'QCD':2,'QED':2})
 
-R2GC_381_54 = Coupling(name = 'R2GC_381_54',
+R2GC_394_56 = Coupling(name = 'R2GC_394_56',
                        value = '-(complex(0,1)*G**2*sab**2*yup**2)/(16.*cmath.pi**2)',
                        order = {'QCD':2,'QED':2})
 
-R2GC_382_55 = Coupling(name = 'R2GC_382_55',
+R2GC_395_57 = Coupling(name = 'R2GC_395_57',
                        value = '(CKM3x3*ee**2*complex(0,1)*G**2*complexconjugate(CKM3x3))/(96.*cmath.pi**2*sw**2)',
                        order = {'QCD':2,'QED':2})
 
-R2GC_382_56 = Coupling(name = 'R2GC_382_56',
+R2GC_395_58 = Coupling(name = 'R2GC_395_58',
                        value = '(CKM2x1*ee**2*complex(0,1)*G**2*complexconjugate(CKM2x1))/(96.*cmath.pi**2*sw**2)',
                        order = {'QCD':2,'QED':2})
 
-R2GC_382_57 = Coupling(name = 'R2GC_382_57',
+R2GC_395_59 = Coupling(name = 'R2GC_395_59',
                        value = '(CKM2x2*ee**2*complex(0,1)*G**2*complexconjugate(CKM2x2))/(96.*cmath.pi**2*sw**2)',
                        order = {'QCD':2,'QED':2})
 
-R2GC_382_58 = Coupling(name = 'R2GC_382_58',
+R2GC_395_60 = Coupling(name = 'R2GC_395_60',
                        value = '(CKM1x1*ee**2*complex(0,1)*G**2*complexconjugate(CKM1x1))/(96.*cmath.pi**2*sw**2)',
                        order = {'QCD':2,'QED':2})
 
-R2GC_382_59 = Coupling(name = 'R2GC_382_59',
+R2GC_395_61 = Coupling(name = 'R2GC_395_61',
                        value = '(CKM1x2*ee**2*complex(0,1)*G**2*complexconjugate(CKM1x2))/(96.*cmath.pi**2*sw**2)',
                        order = {'QCD':2,'QED':2})
 
-R2GC_383_60 = Coupling(name = 'R2GC_383_60',
+R2GC_396_62 = Coupling(name = 'R2GC_396_62',
                        value = '-(CKM3x3*complex(0,1)*G**2*yb**2*complexconjugate(CKM3x3))/(16.*cmath.pi**2) - (CKM3x3*complex(0,1)*G**2*yt**2*complexconjugate(CKM3x3))/(16.*cmath.pi**2)',
                        order = {'QCD':2,'QED':2})
 
-R2GC_383_61 = Coupling(name = 'R2GC_383_61',
+R2GC_396_63 = Coupling(name = 'R2GC_396_63',
                        value = '-(CKM2x1*complex(0,1)*G**2*yc**2*complexconjugate(CKM2x1))/(16.*cmath.pi**2) - (CKM2x1*complex(0,1)*G**2*ydo**2*complexconjugate(CKM2x1))/(16.*cmath.pi**2)',
                        order = {'QCD':2,'QED':2})
 
-R2GC_383_62 = Coupling(name = 'R2GC_383_62',
+R2GC_396_64 = Coupling(name = 'R2GC_396_64',
                        value = '-(CKM2x2*complex(0,1)*G**2*yc**2*complexconjugate(CKM2x2))/(16.*cmath.pi**2) - (CKM2x2*complex(0,1)*G**2*ys**2*complexconjugate(CKM2x2))/(16.*cmath.pi**2)',
                        order = {'QCD':2,'QED':2})
 
-R2GC_383_63 = Coupling(name = 'R2GC_383_63',
+R2GC_396_65 = Coupling(name = 'R2GC_396_65',
                        value = '-(CKM1x1*complex(0,1)*G**2*ydo**2*complexconjugate(CKM1x1))/(16.*cmath.pi**2) - (CKM1x1*complex(0,1)*G**2*yup**2*complexconjugate(CKM1x1))/(16.*cmath.pi**2)',
                        order = {'QCD':2,'QED':2})
 
-R2GC_383_64 = Coupling(name = 'R2GC_383_64',
+R2GC_396_66 = Coupling(name = 'R2GC_396_66',
                        value = '-(CKM1x2*complex(0,1)*G**2*ys**2*complexconjugate(CKM1x2))/(16.*cmath.pi**2) - (CKM1x2*complex(0,1)*G**2*yup**2*complexconjugate(CKM1x2))/(16.*cmath.pi**2)',
                        order = {'QCD':2,'QED':2})
 
-R2GC_386_65 = Coupling(name = 'R2GC_386_65',
+R2GC_400_67 = Coupling(name = 'R2GC_400_67',
                        value = '-G**4/(192.*cmath.pi**2)',
                        order = {'QCD':4})
 
-R2GC_386_66 = Coupling(name = 'R2GC_386_66',
+R2GC_400_68 = Coupling(name = 'R2GC_400_68',
                        value = 'G**4/(64.*cmath.pi**2)',
                        order = {'QCD':4})
 
-R2GC_387_67 = Coupling(name = 'R2GC_387_67',
+R2GC_401_69 = Coupling(name = 'R2GC_401_69',
                        value = '-(complex(0,1)*G**4)/(192.*cmath.pi**2)',
                        order = {'QCD':4})
 
-R2GC_387_68 = Coupling(name = 'R2GC_387_68',
+R2GC_401_70 = Coupling(name = 'R2GC_401_70',
                        value = '(complex(0,1)*G**4)/(64.*cmath.pi**2)',
                        order = {'QCD':4})
 
-R2GC_388_69 = Coupling(name = 'R2GC_388_69',
+R2GC_402_71 = Coupling(name = 'R2GC_402_71',
                        value = '(complex(0,1)*G**4)/(192.*cmath.pi**2)',
                        order = {'QCD':4})
 
-R2GC_388_70 = Coupling(name = 'R2GC_388_70',
+R2GC_402_72 = Coupling(name = 'R2GC_402_72',
                        value = '-(complex(0,1)*G**4)/(64.*cmath.pi**2)',
                        order = {'QCD':4})
 
-R2GC_389_71 = Coupling(name = 'R2GC_389_71',
+R2GC_403_73 = Coupling(name = 'R2GC_403_73',
                        value = '-(complex(0,1)*G**4)/(48.*cmath.pi**2)',
                        order = {'QCD':4})
 
-R2GC_390_72 = Coupling(name = 'R2GC_390_72',
+R2GC_404_74 = Coupling(name = 'R2GC_404_74',
                        value = '(complex(0,1)*G**4)/(288.*cmath.pi**2)',
                        order = {'QCD':4})
 
-R2GC_390_73 = Coupling(name = 'R2GC_390_73',
+R2GC_404_75 = Coupling(name = 'R2GC_404_75',
                        value = '-(complex(0,1)*G**4)/(32.*cmath.pi**2)',
                        order = {'QCD':4})
 
-R2GC_391_74 = Coupling(name = 'R2GC_391_74',
+R2GC_405_76 = Coupling(name = 'R2GC_405_76',
                        value = '-(complex(0,1)*G**4)/(16.*cmath.pi**2)',
                        order = {'QCD':4})
 
-R2GC_391_75 = Coupling(name = 'R2GC_391_75',
+R2GC_405_77 = Coupling(name = 'R2GC_405_77',
                        value = '(complex(0,1)*G**4)/(4.*cmath.pi**2)',
                        order = {'QCD':4})
 
-R2GC_392_76 = Coupling(name = 'R2GC_392_76',
+R2GC_406_78 = Coupling(name = 'R2GC_406_78',
                        value = '(-3*complex(0,1)*G**4)/(64.*cmath.pi**2)',
                        order = {'QCD':4})
 
-R2GC_392_77 = Coupling(name = 'R2GC_392_77',
+R2GC_406_79 = Coupling(name = 'R2GC_406_79',
                        value = '(-23*complex(0,1)*G**4)/(64.*cmath.pi**2)',
                        order = {'QCD':4})
 
-R2GC_393_78 = Coupling(name = 'R2GC_393_78',
+R2GC_407_80 = Coupling(name = 'R2GC_407_80',
                        value = '(ee*complex(0,1)*G**2)/(18.*cmath.pi**2)',
                        order = {'QCD':2,'QED':1})
 
-R2GC_394_79 = Coupling(name = 'R2GC_394_79',
+R2GC_408_81 = Coupling(name = 'R2GC_408_81',
                        value = '-(complex(0,1)*G**3)/(6.*cmath.pi**2)',
                        order = {'QCD':3})
 
-R2GC_395_80 = Coupling(name = 'R2GC_395_80',
+R2GC_409_82 = Coupling(name = 'R2GC_409_82',
                        value = '-(ee*complex(0,1)*G**2)/(9.*cmath.pi**2)',
                        order = {'QCD':2,'QED':1})
 
-R2GC_405_81 = Coupling(name = 'R2GC_405_81',
+R2GC_419_83 = Coupling(name = 'R2GC_419_83',
                        value = '(complex(0,1)*G**2)/(12.*cmath.pi**2)',
                        order = {'QCD':2})
 
-R2GC_408_82 = Coupling(name = 'R2GC_408_82',
+R2GC_422_84 = Coupling(name = 'R2GC_422_84',
                        value = '(complex(0,1)*G**2*MB)/(6.*cmath.pi**2)',
                        order = {'QCD':2})
 
-R2GC_409_83 = Coupling(name = 'R2GC_409_83',
-                       value = '(cw*ee*complex(0,1)*G**2)/(12.*cmath.pi**2*sw) + (ee*complex(0,1)*G**2*sw)/(36.*cw*cmath.pi**2)',
+R2GC_423_85 = Coupling(name = 'R2GC_423_85',
+                       value = '(cw*ee*complex(0,1)*G**2)/(12.*cmath.pi**2*sw)',
                        order = {'QCD':2,'QED':1})
 
-R2GC_410_84 = Coupling(name = 'R2GC_410_84',
-                       value = '-(ee*complex(0,1)*G**2*sw)/(18.*cw*cmath.pi**2)',
+R2GC_424_86 = Coupling(name = 'R2GC_424_86',
+                       value = '(ee*complex(0,1)*G**2*sw)/(36.*cw*cmath.pi**2)',
                        order = {'QCD':2,'QED':1})
 
-R2GC_411_85 = Coupling(name = 'R2GC_411_85',
+R2GC_425_87 = Coupling(name = 'R2GC_425_87',
                        value = '-(G**2*yb)/(3.*cmath.pi**2*cmath.sqrt(2))',
                        order = {'QCD':2,'QED':1})
 
-R2GC_412_86 = Coupling(name = 'R2GC_412_86',
+R2GC_426_88 = Coupling(name = 'R2GC_426_88',
                        value = '(cab*complex(0,1)*G**2*yb)/(3.*cmath.pi**2*cmath.sqrt(2))',
                        order = {'QCD':2,'QED':1})
 
-R2GC_413_87 = Coupling(name = 'R2GC_413_87',
+R2GC_427_89 = Coupling(name = 'R2GC_427_89',
                        value = '-(complex(0,1)*G**2*sab*yb)/(3.*cmath.pi**2*cmath.sqrt(2))',
                        order = {'QCD':2,'QED':1})
 
-R2GC_417_88 = Coupling(name = 'R2GC_417_88',
+R2GC_431_90 = Coupling(name = 'R2GC_431_90',
                        value = '(complex(0,1)*G**2*MC)/(6.*cmath.pi**2)',
                        order = {'QCD':2})
 
-R2GC_418_89 = Coupling(name = 'R2GC_418_89',
-                       value = '-(cw*ee*complex(0,1)*G**2)/(12.*cmath.pi**2*sw) + (ee*complex(0,1)*G**2*sw)/(36.*cw*cmath.pi**2)',
+R2GC_432_91 = Coupling(name = 'R2GC_432_91',
+                       value = '-(cw*ee*complex(0,1)*G**2)/(12.*cmath.pi**2*sw)',
                        order = {'QCD':2,'QED':1})
 
-R2GC_419_90 = Coupling(name = 'R2GC_419_90',
-                       value = '(ee*complex(0,1)*G**2*sw)/(9.*cw*cmath.pi**2)',
-                       order = {'QCD':2,'QED':1})
-
-R2GC_420_91 = Coupling(name = 'R2GC_420_91',
+R2GC_434_92 = Coupling(name = 'R2GC_434_92',
                        value = '(G**2*yc)/(3.*cmath.pi**2*cmath.sqrt(2))',
                        order = {'QCD':2,'QED':1})
 
-R2GC_421_92 = Coupling(name = 'R2GC_421_92',
+R2GC_435_93 = Coupling(name = 'R2GC_435_93',
                        value = '(cab*complex(0,1)*G**2*yc)/(3.*cmath.pi**2*cmath.sqrt(2))',
                        order = {'QCD':2,'QED':1})
 
-R2GC_422_93 = Coupling(name = 'R2GC_422_93',
+R2GC_436_94 = Coupling(name = 'R2GC_436_94',
                        value = '-(complex(0,1)*G**2*sab*yc)/(3.*cmath.pi**2*cmath.sqrt(2))',
                        order = {'QCD':2,'QED':1})
 
-R2GC_426_94 = Coupling(name = 'R2GC_426_94',
+R2GC_440_95 = Coupling(name = 'R2GC_440_95',
                        value = '(complex(0,1)*G**2*MD)/(6.*cmath.pi**2)',
                        order = {'QCD':2})
 
-R2GC_427_95 = Coupling(name = 'R2GC_427_95',
+R2GC_441_96 = Coupling(name = 'R2GC_441_96',
                        value = '-(CKM2x1*ee*complex(0,1)*G**2)/(6.*cmath.pi**2*sw*cmath.sqrt(2))',
                        order = {'QCD':2,'QED':1})
 
-R2GC_430_96 = Coupling(name = 'R2GC_430_96',
+R2GC_444_97 = Coupling(name = 'R2GC_444_97',
                        value = '-(CKM2x1*complex(0,1)*G**2*yc)/(3.*cmath.pi**2)',
                        order = {'QCD':2,'QED':1})
 
-R2GC_431_97 = Coupling(name = 'R2GC_431_97',
+R2GC_445_98 = Coupling(name = 'R2GC_445_98',
                        value = '-(G**2*ydo)/(3.*cmath.pi**2*cmath.sqrt(2))',
                        order = {'QCD':2,'QED':1})
 
-R2GC_432_98 = Coupling(name = 'R2GC_432_98',
+R2GC_446_99 = Coupling(name = 'R2GC_446_99',
                        value = '(cab*complex(0,1)*G**2*ydo)/(3.*cmath.pi**2*cmath.sqrt(2))',
                        order = {'QCD':2,'QED':1})
 
-R2GC_433_99 = Coupling(name = 'R2GC_433_99',
-                       value = '(CKM2x1*complex(0,1)*G**2*ydo)/(3.*cmath.pi**2)',
-                       order = {'QCD':2,'QED':1})
+R2GC_447_100 = Coupling(name = 'R2GC_447_100',
+                        value = '(CKM2x1*complex(0,1)*G**2*ydo)/(3.*cmath.pi**2)',
+                        order = {'QCD':2,'QED':1})
 
-R2GC_434_100 = Coupling(name = 'R2GC_434_100',
+R2GC_448_101 = Coupling(name = 'R2GC_448_101',
                         value = '-(complex(0,1)*G**2*sab*ydo)/(3.*cmath.pi**2*cmath.sqrt(2))',
                         order = {'QCD':2,'QED':1})
 
-R2GC_435_101 = Coupling(name = 'R2GC_435_101',
+R2GC_449_102 = Coupling(name = 'R2GC_449_102',
                         value = '-(ee*complex(0,1)*G**2*complexconjugate(CKM2x1))/(6.*cmath.pi**2*sw*cmath.sqrt(2))',
                         order = {'QCD':2,'QED':1})
 
-R2GC_436_102 = Coupling(name = 'R2GC_436_102',
+R2GC_450_103 = Coupling(name = 'R2GC_450_103',
                         value = '-(complex(0,1)*G**2*yc*complexconjugate(CKM2x1))/(3.*cmath.pi**2)',
                         order = {'QCD':2,'QED':1})
 
-R2GC_437_103 = Coupling(name = 'R2GC_437_103',
+R2GC_451_104 = Coupling(name = 'R2GC_451_104',
                         value = '(complex(0,1)*G**2*ydo*complexconjugate(CKM2x1))/(3.*cmath.pi**2)',
                         order = {'QCD':2,'QED':1})
 
-R2GC_441_104 = Coupling(name = 'R2GC_441_104',
+R2GC_455_105 = Coupling(name = 'R2GC_455_105',
                         value = '(complex(0,1)*G**2*MS)/(6.*cmath.pi**2)',
                         order = {'QCD':2})
 
-R2GC_442_105 = Coupling(name = 'R2GC_442_105',
+R2GC_456_106 = Coupling(name = 'R2GC_456_106',
                         value = '-(CKM2x2*ee*complex(0,1)*G**2)/(6.*cmath.pi**2*sw*cmath.sqrt(2))',
                         order = {'QCD':2,'QED':1})
 
-R2GC_445_106 = Coupling(name = 'R2GC_445_106',
+R2GC_459_107 = Coupling(name = 'R2GC_459_107',
                         value = '-(CKM2x2*complex(0,1)*G**2*yc)/(3.*cmath.pi**2)',
                         order = {'QCD':2,'QED':1})
 
-R2GC_446_107 = Coupling(name = 'R2GC_446_107',
+R2GC_460_108 = Coupling(name = 'R2GC_460_108',
                         value = '-(G**2*ys)/(3.*cmath.pi**2*cmath.sqrt(2))',
                         order = {'QCD':2,'QED':1})
 
-R2GC_447_108 = Coupling(name = 'R2GC_447_108',
+R2GC_461_109 = Coupling(name = 'R2GC_461_109',
                         value = '(cab*complex(0,1)*G**2*ys)/(3.*cmath.pi**2*cmath.sqrt(2))',
                         order = {'QCD':2,'QED':1})
 
-R2GC_448_109 = Coupling(name = 'R2GC_448_109',
+R2GC_462_110 = Coupling(name = 'R2GC_462_110',
                         value = '(CKM2x2*complex(0,1)*G**2*ys)/(3.*cmath.pi**2)',
                         order = {'QCD':2,'QED':1})
 
-R2GC_449_110 = Coupling(name = 'R2GC_449_110',
+R2GC_463_111 = Coupling(name = 'R2GC_463_111',
                         value = '-(complex(0,1)*G**2*sab*ys)/(3.*cmath.pi**2*cmath.sqrt(2))',
                         order = {'QCD':2,'QED':1})
 
-R2GC_450_111 = Coupling(name = 'R2GC_450_111',
+R2GC_464_112 = Coupling(name = 'R2GC_464_112',
                         value = '-(ee*complex(0,1)*G**2*complexconjugate(CKM2x2))/(6.*cmath.pi**2*sw*cmath.sqrt(2))',
                         order = {'QCD':2,'QED':1})
 
-R2GC_451_112 = Coupling(name = 'R2GC_451_112',
+R2GC_465_113 = Coupling(name = 'R2GC_465_113',
                         value = '-(complex(0,1)*G**2*yc*complexconjugate(CKM2x2))/(3.*cmath.pi**2)',
                         order = {'QCD':2,'QED':1})
 
-R2GC_452_113 = Coupling(name = 'R2GC_452_113',
+R2GC_466_114 = Coupling(name = 'R2GC_466_114',
                         value = '(complex(0,1)*G**2*ys*complexconjugate(CKM2x2))/(3.*cmath.pi**2)',
                         order = {'QCD':2,'QED':1})
 
-R2GC_456_114 = Coupling(name = 'R2GC_456_114',
+R2GC_470_115 = Coupling(name = 'R2GC_470_115',
                         value = '(complex(0,1)*G**2*MT)/(6.*cmath.pi**2)',
                         order = {'QCD':2})
 
-R2GC_457_115 = Coupling(name = 'R2GC_457_115',
+R2GC_471_116 = Coupling(name = 'R2GC_471_116',
                         value = '-(CKM3x3*ee*complex(0,1)*G**2)/(6.*cmath.pi**2*sw*cmath.sqrt(2))',
                         order = {'QCD':2,'QED':1})
 
-R2GC_460_116 = Coupling(name = 'R2GC_460_116',
+R2GC_474_117 = Coupling(name = 'R2GC_474_117',
                         value = '(CKM3x3*complex(0,1)*G**2*yb)/(3.*cmath.pi**2)',
                         order = {'QCD':2,'QED':1})
 
-R2GC_461_117 = Coupling(name = 'R2GC_461_117',
+R2GC_475_118 = Coupling(name = 'R2GC_475_118',
                         value = '(G**2*yt)/(3.*cmath.pi**2*cmath.sqrt(2))',
                         order = {'QCD':2,'QED':1})
 
-R2GC_462_118 = Coupling(name = 'R2GC_462_118',
+R2GC_476_119 = Coupling(name = 'R2GC_476_119',
                         value = '(cab*complex(0,1)*G**2*yt)/(3.*cmath.pi**2*cmath.sqrt(2))',
                         order = {'QCD':2,'QED':1})
 
-R2GC_463_119 = Coupling(name = 'R2GC_463_119',
+R2GC_477_120 = Coupling(name = 'R2GC_477_120',
                         value = '-(CKM3x3*complex(0,1)*G**2*yt)/(3.*cmath.pi**2)',
                         order = {'QCD':2,'QED':1})
 
-R2GC_464_120 = Coupling(name = 'R2GC_464_120',
+R2GC_478_121 = Coupling(name = 'R2GC_478_121',
                         value = '-(complex(0,1)*G**2*sab*yt)/(3.*cmath.pi**2*cmath.sqrt(2))',
                         order = {'QCD':2,'QED':1})
 
-R2GC_465_121 = Coupling(name = 'R2GC_465_121',
+R2GC_479_122 = Coupling(name = 'R2GC_479_122',
                         value = '-(ee*complex(0,1)*G**2*complexconjugate(CKM3x3))/(6.*cmath.pi**2*sw*cmath.sqrt(2))',
                         order = {'QCD':2,'QED':1})
 
-R2GC_466_122 = Coupling(name = 'R2GC_466_122',
+R2GC_480_123 = Coupling(name = 'R2GC_480_123',
                         value = '(complex(0,1)*G**2*yb*complexconjugate(CKM3x3))/(3.*cmath.pi**2)',
                         order = {'QCD':2,'QED':1})
 
-R2GC_467_123 = Coupling(name = 'R2GC_467_123',
+R2GC_481_124 = Coupling(name = 'R2GC_481_124',
                         value = '-(complex(0,1)*G**2*yt*complexconjugate(CKM3x3))/(3.*cmath.pi**2)',
                         order = {'QCD':2,'QED':1})
 
-R2GC_468_124 = Coupling(name = 'R2GC_468_124',
-                        value = '(complex(0,1)*G**2)/(48.*cmath.pi**2)',
-                        order = {'QCD':2})
-
-R2GC_468_125 = Coupling(name = 'R2GC_468_125',
-                        value = '(3*complex(0,1)*G**2)/(32.*cmath.pi**2)',
-                        order = {'QCD':2})
-
-R2GC_469_126 = Coupling(name = 'R2GC_469_126',
-                        value = '-(complex(0,1)*G**2)/(16.*cmath.pi**2)',
-                        order = {'QCD':2})
-
-R2GC_470_127 = Coupling(name = 'R2GC_470_127',
+R2GC_483_125 = Coupling(name = 'R2GC_483_125',
                         value = 'G**3/(24.*cmath.pi**2)',
                         order = {'QCD':3})
 
-R2GC_470_128 = Coupling(name = 'R2GC_470_128',
+R2GC_483_126 = Coupling(name = 'R2GC_483_126',
                         value = '(11*G**3)/(64.*cmath.pi**2)',
                         order = {'QCD':3})
 
-R2GC_471_129 = Coupling(name = 'R2GC_471_129',
+R2GC_484_127 = Coupling(name = 'R2GC_484_127',
                         value = '(31*complex(0,1)*G**4)/(64.*cmath.pi**2)',
                         order = {'QCD':4})
 
-R2GC_472_130 = Coupling(name = 'R2GC_472_130',
+R2GC_485_128 = Coupling(name = 'R2GC_485_128',
                         value = '(5*complex(0,1)*G**4)/(48.*cmath.pi**2)',
                         order = {'QCD':4})
 
-R2GC_472_131 = Coupling(name = 'R2GC_472_131',
+R2GC_485_129 = Coupling(name = 'R2GC_485_129',
                         value = '(19*complex(0,1)*G**4)/(32.*cmath.pi**2)',
                         order = {'QCD':4})
 
-R2GC_473_132 = Coupling(name = 'R2GC_473_132',
+R2GC_486_130 = Coupling(name = 'R2GC_486_130',
                         value = '(23*complex(0,1)*G**4)/(192.*cmath.pi**2)',
                         order = {'QCD':4})
 
-R2GC_474_133 = Coupling(name = 'R2GC_474_133',
+R2GC_487_131 = Coupling(name = 'R2GC_487_131',
                         value = '(7*complex(0,1)*G**4)/(64.*cmath.pi**2)',
                         order = {'QCD':4})
 
-R2GC_475_134 = Coupling(name = 'R2GC_475_134',
+R2GC_488_132 = Coupling(name = 'R2GC_488_132',
                         value = '(-17*complex(0,1)*G**4)/(64.*cmath.pi**2)',
                         order = {'QCD':4})
 
-R2GC_476_135 = Coupling(name = 'R2GC_476_135',
+R2GC_489_133 = Coupling(name = 'R2GC_489_133',
                         value = '(-7*complex(0,1)*G**4)/(32.*cmath.pi**2)',
                         order = {'QCD':4})
 
-R2GC_480_136 = Coupling(name = 'R2GC_480_136',
+R2GC_493_134 = Coupling(name = 'R2GC_493_134',
                         value = '(complex(0,1)*G**2*MU)/(6.*cmath.pi**2)',
                         order = {'QCD':2})
 
-R2GC_481_137 = Coupling(name = 'R2GC_481_137',
+R2GC_494_135 = Coupling(name = 'R2GC_494_135',
                         value = '-(CKM1x1*ee*complex(0,1)*G**2)/(6.*cmath.pi**2*sw*cmath.sqrt(2))',
                         order = {'QCD':2,'QED':1})
 
-R2GC_482_138 = Coupling(name = 'R2GC_482_138',
+R2GC_495_136 = Coupling(name = 'R2GC_495_136',
                         value = '-(CKM1x2*ee*complex(0,1)*G**2)/(6.*cmath.pi**2*sw*cmath.sqrt(2))',
                         order = {'QCD':2,'QED':1})
 
-R2GC_485_139 = Coupling(name = 'R2GC_485_139',
+R2GC_498_137 = Coupling(name = 'R2GC_498_137',
                         value = '(CKM1x1*complex(0,1)*G**2*ydo)/(3.*cmath.pi**2)',
                         order = {'QCD':2,'QED':1})
 
-R2GC_486_140 = Coupling(name = 'R2GC_486_140',
+R2GC_499_138 = Coupling(name = 'R2GC_499_138',
                         value = '(CKM1x2*complex(0,1)*G**2*ys)/(3.*cmath.pi**2)',
                         order = {'QCD':2,'QED':1})
 
-R2GC_487_141 = Coupling(name = 'R2GC_487_141',
+R2GC_500_139 = Coupling(name = 'R2GC_500_139',
                         value = '(G**2*yup)/(3.*cmath.pi**2*cmath.sqrt(2))',
                         order = {'QCD':2,'QED':1})
 
-R2GC_488_142 = Coupling(name = 'R2GC_488_142',
+R2GC_501_140 = Coupling(name = 'R2GC_501_140',
                         value = '(cab*complex(0,1)*G**2*yup)/(3.*cmath.pi**2*cmath.sqrt(2))',
                         order = {'QCD':2,'QED':1})
 
-R2GC_489_143 = Coupling(name = 'R2GC_489_143',
+R2GC_502_141 = Coupling(name = 'R2GC_502_141',
                         value = '-(CKM1x1*complex(0,1)*G**2*yup)/(3.*cmath.pi**2)',
                         order = {'QCD':2,'QED':1})
 
-R2GC_490_144 = Coupling(name = 'R2GC_490_144',
+R2GC_503_142 = Coupling(name = 'R2GC_503_142',
                         value = '-(CKM1x2*complex(0,1)*G**2*yup)/(3.*cmath.pi**2)',
                         order = {'QCD':2,'QED':1})
 
-R2GC_491_145 = Coupling(name = 'R2GC_491_145',
+R2GC_504_143 = Coupling(name = 'R2GC_504_143',
                         value = '-(complex(0,1)*G**2*sab*yup)/(3.*cmath.pi**2*cmath.sqrt(2))',
                         order = {'QCD':2,'QED':1})
 
-R2GC_492_146 = Coupling(name = 'R2GC_492_146',
+R2GC_505_144 = Coupling(name = 'R2GC_505_144',
                         value = '-(ee*complex(0,1)*G**2*complexconjugate(CKM1x1))/(6.*cmath.pi**2*sw*cmath.sqrt(2))',
                         order = {'QCD':2,'QED':1})
 
-R2GC_493_147 = Coupling(name = 'R2GC_493_147',
+R2GC_506_145 = Coupling(name = 'R2GC_506_145',
                         value = '(complex(0,1)*G**2*ydo*complexconjugate(CKM1x1))/(3.*cmath.pi**2)',
                         order = {'QCD':2,'QED':1})
 
-R2GC_494_148 = Coupling(name = 'R2GC_494_148',
+R2GC_507_146 = Coupling(name = 'R2GC_507_146',
                         value = '-(complex(0,1)*G**2*yup*complexconjugate(CKM1x1))/(3.*cmath.pi**2)',
                         order = {'QCD':2,'QED':1})
 
-R2GC_495_149 = Coupling(name = 'R2GC_495_149',
+R2GC_508_147 = Coupling(name = 'R2GC_508_147',
                         value = '-(ee*complex(0,1)*G**2*complexconjugate(CKM1x2))/(6.*cmath.pi**2*sw*cmath.sqrt(2))',
                         order = {'QCD':2,'QED':1})
 
-R2GC_496_150 = Coupling(name = 'R2GC_496_150',
+R2GC_509_148 = Coupling(name = 'R2GC_509_148',
                         value = '(complex(0,1)*G**2*ys*complexconjugate(CKM1x2))/(3.*cmath.pi**2)',
                         order = {'QCD':2,'QED':1})
 
-R2GC_497_151 = Coupling(name = 'R2GC_497_151',
+R2GC_510_149 = Coupling(name = 'R2GC_510_149',
                         value = '-(complex(0,1)*G**2*yup*complexconjugate(CKM1x2))/(3.*cmath.pi**2)',
                         order = {'QCD':2,'QED':1})
 
-UVGC_384_1 = Coupling(name = 'UVGC_384_1',
+UVGC_397_1 = Coupling(name = 'UVGC_397_1',
                       value = {-1:'(51*G**3)/(128.*cmath.pi**2)'},
                       order = {'QCD':3})
 
-UVGC_385_2 = Coupling(name = 'UVGC_385_2',
+UVGC_398_2 = Coupling(name = 'UVGC_398_2',
                       value = {-1:'G**3/(128.*cmath.pi**2)'},
                       order = {'QCD':3})
 
-UVGC_386_3 = Coupling(name = 'UVGC_386_3',
+UVGC_399_3 = Coupling(name = 'UVGC_399_3',
+                      value = {-1:'(3*complex(0,1)*G**2)/(64.*cmath.pi**2)'},
+                      order = {'QCD':2})
+
+UVGC_399_4 = Coupling(name = 'UVGC_399_4',
+                      value = {-1:'(-3*complex(0,1)*G**2)/(64.*cmath.pi**2)'},
+                      order = {'QCD':2})
+
+UVGC_400_5 = Coupling(name = 'UVGC_400_5',
                       value = {-1:'(3*G**4)/(512.*cmath.pi**2)'},
                       order = {'QCD':4})
 
-UVGC_386_4 = Coupling(name = 'UVGC_386_4',
+UVGC_400_6 = Coupling(name = 'UVGC_400_6',
                       value = {-1:'(-3*G**4)/(512.*cmath.pi**2)'},
                       order = {'QCD':4})
 
-UVGC_387_5 = Coupling(name = 'UVGC_387_5',
+UVGC_401_7 = Coupling(name = 'UVGC_401_7',
                       value = {-1:'(3*complex(0,1)*G**4)/(512.*cmath.pi**2)'},
                       order = {'QCD':4})
 
-UVGC_387_6 = Coupling(name = 'UVGC_387_6',
+UVGC_401_8 = Coupling(name = 'UVGC_401_8',
                       value = {-1:'(-3*complex(0,1)*G**4)/(512.*cmath.pi**2)'},
                       order = {'QCD':4})
 
-UVGC_389_7 = Coupling(name = 'UVGC_389_7',
+UVGC_403_9 = Coupling(name = 'UVGC_403_9',
                       value = {-1:'-(complex(0,1)*G**4)/(128.*cmath.pi**2)'},
                       order = {'QCD':4})
 
-UVGC_389_8 = Coupling(name = 'UVGC_389_8',
-                      value = {-1:'(complex(0,1)*G**4)/(128.*cmath.pi**2)'},
-                      order = {'QCD':4})
+UVGC_403_10 = Coupling(name = 'UVGC_403_10',
+                       value = {-1:'(complex(0,1)*G**4)/(128.*cmath.pi**2)'},
+                       order = {'QCD':4})
 
-UVGC_390_9 = Coupling(name = 'UVGC_390_9',
-                      value = {-1:'(-3*complex(0,1)*G**4)/(256.*cmath.pi**2)'},
-                      order = {'QCD':4})
+UVGC_404_11 = Coupling(name = 'UVGC_404_11',
+                       value = {-1:'(-3*complex(0,1)*G**4)/(256.*cmath.pi**2)'},
+                       order = {'QCD':4})
 
-UVGC_390_10 = Coupling(name = 'UVGC_390_10',
+UVGC_404_12 = Coupling(name = 'UVGC_404_12',
                        value = {-1:'(3*complex(0,1)*G**4)/(256.*cmath.pi**2)'},
                        order = {'QCD':4})
 
-UVGC_391_11 = Coupling(name = 'UVGC_391_11',
+UVGC_405_13 = Coupling(name = 'UVGC_405_13',
                        value = {-1:'-(complex(0,1)*G**4)/(24.*cmath.pi**2)'},
                        order = {'QCD':4})
 
-UVGC_391_12 = Coupling(name = 'UVGC_391_12',
+UVGC_405_14 = Coupling(name = 'UVGC_405_14',
                        value = {-1:'(47*complex(0,1)*G**4)/(128.*cmath.pi**2)'},
                        order = {'QCD':4})
 
-UVGC_392_13 = Coupling(name = 'UVGC_392_13',
+UVGC_406_15 = Coupling(name = 'UVGC_406_15',
                        value = {-1:'(-253*complex(0,1)*G**4)/(512.*cmath.pi**2)'},
                        order = {'QCD':4})
 
-UVGC_392_14 = Coupling(name = 'UVGC_392_14',
+UVGC_406_16 = Coupling(name = 'UVGC_406_16',
                        value = {-1:'(5*complex(0,1)*G**4)/(512.*cmath.pi**2)'},
                        order = {'QCD':4})
 
-UVGC_393_15 = Coupling(name = 'UVGC_393_15',
+UVGC_407_17 = Coupling(name = 'UVGC_407_17',
                        value = {-1:'(ee*complex(0,1)*G**2)/(36.*cmath.pi**2)'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_394_16 = Coupling(name = 'UVGC_394_16',
+UVGC_408_18 = Coupling(name = 'UVGC_408_18',
                        value = {-1:'(-13*complex(0,1)*G**3)/(48.*cmath.pi**2)'},
                        order = {'QCD':3})
 
-UVGC_395_17 = Coupling(name = 'UVGC_395_17',
+UVGC_409_19 = Coupling(name = 'UVGC_409_19',
                        value = {-1:'-(ee*complex(0,1)*G**2)/(18.*cmath.pi**2)'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_405_18 = Coupling(name = 'UVGC_405_18',
+UVGC_419_20 = Coupling(name = 'UVGC_419_20',
                        value = {-1:'( (complex(0,1)*G**2)/(6.*cmath.pi**2) if MB else -(complex(0,1)*G**2)/(12.*cmath.pi**2) ) + (complex(0,1)*G**2)/(12.*cmath.pi**2)',0:'( (5*complex(0,1)*G**2)/(12.*cmath.pi**2) - (complex(0,1)*G**2*reglog(MB/MU_R))/(2.*cmath.pi**2) if MB else (complex(0,1)*G**2)/(12.*cmath.pi**2) ) - (complex(0,1)*G**2)/(12.*cmath.pi**2)'},
                        order = {'QCD':2})
 
-UVGC_406_19 = Coupling(name = 'UVGC_406_19',
+UVGC_420_21 = Coupling(name = 'UVGC_420_21',
                        value = {-1:'( (ee*complex(0,1)*G**2)/(18.*cmath.pi**2) if MB else -(ee*complex(0,1)*G**2)/(36.*cmath.pi**2) )',0:'( (5*ee*complex(0,1)*G**2)/(36.*cmath.pi**2) - (ee*complex(0,1)*G**2*reglog(MB/MU_R))/(6.*cmath.pi**2) if MB else (ee*complex(0,1)*G**2)/(36.*cmath.pi**2) ) - (ee*complex(0,1)*G**2)/(36.*cmath.pi**2)'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_407_20 = Coupling(name = 'UVGC_407_20',
+UVGC_421_22 = Coupling(name = 'UVGC_421_22',
                        value = {-1:'( 0 if MB else (complex(0,1)*G**3)/(48.*cmath.pi**2) )'},
                        order = {'QCD':3})
 
-UVGC_407_21 = Coupling(name = 'UVGC_407_21',
+UVGC_421_23 = Coupling(name = 'UVGC_421_23',
                        value = {-1:'( 0 if MC else (complex(0,1)*G**3)/(48.*cmath.pi**2) )'},
                        order = {'QCD':3})
 
-UVGC_407_22 = Coupling(name = 'UVGC_407_22',
+UVGC_421_24 = Coupling(name = 'UVGC_421_24',
                        value = {-1:'( 0 if MD else (complex(0,1)*G**3)/(48.*cmath.pi**2) )'},
                        order = {'QCD':3})
 
-UVGC_407_23 = Coupling(name = 'UVGC_407_23',
+UVGC_421_25 = Coupling(name = 'UVGC_421_25',
                        value = {-1:'(-19*complex(0,1)*G**3)/(128.*cmath.pi**2)'},
                        order = {'QCD':3})
 
-UVGC_407_24 = Coupling(name = 'UVGC_407_24',
+UVGC_421_26 = Coupling(name = 'UVGC_421_26',
                        value = {-1:'-(complex(0,1)*G**3)/(128.*cmath.pi**2)'},
                        order = {'QCD':3})
 
-UVGC_407_25 = Coupling(name = 'UVGC_407_25',
+UVGC_421_27 = Coupling(name = 'UVGC_421_27',
                        value = {-1:'( 0 if MS else (complex(0,1)*G**3)/(48.*cmath.pi**2) )'},
                        order = {'QCD':3})
 
-UVGC_407_26 = Coupling(name = 'UVGC_407_26',
+UVGC_421_28 = Coupling(name = 'UVGC_421_28',
                        value = {-1:'( 0 if MT else (complex(0,1)*G**3)/(48.*cmath.pi**2) )'},
                        order = {'QCD':3})
 
-UVGC_407_27 = Coupling(name = 'UVGC_407_27',
+UVGC_421_29 = Coupling(name = 'UVGC_421_29',
                        value = {-1:'( 0 if MU else (complex(0,1)*G**3)/(48.*cmath.pi**2) )'},
                        order = {'QCD':3})
 
-UVGC_407_28 = Coupling(name = 'UVGC_407_28',
+UVGC_421_30 = Coupling(name = 'UVGC_421_30',
                        value = {-1:'( -(complex(0,1)*G**3)/(6.*cmath.pi**2) if MB else (complex(0,1)*G**3)/(12.*cmath.pi**2) )',0:'( (-5*complex(0,1)*G**3)/(12.*cmath.pi**2) + (complex(0,1)*G**3*reglog(MB/MU_R))/(2.*cmath.pi**2) if MB else -(complex(0,1)*G**3)/(12.*cmath.pi**2) ) + (complex(0,1)*G**3)/(12.*cmath.pi**2)'},
                        order = {'QCD':3})
 
-UVGC_408_29 = Coupling(name = 'UVGC_408_29',
+UVGC_422_31 = Coupling(name = 'UVGC_422_31',
                        value = {-1:'( (complex(0,1)*G**2*MB)/(6.*cmath.pi**2) if MB else -(complex(0,1)*G**2*MB)/(12.*cmath.pi**2) ) + (complex(0,1)*G**2*MB)/(3.*cmath.pi**2)',0:'( (3*complex(0,1)*G**2*MB)/(4.*cmath.pi**2) - (complex(0,1)*G**2*MB*reglog(MB/MU_R))/cmath.pi**2 if MB else (complex(0,1)*G**2*MB)/(12.*cmath.pi**2) ) - (complex(0,1)*G**2*MB)/(12.*cmath.pi**2)'},
                        order = {'QCD':2})
 
-UVGC_409_30 = Coupling(name = 'UVGC_409_30',
-                       value = {-1:'( (cw*ee*complex(0,1)*G**2)/(12.*cmath.pi**2*sw) + (ee*complex(0,1)*G**2*sw)/(36.*cw*cmath.pi**2) if MB else -(cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) - (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2) ) + (cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) + (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2)',0:'( (5*cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) + (5*ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2) - (cw*ee*complex(0,1)*G**2*reglog(MB/MU_R))/(4.*cmath.pi**2*sw) - (ee*complex(0,1)*G**2*sw*reglog(MB/MU_R))/(12.*cw*cmath.pi**2) if MB else (cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) + (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2) ) - (cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) - (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2)'},
+UVGC_423_32 = Coupling(name = 'UVGC_423_32',
+                       value = {-1:'( (cw*ee*complex(0,1)*G**2)/(12.*cmath.pi**2*sw) if MB else -(cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) ) + (cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw)',0:'( (5*cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) - (cw*ee*complex(0,1)*G**2*reglog(MB/MU_R))/(4.*cmath.pi**2*sw) if MB else (cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) ) - (cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw)'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_410_31 = Coupling(name = 'UVGC_410_31',
-                       value = {-1:'( -(ee*complex(0,1)*G**2*sw)/(18.*cw*cmath.pi**2) if MB else (ee*complex(0,1)*G**2*sw)/(36.*cw*cmath.pi**2) ) - (ee*complex(0,1)*G**2*sw)/(36.*cw*cmath.pi**2)',0:'( (-5*ee*complex(0,1)*G**2*sw)/(36.*cw*cmath.pi**2) + (ee*complex(0,1)*G**2*sw*reglog(MB/MU_R))/(6.*cw*cmath.pi**2) if MB else -(ee*complex(0,1)*G**2*sw)/(36.*cw*cmath.pi**2) ) + (ee*complex(0,1)*G**2*sw)/(36.*cw*cmath.pi**2)'},
+UVGC_424_33 = Coupling(name = 'UVGC_424_33',
+                       value = {-1:'( (ee*complex(0,1)*G**2*sw)/(36.*cw*cmath.pi**2) if MB else -(ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2) ) + (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2)',0:'( (5*ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2) - (ee*complex(0,1)*G**2*sw*reglog(MB/MU_R))/(12.*cw*cmath.pi**2) if MB else (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2) ) - (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2)'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_411_32 = Coupling(name = 'UVGC_411_32',
+UVGC_425_34 = Coupling(name = 'UVGC_425_34',
                        value = {-1:'( -(G**2*yb)/(6.*cmath.pi**2*cmath.sqrt(2)) if MB else (G**2*yb)/(12.*cmath.pi**2*cmath.sqrt(2)) ) - (G**2*yb)/(3.*cmath.pi**2*cmath.sqrt(2))',0:'( (-3*G**2*yb)/(4.*cmath.pi**2*cmath.sqrt(2)) + (G**2*yb*reglog(MB/MU_R))/(cmath.pi**2*cmath.sqrt(2)) if MB else -(G**2*yb)/(12.*cmath.pi**2*cmath.sqrt(2)) ) + (G**2*yb)/(12.*cmath.pi**2*cmath.sqrt(2))'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_412_33 = Coupling(name = 'UVGC_412_33',
+UVGC_426_35 = Coupling(name = 'UVGC_426_35',
                        value = {-1:'( (cab*complex(0,1)*G**2*yb)/(6.*cmath.pi**2*cmath.sqrt(2)) if MB else -(cab*complex(0,1)*G**2*yb)/(12.*cmath.pi**2*cmath.sqrt(2)) ) + (cab*complex(0,1)*G**2*yb)/(3.*cmath.pi**2*cmath.sqrt(2))',0:'( (3*cab*complex(0,1)*G**2*yb)/(4.*cmath.pi**2*cmath.sqrt(2)) - (cab*complex(0,1)*G**2*yb*reglog(MB/MU_R))/(cmath.pi**2*cmath.sqrt(2)) if MB else (cab*complex(0,1)*G**2*yb)/(12.*cmath.pi**2*cmath.sqrt(2)) ) - (cab*complex(0,1)*G**2*yb)/(12.*cmath.pi**2*cmath.sqrt(2))'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_413_34 = Coupling(name = 'UVGC_413_34',
+UVGC_427_36 = Coupling(name = 'UVGC_427_36',
                        value = {-1:'( -(complex(0,1)*G**2*sab*yb)/(6.*cmath.pi**2*cmath.sqrt(2)) if MB else (complex(0,1)*G**2*sab*yb)/(12.*cmath.pi**2*cmath.sqrt(2)) ) - (complex(0,1)*G**2*sab*yb)/(3.*cmath.pi**2*cmath.sqrt(2))',0:'( (-3*complex(0,1)*G**2*sab*yb)/(4.*cmath.pi**2*cmath.sqrt(2)) + (complex(0,1)*G**2*sab*yb*reglog(MB/MU_R))/(cmath.pi**2*cmath.sqrt(2)) if MB else -(complex(0,1)*G**2*sab*yb)/(12.*cmath.pi**2*cmath.sqrt(2)) ) + (complex(0,1)*G**2*sab*yb)/(12.*cmath.pi**2*cmath.sqrt(2))'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_414_35 = Coupling(name = 'UVGC_414_35',
+UVGC_428_37 = Coupling(name = 'UVGC_428_37',
                        value = {-1:'( (complex(0,1)*G**2)/(6.*cmath.pi**2) if MC else -(complex(0,1)*G**2)/(12.*cmath.pi**2) ) + (complex(0,1)*G**2)/(12.*cmath.pi**2)',0:'( (5*complex(0,1)*G**2)/(12.*cmath.pi**2) - (complex(0,1)*G**2*reglog(MC/MU_R))/(2.*cmath.pi**2) if MC else (complex(0,1)*G**2)/(12.*cmath.pi**2) ) - (complex(0,1)*G**2)/(12.*cmath.pi**2)'},
                        order = {'QCD':2})
 
-UVGC_415_36 = Coupling(name = 'UVGC_415_36',
+UVGC_429_38 = Coupling(name = 'UVGC_429_38',
                        value = {-1:'( -(ee*complex(0,1)*G**2)/(9.*cmath.pi**2) if MC else (ee*complex(0,1)*G**2)/(18.*cmath.pi**2) )',0:'( (-5*ee*complex(0,1)*G**2)/(18.*cmath.pi**2) + (ee*complex(0,1)*G**2*reglog(MC/MU_R))/(3.*cmath.pi**2) if MC else -(ee*complex(0,1)*G**2)/(18.*cmath.pi**2) ) + (ee*complex(0,1)*G**2)/(18.*cmath.pi**2)'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_416_37 = Coupling(name = 'UVGC_416_37',
+UVGC_430_39 = Coupling(name = 'UVGC_430_39',
                        value = {-1:'( -(complex(0,1)*G**3)/(6.*cmath.pi**2) if MC else (complex(0,1)*G**3)/(12.*cmath.pi**2) )',0:'( (-5*complex(0,1)*G**3)/(12.*cmath.pi**2) + (complex(0,1)*G**3*reglog(MC/MU_R))/(2.*cmath.pi**2) if MC else -(complex(0,1)*G**3)/(12.*cmath.pi**2) ) + (complex(0,1)*G**3)/(12.*cmath.pi**2)'},
                        order = {'QCD':3})
 
-UVGC_417_38 = Coupling(name = 'UVGC_417_38',
+UVGC_431_40 = Coupling(name = 'UVGC_431_40',
                        value = {-1:'( (complex(0,1)*G**2*MC)/(6.*cmath.pi**2) if MC else -(complex(0,1)*G**2*MC)/(12.*cmath.pi**2) ) + (complex(0,1)*G**2*MC)/(3.*cmath.pi**2)',0:'( (3*complex(0,1)*G**2*MC)/(4.*cmath.pi**2) - (complex(0,1)*G**2*MC*reglog(MC/MU_R))/cmath.pi**2 if MC else (complex(0,1)*G**2*MC)/(12.*cmath.pi**2) ) - (complex(0,1)*G**2*MC)/(12.*cmath.pi**2)'},
                        order = {'QCD':2})
 
-UVGC_418_39 = Coupling(name = 'UVGC_418_39',
-                       value = {-1:'( -(cw*ee*complex(0,1)*G**2)/(12.*cmath.pi**2*sw) + (ee*complex(0,1)*G**2*sw)/(36.*cw*cmath.pi**2) if MC else (cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) - (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2) ) - (cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) + (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2)',0:'( (-5*cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) + (5*ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2) + (cw*ee*complex(0,1)*G**2*reglog(MC/MU_R))/(4.*cmath.pi**2*sw) - (ee*complex(0,1)*G**2*sw*reglog(MC/MU_R))/(12.*cw*cmath.pi**2) if MC else -(cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) + (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2) ) + (cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) - (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2)'},
+UVGC_432_41 = Coupling(name = 'UVGC_432_41',
+                       value = {-1:'( -(cw*ee*complex(0,1)*G**2)/(12.*cmath.pi**2*sw) if MC else (cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) ) - (cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw)',0:'( (-5*cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) + (cw*ee*complex(0,1)*G**2*reglog(MC/MU_R))/(4.*cmath.pi**2*sw) if MC else -(cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) ) + (cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw)'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_419_40 = Coupling(name = 'UVGC_419_40',
-                       value = {-1:'( (ee*complex(0,1)*G**2*sw)/(9.*cw*cmath.pi**2) if MC else -(ee*complex(0,1)*G**2*sw)/(18.*cw*cmath.pi**2) ) + (ee*complex(0,1)*G**2*sw)/(18.*cw*cmath.pi**2)',0:'( (5*ee*complex(0,1)*G**2*sw)/(18.*cw*cmath.pi**2) - (ee*complex(0,1)*G**2*sw*reglog(MC/MU_R))/(3.*cw*cmath.pi**2) if MC else (ee*complex(0,1)*G**2*sw)/(18.*cw*cmath.pi**2) ) - (ee*complex(0,1)*G**2*sw)/(18.*cw*cmath.pi**2)'},
+UVGC_433_42 = Coupling(name = 'UVGC_433_42',
+                       value = {-1:'( (ee*complex(0,1)*G**2*sw)/(36.*cw*cmath.pi**2) if MC else -(ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2) ) + (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2)',0:'( (5*ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2) - (ee*complex(0,1)*G**2*sw*reglog(MC/MU_R))/(12.*cw*cmath.pi**2) if MC else (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2) ) - (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2)'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_420_41 = Coupling(name = 'UVGC_420_41',
+UVGC_434_43 = Coupling(name = 'UVGC_434_43',
                        value = {-1:'( (G**2*yc)/(6.*cmath.pi**2*cmath.sqrt(2)) if MC else -(G**2*yc)/(12.*cmath.pi**2*cmath.sqrt(2)) ) + (G**2*yc)/(3.*cmath.pi**2*cmath.sqrt(2))',0:'( (3*G**2*yc)/(4.*cmath.pi**2*cmath.sqrt(2)) - (G**2*yc*reglog(MC/MU_R))/(cmath.pi**2*cmath.sqrt(2)) if MC else (G**2*yc)/(12.*cmath.pi**2*cmath.sqrt(2)) ) - (G**2*yc)/(12.*cmath.pi**2*cmath.sqrt(2))'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_421_42 = Coupling(name = 'UVGC_421_42',
+UVGC_435_44 = Coupling(name = 'UVGC_435_44',
                        value = {-1:'( (cab*complex(0,1)*G**2*yc)/(6.*cmath.pi**2*cmath.sqrt(2)) if MC else -(cab*complex(0,1)*G**2*yc)/(12.*cmath.pi**2*cmath.sqrt(2)) ) + (cab*complex(0,1)*G**2*yc)/(3.*cmath.pi**2*cmath.sqrt(2))',0:'( (3*cab*complex(0,1)*G**2*yc)/(4.*cmath.pi**2*cmath.sqrt(2)) - (cab*complex(0,1)*G**2*yc*reglog(MC/MU_R))/(cmath.pi**2*cmath.sqrt(2)) if MC else (cab*complex(0,1)*G**2*yc)/(12.*cmath.pi**2*cmath.sqrt(2)) ) - (cab*complex(0,1)*G**2*yc)/(12.*cmath.pi**2*cmath.sqrt(2))'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_422_43 = Coupling(name = 'UVGC_422_43',
+UVGC_436_45 = Coupling(name = 'UVGC_436_45',
                        value = {-1:'( -(complex(0,1)*G**2*sab*yc)/(6.*cmath.pi**2*cmath.sqrt(2)) if MC else (complex(0,1)*G**2*sab*yc)/(12.*cmath.pi**2*cmath.sqrt(2)) ) - (complex(0,1)*G**2*sab*yc)/(3.*cmath.pi**2*cmath.sqrt(2))',0:'( (-3*complex(0,1)*G**2*sab*yc)/(4.*cmath.pi**2*cmath.sqrt(2)) + (complex(0,1)*G**2*sab*yc*reglog(MC/MU_R))/(cmath.pi**2*cmath.sqrt(2)) if MC else -(complex(0,1)*G**2*sab*yc)/(12.*cmath.pi**2*cmath.sqrt(2)) ) + (complex(0,1)*G**2*sab*yc)/(12.*cmath.pi**2*cmath.sqrt(2))'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_423_44 = Coupling(name = 'UVGC_423_44',
+UVGC_437_46 = Coupling(name = 'UVGC_437_46',
                        value = {-1:'( (complex(0,1)*G**2)/(6.*cmath.pi**2) if MD else -(complex(0,1)*G**2)/(12.*cmath.pi**2) ) + (complex(0,1)*G**2)/(12.*cmath.pi**2)',0:'( (5*complex(0,1)*G**2)/(12.*cmath.pi**2) - (complex(0,1)*G**2*reglog(MD/MU_R))/(2.*cmath.pi**2) if MD else (complex(0,1)*G**2)/(12.*cmath.pi**2) ) - (complex(0,1)*G**2)/(12.*cmath.pi**2)'},
                        order = {'QCD':2})
 
-UVGC_424_45 = Coupling(name = 'UVGC_424_45',
+UVGC_438_47 = Coupling(name = 'UVGC_438_47',
                        value = {-1:'( (ee*complex(0,1)*G**2)/(18.*cmath.pi**2) if MD else -(ee*complex(0,1)*G**2)/(36.*cmath.pi**2) )',0:'( (5*ee*complex(0,1)*G**2)/(36.*cmath.pi**2) - (ee*complex(0,1)*G**2*reglog(MD/MU_R))/(6.*cmath.pi**2) if MD else (ee*complex(0,1)*G**2)/(36.*cmath.pi**2) ) - (ee*complex(0,1)*G**2)/(36.*cmath.pi**2)'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_425_46 = Coupling(name = 'UVGC_425_46',
+UVGC_439_48 = Coupling(name = 'UVGC_439_48',
                        value = {-1:'( -(complex(0,1)*G**3)/(6.*cmath.pi**2) if MD else (complex(0,1)*G**3)/(12.*cmath.pi**2) )',0:'( (-5*complex(0,1)*G**3)/(12.*cmath.pi**2) + (complex(0,1)*G**3*reglog(MD/MU_R))/(2.*cmath.pi**2) if MD else -(complex(0,1)*G**3)/(12.*cmath.pi**2) ) + (complex(0,1)*G**3)/(12.*cmath.pi**2)'},
                        order = {'QCD':3})
 
-UVGC_426_47 = Coupling(name = 'UVGC_426_47',
+UVGC_440_49 = Coupling(name = 'UVGC_440_49',
                        value = {-1:'( (complex(0,1)*G**2*MD)/(6.*cmath.pi**2) if MD else -(complex(0,1)*G**2*MD)/(12.*cmath.pi**2) ) + (complex(0,1)*G**2*MD)/(3.*cmath.pi**2)',0:'( (3*complex(0,1)*G**2*MD)/(4.*cmath.pi**2) - (complex(0,1)*G**2*MD*reglog(MD/MU_R))/cmath.pi**2 if MD else (complex(0,1)*G**2*MD)/(12.*cmath.pi**2) ) - (complex(0,1)*G**2*MD)/(12.*cmath.pi**2)'},
                        order = {'QCD':2})
 
-UVGC_427_48 = Coupling(name = 'UVGC_427_48',
+UVGC_441_50 = Coupling(name = 'UVGC_441_50',
                        value = {-1:'( -(CKM2x1*ee*complex(0,1)*G**2)/(12.*cmath.pi**2*sw*cmath.sqrt(2)) if MC else (CKM2x1*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw*cmath.sqrt(2)) )',0:'( (-5*CKM2x1*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw*cmath.sqrt(2)) + (CKM2x1*ee*complex(0,1)*G**2*reglog(MC/MU_R))/(4.*cmath.pi**2*sw*cmath.sqrt(2)) if MC else -(CKM2x1*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw*cmath.sqrt(2)) ) + (CKM2x1*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw*cmath.sqrt(2))'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_427_49 = Coupling(name = 'UVGC_427_49',
+UVGC_441_51 = Coupling(name = 'UVGC_441_51',
                        value = {-1:'( -(CKM2x1*ee*complex(0,1)*G**2)/(12.*cmath.pi**2*sw*cmath.sqrt(2)) if MD else (CKM2x1*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw*cmath.sqrt(2)) )',0:'( (-5*CKM2x1*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw*cmath.sqrt(2)) + (CKM2x1*ee*complex(0,1)*G**2*reglog(MD/MU_R))/(4.*cmath.pi**2*sw*cmath.sqrt(2)) if MD else -(CKM2x1*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw*cmath.sqrt(2)) ) + (CKM2x1*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw*cmath.sqrt(2))'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_427_50 = Coupling(name = 'UVGC_427_50',
+UVGC_441_52 = Coupling(name = 'UVGC_441_52',
                        value = {-1:'-(CKM2x1*ee*complex(0,1)*G**2)/(12.*cmath.pi**2*sw*cmath.sqrt(2))'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_428_51 = Coupling(name = 'UVGC_428_51',
-                       value = {-1:'( (cw*ee*complex(0,1)*G**2)/(12.*cmath.pi**2*sw) + (ee*complex(0,1)*G**2*sw)/(36.*cw*cmath.pi**2) if MD else -(cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) - (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2) ) + (cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) + (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2)',0:'( (5*cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) + (5*ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2) - (cw*ee*complex(0,1)*G**2*reglog(MD/MU_R))/(4.*cmath.pi**2*sw) - (ee*complex(0,1)*G**2*sw*reglog(MD/MU_R))/(12.*cw*cmath.pi**2) if MD else (cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) + (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2) ) - (cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) - (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2)'},
+UVGC_442_53 = Coupling(name = 'UVGC_442_53',
+                       value = {-1:'( (cw*ee*complex(0,1)*G**2)/(12.*cmath.pi**2*sw) if MD else -(cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) ) + (cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw)',0:'( (5*cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) - (cw*ee*complex(0,1)*G**2*reglog(MD/MU_R))/(4.*cmath.pi**2*sw) if MD else (cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) ) - (cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw)'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_429_52 = Coupling(name = 'UVGC_429_52',
-                       value = {-1:'( -(ee*complex(0,1)*G**2*sw)/(18.*cw*cmath.pi**2) if MD else (ee*complex(0,1)*G**2*sw)/(36.*cw*cmath.pi**2) ) - (ee*complex(0,1)*G**2*sw)/(36.*cw*cmath.pi**2)',0:'( (-5*ee*complex(0,1)*G**2*sw)/(36.*cw*cmath.pi**2) + (ee*complex(0,1)*G**2*sw*reglog(MD/MU_R))/(6.*cw*cmath.pi**2) if MD else -(ee*complex(0,1)*G**2*sw)/(36.*cw*cmath.pi**2) ) + (ee*complex(0,1)*G**2*sw)/(36.*cw*cmath.pi**2)'},
+UVGC_443_54 = Coupling(name = 'UVGC_443_54',
+                       value = {-1:'( (ee*complex(0,1)*G**2*sw)/(36.*cw*cmath.pi**2) if MD else -(ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2) ) + (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2)',0:'( (5*ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2) - (ee*complex(0,1)*G**2*sw*reglog(MD/MU_R))/(12.*cw*cmath.pi**2) if MD else (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2) ) - (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2)'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_430_53 = Coupling(name = 'UVGC_430_53',
+UVGC_444_55 = Coupling(name = 'UVGC_444_55',
                        value = {-1:'( -(CKM2x1*complex(0,1)*G**2*yc)/(12.*cmath.pi**2) if MC else (CKM2x1*complex(0,1)*G**2*yc)/(24.*cmath.pi**2) )',0:'( (-13*CKM2x1*complex(0,1)*G**2*yc)/(24.*cmath.pi**2) + (3*CKM2x1*complex(0,1)*G**2*yc*reglog(MC/MU_R))/(4.*cmath.pi**2) if MC else -(CKM2x1*complex(0,1)*G**2*yc)/(24.*cmath.pi**2) ) + (CKM2x1*complex(0,1)*G**2*yc)/(24.*cmath.pi**2)'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_430_54 = Coupling(name = 'UVGC_430_54',
+UVGC_444_56 = Coupling(name = 'UVGC_444_56',
                        value = {-1:'( -(CKM2x1*complex(0,1)*G**2*yc)/(12.*cmath.pi**2) if MD else (CKM2x1*complex(0,1)*G**2*yc)/(24.*cmath.pi**2) )',0:'( (-5*CKM2x1*complex(0,1)*G**2*yc)/(24.*cmath.pi**2) + (CKM2x1*complex(0,1)*G**2*yc*reglog(MD/MU_R))/(4.*cmath.pi**2) if MD else -(CKM2x1*complex(0,1)*G**2*yc)/(24.*cmath.pi**2) ) + (CKM2x1*complex(0,1)*G**2*yc)/(24.*cmath.pi**2)'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_430_55 = Coupling(name = 'UVGC_430_55',
+UVGC_444_57 = Coupling(name = 'UVGC_444_57',
                        value = {-1:'-(CKM2x1*complex(0,1)*G**2*yc)/(3.*cmath.pi**2)'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_431_56 = Coupling(name = 'UVGC_431_56',
+UVGC_445_58 = Coupling(name = 'UVGC_445_58',
                        value = {-1:'( -(G**2*ydo)/(6.*cmath.pi**2*cmath.sqrt(2)) if MD else (G**2*ydo)/(12.*cmath.pi**2*cmath.sqrt(2)) ) - (G**2*ydo)/(3.*cmath.pi**2*cmath.sqrt(2))',0:'( (-3*G**2*ydo)/(4.*cmath.pi**2*cmath.sqrt(2)) + (G**2*ydo*reglog(MD/MU_R))/(cmath.pi**2*cmath.sqrt(2)) if MD else -(G**2*ydo)/(12.*cmath.pi**2*cmath.sqrt(2)) ) + (G**2*ydo)/(12.*cmath.pi**2*cmath.sqrt(2))'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_432_57 = Coupling(name = 'UVGC_432_57',
+UVGC_446_59 = Coupling(name = 'UVGC_446_59',
                        value = {-1:'( (cab*complex(0,1)*G**2*ydo)/(6.*cmath.pi**2*cmath.sqrt(2)) if MD else -(cab*complex(0,1)*G**2*ydo)/(12.*cmath.pi**2*cmath.sqrt(2)) ) + (cab*complex(0,1)*G**2*ydo)/(3.*cmath.pi**2*cmath.sqrt(2))',0:'( (3*cab*complex(0,1)*G**2*ydo)/(4.*cmath.pi**2*cmath.sqrt(2)) - (cab*complex(0,1)*G**2*ydo*reglog(MD/MU_R))/(cmath.pi**2*cmath.sqrt(2)) if MD else (cab*complex(0,1)*G**2*ydo)/(12.*cmath.pi**2*cmath.sqrt(2)) ) - (cab*complex(0,1)*G**2*ydo)/(12.*cmath.pi**2*cmath.sqrt(2))'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_433_58 = Coupling(name = 'UVGC_433_58',
+UVGC_447_60 = Coupling(name = 'UVGC_447_60',
                        value = {-1:'( (CKM2x1*complex(0,1)*G**2*ydo)/(12.*cmath.pi**2) if MC else -(CKM2x1*complex(0,1)*G**2*ydo)/(24.*cmath.pi**2) )',0:'( (5*CKM2x1*complex(0,1)*G**2*ydo)/(24.*cmath.pi**2) - (CKM2x1*complex(0,1)*G**2*ydo*reglog(MC/MU_R))/(4.*cmath.pi**2) if MC else (CKM2x1*complex(0,1)*G**2*ydo)/(24.*cmath.pi**2) ) - (CKM2x1*complex(0,1)*G**2*ydo)/(24.*cmath.pi**2)'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_433_59 = Coupling(name = 'UVGC_433_59',
+UVGC_447_61 = Coupling(name = 'UVGC_447_61',
                        value = {-1:'( (CKM2x1*complex(0,1)*G**2*ydo)/(12.*cmath.pi**2) if MD else -(CKM2x1*complex(0,1)*G**2*ydo)/(24.*cmath.pi**2) )',0:'( (13*CKM2x1*complex(0,1)*G**2*ydo)/(24.*cmath.pi**2) - (3*CKM2x1*complex(0,1)*G**2*ydo*reglog(MD/MU_R))/(4.*cmath.pi**2) if MD else (CKM2x1*complex(0,1)*G**2*ydo)/(24.*cmath.pi**2) ) - (CKM2x1*complex(0,1)*G**2*ydo)/(24.*cmath.pi**2)'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_433_60 = Coupling(name = 'UVGC_433_60',
+UVGC_447_62 = Coupling(name = 'UVGC_447_62',
                        value = {-1:'(CKM2x1*complex(0,1)*G**2*ydo)/(3.*cmath.pi**2)'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_434_61 = Coupling(name = 'UVGC_434_61',
+UVGC_448_63 = Coupling(name = 'UVGC_448_63',
                        value = {-1:'( -(complex(0,1)*G**2*sab*ydo)/(6.*cmath.pi**2*cmath.sqrt(2)) if MD else (complex(0,1)*G**2*sab*ydo)/(12.*cmath.pi**2*cmath.sqrt(2)) ) - (complex(0,1)*G**2*sab*ydo)/(3.*cmath.pi**2*cmath.sqrt(2))',0:'( (-3*complex(0,1)*G**2*sab*ydo)/(4.*cmath.pi**2*cmath.sqrt(2)) + (complex(0,1)*G**2*sab*ydo*reglog(MD/MU_R))/(cmath.pi**2*cmath.sqrt(2)) if MD else -(complex(0,1)*G**2*sab*ydo)/(12.*cmath.pi**2*cmath.sqrt(2)) ) + (complex(0,1)*G**2*sab*ydo)/(12.*cmath.pi**2*cmath.sqrt(2))'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_435_62 = Coupling(name = 'UVGC_435_62',
+UVGC_449_64 = Coupling(name = 'UVGC_449_64',
                        value = {-1:'( -(ee*complex(0,1)*G**2*complexconjugate(CKM2x1))/(12.*cmath.pi**2*sw*cmath.sqrt(2)) if MC else (ee*complex(0,1)*G**2*complexconjugate(CKM2x1))/(24.*cmath.pi**2*sw*cmath.sqrt(2)) )',0:'( (-5*ee*complex(0,1)*G**2*complexconjugate(CKM2x1))/(24.*cmath.pi**2*sw*cmath.sqrt(2)) + (ee*complex(0,1)*G**2*complexconjugate(CKM2x1)*reglog(MC/MU_R))/(4.*cmath.pi**2*sw*cmath.sqrt(2)) if MC else -(ee*complex(0,1)*G**2*complexconjugate(CKM2x1))/(24.*cmath.pi**2*sw*cmath.sqrt(2)) ) + (ee*complex(0,1)*G**2*complexconjugate(CKM2x1))/(24.*cmath.pi**2*sw*cmath.sqrt(2))'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_435_63 = Coupling(name = 'UVGC_435_63',
+UVGC_449_65 = Coupling(name = 'UVGC_449_65',
                        value = {-1:'( -(ee*complex(0,1)*G**2*complexconjugate(CKM2x1))/(12.*cmath.pi**2*sw*cmath.sqrt(2)) if MD else (ee*complex(0,1)*G**2*complexconjugate(CKM2x1))/(24.*cmath.pi**2*sw*cmath.sqrt(2)) )',0:'( (-5*ee*complex(0,1)*G**2*complexconjugate(CKM2x1))/(24.*cmath.pi**2*sw*cmath.sqrt(2)) + (ee*complex(0,1)*G**2*complexconjugate(CKM2x1)*reglog(MD/MU_R))/(4.*cmath.pi**2*sw*cmath.sqrt(2)) if MD else -(ee*complex(0,1)*G**2*complexconjugate(CKM2x1))/(24.*cmath.pi**2*sw*cmath.sqrt(2)) ) + (ee*complex(0,1)*G**2*complexconjugate(CKM2x1))/(24.*cmath.pi**2*sw*cmath.sqrt(2))'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_435_64 = Coupling(name = 'UVGC_435_64',
+UVGC_449_66 = Coupling(name = 'UVGC_449_66',
                        value = {-1:'-(ee*complex(0,1)*G**2*complexconjugate(CKM2x1))/(12.*cmath.pi**2*sw*cmath.sqrt(2))'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_436_65 = Coupling(name = 'UVGC_436_65',
+UVGC_450_67 = Coupling(name = 'UVGC_450_67',
                        value = {-1:'( -(complex(0,1)*G**2*yc*complexconjugate(CKM2x1))/(12.*cmath.pi**2) if MC else (complex(0,1)*G**2*yc*complexconjugate(CKM2x1))/(24.*cmath.pi**2) )',0:'( (-13*complex(0,1)*G**2*yc*complexconjugate(CKM2x1))/(24.*cmath.pi**2) + (3*complex(0,1)*G**2*yc*complexconjugate(CKM2x1)*reglog(MC/MU_R))/(4.*cmath.pi**2) if MC else -(complex(0,1)*G**2*yc*complexconjugate(CKM2x1))/(24.*cmath.pi**2) ) + (complex(0,1)*G**2*yc*complexconjugate(CKM2x1))/(24.*cmath.pi**2)'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_436_66 = Coupling(name = 'UVGC_436_66',
+UVGC_450_68 = Coupling(name = 'UVGC_450_68',
                        value = {-1:'( -(complex(0,1)*G**2*yc*complexconjugate(CKM2x1))/(12.*cmath.pi**2) if MD else (complex(0,1)*G**2*yc*complexconjugate(CKM2x1))/(24.*cmath.pi**2) )',0:'( (-5*complex(0,1)*G**2*yc*complexconjugate(CKM2x1))/(24.*cmath.pi**2) + (complex(0,1)*G**2*yc*complexconjugate(CKM2x1)*reglog(MD/MU_R))/(4.*cmath.pi**2) if MD else -(complex(0,1)*G**2*yc*complexconjugate(CKM2x1))/(24.*cmath.pi**2) ) + (complex(0,1)*G**2*yc*complexconjugate(CKM2x1))/(24.*cmath.pi**2)'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_436_67 = Coupling(name = 'UVGC_436_67',
+UVGC_450_69 = Coupling(name = 'UVGC_450_69',
                        value = {-1:'-(complex(0,1)*G**2*yc*complexconjugate(CKM2x1))/(3.*cmath.pi**2)'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_437_68 = Coupling(name = 'UVGC_437_68',
+UVGC_451_70 = Coupling(name = 'UVGC_451_70',
                        value = {-1:'( (complex(0,1)*G**2*ydo*complexconjugate(CKM2x1))/(12.*cmath.pi**2) if MC else -(complex(0,1)*G**2*ydo*complexconjugate(CKM2x1))/(24.*cmath.pi**2) )',0:'( (5*complex(0,1)*G**2*ydo*complexconjugate(CKM2x1))/(24.*cmath.pi**2) - (complex(0,1)*G**2*ydo*complexconjugate(CKM2x1)*reglog(MC/MU_R))/(4.*cmath.pi**2) if MC else (complex(0,1)*G**2*ydo*complexconjugate(CKM2x1))/(24.*cmath.pi**2) ) - (complex(0,1)*G**2*ydo*complexconjugate(CKM2x1))/(24.*cmath.pi**2)'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_437_69 = Coupling(name = 'UVGC_437_69',
+UVGC_451_71 = Coupling(name = 'UVGC_451_71',
                        value = {-1:'( (complex(0,1)*G**2*ydo*complexconjugate(CKM2x1))/(12.*cmath.pi**2) if MD else -(complex(0,1)*G**2*ydo*complexconjugate(CKM2x1))/(24.*cmath.pi**2) )',0:'( (13*complex(0,1)*G**2*ydo*complexconjugate(CKM2x1))/(24.*cmath.pi**2) - (3*complex(0,1)*G**2*ydo*complexconjugate(CKM2x1)*reglog(MD/MU_R))/(4.*cmath.pi**2) if MD else (complex(0,1)*G**2*ydo*complexconjugate(CKM2x1))/(24.*cmath.pi**2) ) - (complex(0,1)*G**2*ydo*complexconjugate(CKM2x1))/(24.*cmath.pi**2)'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_437_70 = Coupling(name = 'UVGC_437_70',
+UVGC_451_72 = Coupling(name = 'UVGC_451_72',
                        value = {-1:'(complex(0,1)*G**2*ydo*complexconjugate(CKM2x1))/(3.*cmath.pi**2)'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_438_71 = Coupling(name = 'UVGC_438_71',
+UVGC_452_73 = Coupling(name = 'UVGC_452_73',
                        value = {-1:'( (complex(0,1)*G**2)/(6.*cmath.pi**2) if MS else -(complex(0,1)*G**2)/(12.*cmath.pi**2) ) + (complex(0,1)*G**2)/(12.*cmath.pi**2)',0:'( (5*complex(0,1)*G**2)/(12.*cmath.pi**2) - (complex(0,1)*G**2*reglog(MS/MU_R))/(2.*cmath.pi**2) if MS else (complex(0,1)*G**2)/(12.*cmath.pi**2) ) - (complex(0,1)*G**2)/(12.*cmath.pi**2)'},
                        order = {'QCD':2})
 
-UVGC_439_72 = Coupling(name = 'UVGC_439_72',
+UVGC_453_74 = Coupling(name = 'UVGC_453_74',
                        value = {-1:'( (ee*complex(0,1)*G**2)/(18.*cmath.pi**2) if MS else -(ee*complex(0,1)*G**2)/(36.*cmath.pi**2) )',0:'( (5*ee*complex(0,1)*G**2)/(36.*cmath.pi**2) - (ee*complex(0,1)*G**2*reglog(MS/MU_R))/(6.*cmath.pi**2) if MS else (ee*complex(0,1)*G**2)/(36.*cmath.pi**2) ) - (ee*complex(0,1)*G**2)/(36.*cmath.pi**2)'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_440_73 = Coupling(name = 'UVGC_440_73',
+UVGC_454_75 = Coupling(name = 'UVGC_454_75',
                        value = {-1:'( -(complex(0,1)*G**3)/(6.*cmath.pi**2) if MS else (complex(0,1)*G**3)/(12.*cmath.pi**2) )',0:'( (-5*complex(0,1)*G**3)/(12.*cmath.pi**2) + (complex(0,1)*G**3*reglog(MS/MU_R))/(2.*cmath.pi**2) if MS else -(complex(0,1)*G**3)/(12.*cmath.pi**2) ) + (complex(0,1)*G**3)/(12.*cmath.pi**2)'},
                        order = {'QCD':3})
 
-UVGC_441_74 = Coupling(name = 'UVGC_441_74',
+UVGC_455_76 = Coupling(name = 'UVGC_455_76',
                        value = {-1:'( (complex(0,1)*G**2*MS)/(6.*cmath.pi**2) if MS else -(complex(0,1)*G**2*MS)/(12.*cmath.pi**2) ) + (complex(0,1)*G**2*MS)/(3.*cmath.pi**2)',0:'( (3*complex(0,1)*G**2*MS)/(4.*cmath.pi**2) - (complex(0,1)*G**2*MS*reglog(MS/MU_R))/cmath.pi**2 if MS else (complex(0,1)*G**2*MS)/(12.*cmath.pi**2) ) - (complex(0,1)*G**2*MS)/(12.*cmath.pi**2)'},
                        order = {'QCD':2})
 
-UVGC_442_75 = Coupling(name = 'UVGC_442_75',
+UVGC_456_77 = Coupling(name = 'UVGC_456_77',
                        value = {-1:'( -(CKM2x2*ee*complex(0,1)*G**2)/(12.*cmath.pi**2*sw*cmath.sqrt(2)) if MC else (CKM2x2*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw*cmath.sqrt(2)) )',0:'( (-5*CKM2x2*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw*cmath.sqrt(2)) + (CKM2x2*ee*complex(0,1)*G**2*reglog(MC/MU_R))/(4.*cmath.pi**2*sw*cmath.sqrt(2)) if MC else -(CKM2x2*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw*cmath.sqrt(2)) ) + (CKM2x2*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw*cmath.sqrt(2))'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_442_76 = Coupling(name = 'UVGC_442_76',
+UVGC_456_78 = Coupling(name = 'UVGC_456_78',
                        value = {-1:'( -(CKM2x2*ee*complex(0,1)*G**2)/(12.*cmath.pi**2*sw*cmath.sqrt(2)) if MS else (CKM2x2*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw*cmath.sqrt(2)) )',0:'( (-5*CKM2x2*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw*cmath.sqrt(2)) + (CKM2x2*ee*complex(0,1)*G**2*reglog(MS/MU_R))/(4.*cmath.pi**2*sw*cmath.sqrt(2)) if MS else -(CKM2x2*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw*cmath.sqrt(2)) ) + (CKM2x2*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw*cmath.sqrt(2))'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_442_77 = Coupling(name = 'UVGC_442_77',
+UVGC_456_79 = Coupling(name = 'UVGC_456_79',
                        value = {-1:'-(CKM2x2*ee*complex(0,1)*G**2)/(12.*cmath.pi**2*sw*cmath.sqrt(2))'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_443_78 = Coupling(name = 'UVGC_443_78',
-                       value = {-1:'( (cw*ee*complex(0,1)*G**2)/(12.*cmath.pi**2*sw) + (ee*complex(0,1)*G**2*sw)/(36.*cw*cmath.pi**2) if MS else -(cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) - (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2) ) + (cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) + (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2)',0:'( (5*cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) + (5*ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2) - (cw*ee*complex(0,1)*G**2*reglog(MS/MU_R))/(4.*cmath.pi**2*sw) - (ee*complex(0,1)*G**2*sw*reglog(MS/MU_R))/(12.*cw*cmath.pi**2) if MS else (cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) + (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2) ) - (cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) - (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2)'},
+UVGC_457_80 = Coupling(name = 'UVGC_457_80',
+                       value = {-1:'( (cw*ee*complex(0,1)*G**2)/(12.*cmath.pi**2*sw) if MS else -(cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) ) + (cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw)',0:'( (5*cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) - (cw*ee*complex(0,1)*G**2*reglog(MS/MU_R))/(4.*cmath.pi**2*sw) if MS else (cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) ) - (cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw)'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_444_79 = Coupling(name = 'UVGC_444_79',
-                       value = {-1:'( -(ee*complex(0,1)*G**2*sw)/(18.*cw*cmath.pi**2) if MS else (ee*complex(0,1)*G**2*sw)/(36.*cw*cmath.pi**2) ) - (ee*complex(0,1)*G**2*sw)/(36.*cw*cmath.pi**2)',0:'( (-5*ee*complex(0,1)*G**2*sw)/(36.*cw*cmath.pi**2) + (ee*complex(0,1)*G**2*sw*reglog(MS/MU_R))/(6.*cw*cmath.pi**2) if MS else -(ee*complex(0,1)*G**2*sw)/(36.*cw*cmath.pi**2) ) + (ee*complex(0,1)*G**2*sw)/(36.*cw*cmath.pi**2)'},
+UVGC_458_81 = Coupling(name = 'UVGC_458_81',
+                       value = {-1:'( (ee*complex(0,1)*G**2*sw)/(36.*cw*cmath.pi**2) if MS else -(ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2) ) + (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2)',0:'( (5*ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2) - (ee*complex(0,1)*G**2*sw*reglog(MS/MU_R))/(12.*cw*cmath.pi**2) if MS else (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2) ) - (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2)'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_445_80 = Coupling(name = 'UVGC_445_80',
+UVGC_459_82 = Coupling(name = 'UVGC_459_82',
                        value = {-1:'( -(CKM2x2*complex(0,1)*G**2*yc)/(12.*cmath.pi**2) if MC else (CKM2x2*complex(0,1)*G**2*yc)/(24.*cmath.pi**2) )',0:'( (-13*CKM2x2*complex(0,1)*G**2*yc)/(24.*cmath.pi**2) + (3*CKM2x2*complex(0,1)*G**2*yc*reglog(MC/MU_R))/(4.*cmath.pi**2) if MC else -(CKM2x2*complex(0,1)*G**2*yc)/(24.*cmath.pi**2) ) + (CKM2x2*complex(0,1)*G**2*yc)/(24.*cmath.pi**2)'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_445_81 = Coupling(name = 'UVGC_445_81',
+UVGC_459_83 = Coupling(name = 'UVGC_459_83',
                        value = {-1:'( -(CKM2x2*complex(0,1)*G**2*yc)/(12.*cmath.pi**2) if MS else (CKM2x2*complex(0,1)*G**2*yc)/(24.*cmath.pi**2) )',0:'( (-5*CKM2x2*complex(0,1)*G**2*yc)/(24.*cmath.pi**2) + (CKM2x2*complex(0,1)*G**2*yc*reglog(MS/MU_R))/(4.*cmath.pi**2) if MS else -(CKM2x2*complex(0,1)*G**2*yc)/(24.*cmath.pi**2) ) + (CKM2x2*complex(0,1)*G**2*yc)/(24.*cmath.pi**2)'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_445_82 = Coupling(name = 'UVGC_445_82',
+UVGC_459_84 = Coupling(name = 'UVGC_459_84',
                        value = {-1:'-(CKM2x2*complex(0,1)*G**2*yc)/(3.*cmath.pi**2)'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_446_83 = Coupling(name = 'UVGC_446_83',
+UVGC_460_85 = Coupling(name = 'UVGC_460_85',
                        value = {-1:'( -(G**2*ys)/(6.*cmath.pi**2*cmath.sqrt(2)) if MS else (G**2*ys)/(12.*cmath.pi**2*cmath.sqrt(2)) ) - (G**2*ys)/(3.*cmath.pi**2*cmath.sqrt(2))',0:'( (-3*G**2*ys)/(4.*cmath.pi**2*cmath.sqrt(2)) + (G**2*ys*reglog(MS/MU_R))/(cmath.pi**2*cmath.sqrt(2)) if MS else -(G**2*ys)/(12.*cmath.pi**2*cmath.sqrt(2)) ) + (G**2*ys)/(12.*cmath.pi**2*cmath.sqrt(2))'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_447_84 = Coupling(name = 'UVGC_447_84',
+UVGC_461_86 = Coupling(name = 'UVGC_461_86',
                        value = {-1:'( (cab*complex(0,1)*G**2*ys)/(6.*cmath.pi**2*cmath.sqrt(2)) if MS else -(cab*complex(0,1)*G**2*ys)/(12.*cmath.pi**2*cmath.sqrt(2)) ) + (cab*complex(0,1)*G**2*ys)/(3.*cmath.pi**2*cmath.sqrt(2))',0:'( (3*cab*complex(0,1)*G**2*ys)/(4.*cmath.pi**2*cmath.sqrt(2)) - (cab*complex(0,1)*G**2*ys*reglog(MS/MU_R))/(cmath.pi**2*cmath.sqrt(2)) if MS else (cab*complex(0,1)*G**2*ys)/(12.*cmath.pi**2*cmath.sqrt(2)) ) - (cab*complex(0,1)*G**2*ys)/(12.*cmath.pi**2*cmath.sqrt(2))'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_448_85 = Coupling(name = 'UVGC_448_85',
+UVGC_462_87 = Coupling(name = 'UVGC_462_87',
                        value = {-1:'( (CKM2x2*complex(0,1)*G**2*ys)/(12.*cmath.pi**2) if MC else -(CKM2x2*complex(0,1)*G**2*ys)/(24.*cmath.pi**2) )',0:'( (5*CKM2x2*complex(0,1)*G**2*ys)/(24.*cmath.pi**2) - (CKM2x2*complex(0,1)*G**2*ys*reglog(MC/MU_R))/(4.*cmath.pi**2) if MC else (CKM2x2*complex(0,1)*G**2*ys)/(24.*cmath.pi**2) ) - (CKM2x2*complex(0,1)*G**2*ys)/(24.*cmath.pi**2)'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_448_86 = Coupling(name = 'UVGC_448_86',
+UVGC_462_88 = Coupling(name = 'UVGC_462_88',
                        value = {-1:'( (CKM2x2*complex(0,1)*G**2*ys)/(12.*cmath.pi**2) if MS else -(CKM2x2*complex(0,1)*G**2*ys)/(24.*cmath.pi**2) )',0:'( (13*CKM2x2*complex(0,1)*G**2*ys)/(24.*cmath.pi**2) - (3*CKM2x2*complex(0,1)*G**2*ys*reglog(MS/MU_R))/(4.*cmath.pi**2) if MS else (CKM2x2*complex(0,1)*G**2*ys)/(24.*cmath.pi**2) ) - (CKM2x2*complex(0,1)*G**2*ys)/(24.*cmath.pi**2)'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_448_87 = Coupling(name = 'UVGC_448_87',
+UVGC_462_89 = Coupling(name = 'UVGC_462_89',
                        value = {-1:'(CKM2x2*complex(0,1)*G**2*ys)/(3.*cmath.pi**2)'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_449_88 = Coupling(name = 'UVGC_449_88',
+UVGC_463_90 = Coupling(name = 'UVGC_463_90',
                        value = {-1:'( -(complex(0,1)*G**2*sab*ys)/(6.*cmath.pi**2*cmath.sqrt(2)) if MS else (complex(0,1)*G**2*sab*ys)/(12.*cmath.pi**2*cmath.sqrt(2)) ) - (complex(0,1)*G**2*sab*ys)/(3.*cmath.pi**2*cmath.sqrt(2))',0:'( (-3*complex(0,1)*G**2*sab*ys)/(4.*cmath.pi**2*cmath.sqrt(2)) + (complex(0,1)*G**2*sab*ys*reglog(MS/MU_R))/(cmath.pi**2*cmath.sqrt(2)) if MS else -(complex(0,1)*G**2*sab*ys)/(12.*cmath.pi**2*cmath.sqrt(2)) ) + (complex(0,1)*G**2*sab*ys)/(12.*cmath.pi**2*cmath.sqrt(2))'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_450_89 = Coupling(name = 'UVGC_450_89',
+UVGC_464_91 = Coupling(name = 'UVGC_464_91',
                        value = {-1:'( -(ee*complex(0,1)*G**2*complexconjugate(CKM2x2))/(12.*cmath.pi**2*sw*cmath.sqrt(2)) if MC else (ee*complex(0,1)*G**2*complexconjugate(CKM2x2))/(24.*cmath.pi**2*sw*cmath.sqrt(2)) )',0:'( (-5*ee*complex(0,1)*G**2*complexconjugate(CKM2x2))/(24.*cmath.pi**2*sw*cmath.sqrt(2)) + (ee*complex(0,1)*G**2*complexconjugate(CKM2x2)*reglog(MC/MU_R))/(4.*cmath.pi**2*sw*cmath.sqrt(2)) if MC else -(ee*complex(0,1)*G**2*complexconjugate(CKM2x2))/(24.*cmath.pi**2*sw*cmath.sqrt(2)) ) + (ee*complex(0,1)*G**2*complexconjugate(CKM2x2))/(24.*cmath.pi**2*sw*cmath.sqrt(2))'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_450_90 = Coupling(name = 'UVGC_450_90',
+UVGC_464_92 = Coupling(name = 'UVGC_464_92',
                        value = {-1:'( -(ee*complex(0,1)*G**2*complexconjugate(CKM2x2))/(12.*cmath.pi**2*sw*cmath.sqrt(2)) if MS else (ee*complex(0,1)*G**2*complexconjugate(CKM2x2))/(24.*cmath.pi**2*sw*cmath.sqrt(2)) )',0:'( (-5*ee*complex(0,1)*G**2*complexconjugate(CKM2x2))/(24.*cmath.pi**2*sw*cmath.sqrt(2)) + (ee*complex(0,1)*G**2*complexconjugate(CKM2x2)*reglog(MS/MU_R))/(4.*cmath.pi**2*sw*cmath.sqrt(2)) if MS else -(ee*complex(0,1)*G**2*complexconjugate(CKM2x2))/(24.*cmath.pi**2*sw*cmath.sqrt(2)) ) + (ee*complex(0,1)*G**2*complexconjugate(CKM2x2))/(24.*cmath.pi**2*sw*cmath.sqrt(2))'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_450_91 = Coupling(name = 'UVGC_450_91',
+UVGC_464_93 = Coupling(name = 'UVGC_464_93',
                        value = {-1:'-(ee*complex(0,1)*G**2*complexconjugate(CKM2x2))/(12.*cmath.pi**2*sw*cmath.sqrt(2))'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_451_92 = Coupling(name = 'UVGC_451_92',
+UVGC_465_94 = Coupling(name = 'UVGC_465_94',
                        value = {-1:'( -(complex(0,1)*G**2*yc*complexconjugate(CKM2x2))/(12.*cmath.pi**2) if MC else (complex(0,1)*G**2*yc*complexconjugate(CKM2x2))/(24.*cmath.pi**2) )',0:'( (-13*complex(0,1)*G**2*yc*complexconjugate(CKM2x2))/(24.*cmath.pi**2) + (3*complex(0,1)*G**2*yc*complexconjugate(CKM2x2)*reglog(MC/MU_R))/(4.*cmath.pi**2) if MC else -(complex(0,1)*G**2*yc*complexconjugate(CKM2x2))/(24.*cmath.pi**2) ) + (complex(0,1)*G**2*yc*complexconjugate(CKM2x2))/(24.*cmath.pi**2)'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_451_93 = Coupling(name = 'UVGC_451_93',
+UVGC_465_95 = Coupling(name = 'UVGC_465_95',
                        value = {-1:'( -(complex(0,1)*G**2*yc*complexconjugate(CKM2x2))/(12.*cmath.pi**2) if MS else (complex(0,1)*G**2*yc*complexconjugate(CKM2x2))/(24.*cmath.pi**2) )',0:'( (-5*complex(0,1)*G**2*yc*complexconjugate(CKM2x2))/(24.*cmath.pi**2) + (complex(0,1)*G**2*yc*complexconjugate(CKM2x2)*reglog(MS/MU_R))/(4.*cmath.pi**2) if MS else -(complex(0,1)*G**2*yc*complexconjugate(CKM2x2))/(24.*cmath.pi**2) ) + (complex(0,1)*G**2*yc*complexconjugate(CKM2x2))/(24.*cmath.pi**2)'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_451_94 = Coupling(name = 'UVGC_451_94',
+UVGC_465_96 = Coupling(name = 'UVGC_465_96',
                        value = {-1:'-(complex(0,1)*G**2*yc*complexconjugate(CKM2x2))/(3.*cmath.pi**2)'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_452_95 = Coupling(name = 'UVGC_452_95',
+UVGC_466_97 = Coupling(name = 'UVGC_466_97',
                        value = {-1:'( (complex(0,1)*G**2*ys*complexconjugate(CKM2x2))/(12.*cmath.pi**2) if MC else -(complex(0,1)*G**2*ys*complexconjugate(CKM2x2))/(24.*cmath.pi**2) )',0:'( (5*complex(0,1)*G**2*ys*complexconjugate(CKM2x2))/(24.*cmath.pi**2) - (complex(0,1)*G**2*ys*complexconjugate(CKM2x2)*reglog(MC/MU_R))/(4.*cmath.pi**2) if MC else (complex(0,1)*G**2*ys*complexconjugate(CKM2x2))/(24.*cmath.pi**2) ) - (complex(0,1)*G**2*ys*complexconjugate(CKM2x2))/(24.*cmath.pi**2)'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_452_96 = Coupling(name = 'UVGC_452_96',
+UVGC_466_98 = Coupling(name = 'UVGC_466_98',
                        value = {-1:'( (complex(0,1)*G**2*ys*complexconjugate(CKM2x2))/(12.*cmath.pi**2) if MS else -(complex(0,1)*G**2*ys*complexconjugate(CKM2x2))/(24.*cmath.pi**2) )',0:'( (13*complex(0,1)*G**2*ys*complexconjugate(CKM2x2))/(24.*cmath.pi**2) - (3*complex(0,1)*G**2*ys*complexconjugate(CKM2x2)*reglog(MS/MU_R))/(4.*cmath.pi**2) if MS else (complex(0,1)*G**2*ys*complexconjugate(CKM2x2))/(24.*cmath.pi**2) ) - (complex(0,1)*G**2*ys*complexconjugate(CKM2x2))/(24.*cmath.pi**2)'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_452_97 = Coupling(name = 'UVGC_452_97',
+UVGC_466_99 = Coupling(name = 'UVGC_466_99',
                        value = {-1:'(complex(0,1)*G**2*ys*complexconjugate(CKM2x2))/(3.*cmath.pi**2)'},
                        order = {'QCD':2,'QED':1})
 
-UVGC_453_98 = Coupling(name = 'UVGC_453_98',
-                       value = {-1:'( (complex(0,1)*G**2)/(6.*cmath.pi**2) if MT else -(complex(0,1)*G**2)/(12.*cmath.pi**2) ) + (complex(0,1)*G**2)/(12.*cmath.pi**2)',0:'( (5*complex(0,1)*G**2)/(12.*cmath.pi**2) - (complex(0,1)*G**2*reglog(MT/MU_R))/(2.*cmath.pi**2) if MT else (complex(0,1)*G**2)/(12.*cmath.pi**2) ) - (complex(0,1)*G**2)/(12.*cmath.pi**2)'},
-                       order = {'QCD':2})
+UVGC_467_100 = Coupling(name = 'UVGC_467_100',
+                        value = {-1:'( (complex(0,1)*G**2)/(6.*cmath.pi**2) if MT else -(complex(0,1)*G**2)/(12.*cmath.pi**2) ) + (complex(0,1)*G**2)/(12.*cmath.pi**2)',0:'( (5*complex(0,1)*G**2)/(12.*cmath.pi**2) - (complex(0,1)*G**2*reglog(MT/MU_R))/(2.*cmath.pi**2) if MT else (complex(0,1)*G**2)/(12.*cmath.pi**2) ) - (complex(0,1)*G**2)/(12.*cmath.pi**2)'},
+                        order = {'QCD':2})
 
-UVGC_454_99 = Coupling(name = 'UVGC_454_99',
-                       value = {-1:'( -(ee*complex(0,1)*G**2)/(9.*cmath.pi**2) if MT else (ee*complex(0,1)*G**2)/(18.*cmath.pi**2) )',0:'( (-5*ee*complex(0,1)*G**2)/(18.*cmath.pi**2) + (ee*complex(0,1)*G**2*reglog(MT/MU_R))/(3.*cmath.pi**2) if MT else -(ee*complex(0,1)*G**2)/(18.*cmath.pi**2) ) + (ee*complex(0,1)*G**2)/(18.*cmath.pi**2)'},
-                       order = {'QCD':2,'QED':1})
+UVGC_468_101 = Coupling(name = 'UVGC_468_101',
+                        value = {-1:'( -(ee*complex(0,1)*G**2)/(9.*cmath.pi**2) if MT else (ee*complex(0,1)*G**2)/(18.*cmath.pi**2) )',0:'( (-5*ee*complex(0,1)*G**2)/(18.*cmath.pi**2) + (ee*complex(0,1)*G**2*reglog(MT/MU_R))/(3.*cmath.pi**2) if MT else -(ee*complex(0,1)*G**2)/(18.*cmath.pi**2) ) + (ee*complex(0,1)*G**2)/(18.*cmath.pi**2)'},
+                        order = {'QCD':2,'QED':1})
 
-UVGC_455_100 = Coupling(name = 'UVGC_455_100',
+UVGC_469_102 = Coupling(name = 'UVGC_469_102',
                         value = {-1:'( -(complex(0,1)*G**3)/(6.*cmath.pi**2) if MT else (complex(0,1)*G**3)/(12.*cmath.pi**2) )',0:'( (-5*complex(0,1)*G**3)/(12.*cmath.pi**2) + (complex(0,1)*G**3*reglog(MT/MU_R))/(2.*cmath.pi**2) if MT else -(complex(0,1)*G**3)/(12.*cmath.pi**2) ) + (complex(0,1)*G**3)/(12.*cmath.pi**2)'},
                         order = {'QCD':3})
 
-UVGC_456_101 = Coupling(name = 'UVGC_456_101',
+UVGC_470_103 = Coupling(name = 'UVGC_470_103',
                         value = {-1:'( (complex(0,1)*G**2*MT)/(6.*cmath.pi**2) if MT else -(complex(0,1)*G**2*MT)/(12.*cmath.pi**2) ) + (complex(0,1)*G**2*MT)/(3.*cmath.pi**2)',0:'( (3*complex(0,1)*G**2*MT)/(4.*cmath.pi**2) - (complex(0,1)*G**2*MT*reglog(MT/MU_R))/cmath.pi**2 if MT else (complex(0,1)*G**2*MT)/(12.*cmath.pi**2) ) - (complex(0,1)*G**2*MT)/(12.*cmath.pi**2)'},
                         order = {'QCD':2})
 
-UVGC_457_102 = Coupling(name = 'UVGC_457_102',
+UVGC_471_104 = Coupling(name = 'UVGC_471_104',
                         value = {-1:'( -(CKM3x3*ee*complex(0,1)*G**2)/(12.*cmath.pi**2*sw*cmath.sqrt(2)) if MB else (CKM3x3*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw*cmath.sqrt(2)) )',0:'( (-5*CKM3x3*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw*cmath.sqrt(2)) + (CKM3x3*ee*complex(0,1)*G**2*reglog(MB/MU_R))/(4.*cmath.pi**2*sw*cmath.sqrt(2)) if MB else -(CKM3x3*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw*cmath.sqrt(2)) ) + (CKM3x3*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw*cmath.sqrt(2))'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_457_103 = Coupling(name = 'UVGC_457_103',
+UVGC_471_105 = Coupling(name = 'UVGC_471_105',
                         value = {-1:'( -(CKM3x3*ee*complex(0,1)*G**2)/(12.*cmath.pi**2*sw*cmath.sqrt(2)) if MT else (CKM3x3*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw*cmath.sqrt(2)) )',0:'( (-5*CKM3x3*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw*cmath.sqrt(2)) + (CKM3x3*ee*complex(0,1)*G**2*reglog(MT/MU_R))/(4.*cmath.pi**2*sw*cmath.sqrt(2)) if MT else -(CKM3x3*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw*cmath.sqrt(2)) ) + (CKM3x3*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw*cmath.sqrt(2))'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_457_104 = Coupling(name = 'UVGC_457_104',
+UVGC_471_106 = Coupling(name = 'UVGC_471_106',
                         value = {-1:'-(CKM3x3*ee*complex(0,1)*G**2)/(12.*cmath.pi**2*sw*cmath.sqrt(2))'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_458_105 = Coupling(name = 'UVGC_458_105',
-                        value = {-1:'( -(cw*ee*complex(0,1)*G**2)/(12.*cmath.pi**2*sw) + (ee*complex(0,1)*G**2*sw)/(36.*cw*cmath.pi**2) if MT else (cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) - (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2) ) - (cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) + (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2)',0:'( (-5*cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) + (5*ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2) + (cw*ee*complex(0,1)*G**2*reglog(MT/MU_R))/(4.*cmath.pi**2*sw) - (ee*complex(0,1)*G**2*sw*reglog(MT/MU_R))/(12.*cw*cmath.pi**2) if MT else -(cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) + (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2) ) + (cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) - (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2)'},
+UVGC_472_107 = Coupling(name = 'UVGC_472_107',
+                        value = {-1:'( -(cw*ee*complex(0,1)*G**2)/(12.*cmath.pi**2*sw) if MT else (cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) ) - (cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw)',0:'( (-5*cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) + (cw*ee*complex(0,1)*G**2*reglog(MT/MU_R))/(4.*cmath.pi**2*sw) if MT else -(cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) ) + (cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw)'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_459_106 = Coupling(name = 'UVGC_459_106',
-                        value = {-1:'( (ee*complex(0,1)*G**2*sw)/(9.*cw*cmath.pi**2) if MT else -(ee*complex(0,1)*G**2*sw)/(18.*cw*cmath.pi**2) ) + (ee*complex(0,1)*G**2*sw)/(18.*cw*cmath.pi**2)',0:'( (5*ee*complex(0,1)*G**2*sw)/(18.*cw*cmath.pi**2) - (ee*complex(0,1)*G**2*sw*reglog(MT/MU_R))/(3.*cw*cmath.pi**2) if MT else (ee*complex(0,1)*G**2*sw)/(18.*cw*cmath.pi**2) ) - (ee*complex(0,1)*G**2*sw)/(18.*cw*cmath.pi**2)'},
+UVGC_473_108 = Coupling(name = 'UVGC_473_108',
+                        value = {-1:'( (ee*complex(0,1)*G**2*sw)/(36.*cw*cmath.pi**2) if MT else -(ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2) ) + (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2)',0:'( (5*ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2) - (ee*complex(0,1)*G**2*sw*reglog(MT/MU_R))/(12.*cw*cmath.pi**2) if MT else (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2) ) - (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2)'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_460_107 = Coupling(name = 'UVGC_460_107',
+UVGC_474_109 = Coupling(name = 'UVGC_474_109',
                         value = {-1:'( (CKM3x3*complex(0,1)*G**2*yb)/(12.*cmath.pi**2) if MB else -(CKM3x3*complex(0,1)*G**2*yb)/(24.*cmath.pi**2) )',0:'( (13*CKM3x3*complex(0,1)*G**2*yb)/(24.*cmath.pi**2) - (3*CKM3x3*complex(0,1)*G**2*yb*reglog(MB/MU_R))/(4.*cmath.pi**2) if MB else (CKM3x3*complex(0,1)*G**2*yb)/(24.*cmath.pi**2) ) - (CKM3x3*complex(0,1)*G**2*yb)/(24.*cmath.pi**2)'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_460_108 = Coupling(name = 'UVGC_460_108',
+UVGC_474_110 = Coupling(name = 'UVGC_474_110',
                         value = {-1:'( (CKM3x3*complex(0,1)*G**2*yb)/(12.*cmath.pi**2) if MT else -(CKM3x3*complex(0,1)*G**2*yb)/(24.*cmath.pi**2) )',0:'( (5*CKM3x3*complex(0,1)*G**2*yb)/(24.*cmath.pi**2) - (CKM3x3*complex(0,1)*G**2*yb*reglog(MT/MU_R))/(4.*cmath.pi**2) if MT else (CKM3x3*complex(0,1)*G**2*yb)/(24.*cmath.pi**2) ) - (CKM3x3*complex(0,1)*G**2*yb)/(24.*cmath.pi**2)'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_460_109 = Coupling(name = 'UVGC_460_109',
+UVGC_474_111 = Coupling(name = 'UVGC_474_111',
                         value = {-1:'(CKM3x3*complex(0,1)*G**2*yb)/(3.*cmath.pi**2)'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_461_110 = Coupling(name = 'UVGC_461_110',
+UVGC_475_112 = Coupling(name = 'UVGC_475_112',
                         value = {-1:'( (G**2*yt)/(6.*cmath.pi**2*cmath.sqrt(2)) if MT else -(G**2*yt)/(12.*cmath.pi**2*cmath.sqrt(2)) ) + (G**2*yt)/(3.*cmath.pi**2*cmath.sqrt(2))',0:'( (3*G**2*yt)/(4.*cmath.pi**2*cmath.sqrt(2)) - (G**2*yt*reglog(MT/MU_R))/(cmath.pi**2*cmath.sqrt(2)) if MT else (G**2*yt)/(12.*cmath.pi**2*cmath.sqrt(2)) ) - (G**2*yt)/(12.*cmath.pi**2*cmath.sqrt(2))'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_462_111 = Coupling(name = 'UVGC_462_111',
+UVGC_476_113 = Coupling(name = 'UVGC_476_113',
                         value = {-1:'( (cab*complex(0,1)*G**2*yt)/(6.*cmath.pi**2*cmath.sqrt(2)) if MT else -(cab*complex(0,1)*G**2*yt)/(12.*cmath.pi**2*cmath.sqrt(2)) ) + (cab*complex(0,1)*G**2*yt)/(3.*cmath.pi**2*cmath.sqrt(2))',0:'( (3*cab*complex(0,1)*G**2*yt)/(4.*cmath.pi**2*cmath.sqrt(2)) - (cab*complex(0,1)*G**2*yt*reglog(MT/MU_R))/(cmath.pi**2*cmath.sqrt(2)) if MT else (cab*complex(0,1)*G**2*yt)/(12.*cmath.pi**2*cmath.sqrt(2)) ) - (cab*complex(0,1)*G**2*yt)/(12.*cmath.pi**2*cmath.sqrt(2))'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_463_112 = Coupling(name = 'UVGC_463_112',
+UVGC_477_114 = Coupling(name = 'UVGC_477_114',
                         value = {-1:'( -(CKM3x3*complex(0,1)*G**2*yt)/(12.*cmath.pi**2) if MB else (CKM3x3*complex(0,1)*G**2*yt)/(24.*cmath.pi**2) )',0:'( (-5*CKM3x3*complex(0,1)*G**2*yt)/(24.*cmath.pi**2) + (CKM3x3*complex(0,1)*G**2*yt*reglog(MB/MU_R))/(4.*cmath.pi**2) if MB else -(CKM3x3*complex(0,1)*G**2*yt)/(24.*cmath.pi**2) ) + (CKM3x3*complex(0,1)*G**2*yt)/(24.*cmath.pi**2)'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_463_113 = Coupling(name = 'UVGC_463_113',
+UVGC_477_115 = Coupling(name = 'UVGC_477_115',
                         value = {-1:'( -(CKM3x3*complex(0,1)*G**2*yt)/(12.*cmath.pi**2) if MT else (CKM3x3*complex(0,1)*G**2*yt)/(24.*cmath.pi**2) )',0:'( (-13*CKM3x3*complex(0,1)*G**2*yt)/(24.*cmath.pi**2) + (3*CKM3x3*complex(0,1)*G**2*yt*reglog(MT/MU_R))/(4.*cmath.pi**2) if MT else -(CKM3x3*complex(0,1)*G**2*yt)/(24.*cmath.pi**2) ) + (CKM3x3*complex(0,1)*G**2*yt)/(24.*cmath.pi**2)'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_463_114 = Coupling(name = 'UVGC_463_114',
+UVGC_477_116 = Coupling(name = 'UVGC_477_116',
                         value = {-1:'-(CKM3x3*complex(0,1)*G**2*yt)/(3.*cmath.pi**2)'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_464_115 = Coupling(name = 'UVGC_464_115',
+UVGC_478_117 = Coupling(name = 'UVGC_478_117',
                         value = {-1:'( -(complex(0,1)*G**2*sab*yt)/(6.*cmath.pi**2*cmath.sqrt(2)) if MT else (complex(0,1)*G**2*sab*yt)/(12.*cmath.pi**2*cmath.sqrt(2)) ) - (complex(0,1)*G**2*sab*yt)/(3.*cmath.pi**2*cmath.sqrt(2))',0:'( (-3*complex(0,1)*G**2*sab*yt)/(4.*cmath.pi**2*cmath.sqrt(2)) + (complex(0,1)*G**2*sab*yt*reglog(MT/MU_R))/(cmath.pi**2*cmath.sqrt(2)) if MT else -(complex(0,1)*G**2*sab*yt)/(12.*cmath.pi**2*cmath.sqrt(2)) ) + (complex(0,1)*G**2*sab*yt)/(12.*cmath.pi**2*cmath.sqrt(2))'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_465_116 = Coupling(name = 'UVGC_465_116',
+UVGC_479_118 = Coupling(name = 'UVGC_479_118',
                         value = {-1:'( -(ee*complex(0,1)*G**2*complexconjugate(CKM3x3))/(12.*cmath.pi**2*sw*cmath.sqrt(2)) if MB else (ee*complex(0,1)*G**2*complexconjugate(CKM3x3))/(24.*cmath.pi**2*sw*cmath.sqrt(2)) )',0:'( (-5*ee*complex(0,1)*G**2*complexconjugate(CKM3x3))/(24.*cmath.pi**2*sw*cmath.sqrt(2)) + (ee*complex(0,1)*G**2*complexconjugate(CKM3x3)*reglog(MB/MU_R))/(4.*cmath.pi**2*sw*cmath.sqrt(2)) if MB else -(ee*complex(0,1)*G**2*complexconjugate(CKM3x3))/(24.*cmath.pi**2*sw*cmath.sqrt(2)) ) + (ee*complex(0,1)*G**2*complexconjugate(CKM3x3))/(24.*cmath.pi**2*sw*cmath.sqrt(2))'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_465_117 = Coupling(name = 'UVGC_465_117',
+UVGC_479_119 = Coupling(name = 'UVGC_479_119',
                         value = {-1:'( -(ee*complex(0,1)*G**2*complexconjugate(CKM3x3))/(12.*cmath.pi**2*sw*cmath.sqrt(2)) if MT else (ee*complex(0,1)*G**2*complexconjugate(CKM3x3))/(24.*cmath.pi**2*sw*cmath.sqrt(2)) )',0:'( (-5*ee*complex(0,1)*G**2*complexconjugate(CKM3x3))/(24.*cmath.pi**2*sw*cmath.sqrt(2)) + (ee*complex(0,1)*G**2*complexconjugate(CKM3x3)*reglog(MT/MU_R))/(4.*cmath.pi**2*sw*cmath.sqrt(2)) if MT else -(ee*complex(0,1)*G**2*complexconjugate(CKM3x3))/(24.*cmath.pi**2*sw*cmath.sqrt(2)) ) + (ee*complex(0,1)*G**2*complexconjugate(CKM3x3))/(24.*cmath.pi**2*sw*cmath.sqrt(2))'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_465_118 = Coupling(name = 'UVGC_465_118',
+UVGC_479_120 = Coupling(name = 'UVGC_479_120',
                         value = {-1:'-(ee*complex(0,1)*G**2*complexconjugate(CKM3x3))/(12.*cmath.pi**2*sw*cmath.sqrt(2))'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_466_119 = Coupling(name = 'UVGC_466_119',
+UVGC_480_121 = Coupling(name = 'UVGC_480_121',
                         value = {-1:'( (complex(0,1)*G**2*yb*complexconjugate(CKM3x3))/(12.*cmath.pi**2) if MB else -(complex(0,1)*G**2*yb*complexconjugate(CKM3x3))/(24.*cmath.pi**2) )',0:'( (13*complex(0,1)*G**2*yb*complexconjugate(CKM3x3))/(24.*cmath.pi**2) - (3*complex(0,1)*G**2*yb*complexconjugate(CKM3x3)*reglog(MB/MU_R))/(4.*cmath.pi**2) if MB else (complex(0,1)*G**2*yb*complexconjugate(CKM3x3))/(24.*cmath.pi**2) ) - (complex(0,1)*G**2*yb*complexconjugate(CKM3x3))/(24.*cmath.pi**2)'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_466_120 = Coupling(name = 'UVGC_466_120',
+UVGC_480_122 = Coupling(name = 'UVGC_480_122',
                         value = {-1:'( (complex(0,1)*G**2*yb*complexconjugate(CKM3x3))/(12.*cmath.pi**2) if MT else -(complex(0,1)*G**2*yb*complexconjugate(CKM3x3))/(24.*cmath.pi**2) )',0:'( (5*complex(0,1)*G**2*yb*complexconjugate(CKM3x3))/(24.*cmath.pi**2) - (complex(0,1)*G**2*yb*complexconjugate(CKM3x3)*reglog(MT/MU_R))/(4.*cmath.pi**2) if MT else (complex(0,1)*G**2*yb*complexconjugate(CKM3x3))/(24.*cmath.pi**2) ) - (complex(0,1)*G**2*yb*complexconjugate(CKM3x3))/(24.*cmath.pi**2)'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_466_121 = Coupling(name = 'UVGC_466_121',
+UVGC_480_123 = Coupling(name = 'UVGC_480_123',
                         value = {-1:'(complex(0,1)*G**2*yb*complexconjugate(CKM3x3))/(3.*cmath.pi**2)'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_467_122 = Coupling(name = 'UVGC_467_122',
+UVGC_481_124 = Coupling(name = 'UVGC_481_124',
                         value = {-1:'( -(complex(0,1)*G**2*yt*complexconjugate(CKM3x3))/(12.*cmath.pi**2) if MB else (complex(0,1)*G**2*yt*complexconjugate(CKM3x3))/(24.*cmath.pi**2) )',0:'( (-5*complex(0,1)*G**2*yt*complexconjugate(CKM3x3))/(24.*cmath.pi**2) + (complex(0,1)*G**2*yt*complexconjugate(CKM3x3)*reglog(MB/MU_R))/(4.*cmath.pi**2) if MB else -(complex(0,1)*G**2*yt*complexconjugate(CKM3x3))/(24.*cmath.pi**2) ) + (complex(0,1)*G**2*yt*complexconjugate(CKM3x3))/(24.*cmath.pi**2)'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_467_123 = Coupling(name = 'UVGC_467_123',
+UVGC_481_125 = Coupling(name = 'UVGC_481_125',
                         value = {-1:'( -(complex(0,1)*G**2*yt*complexconjugate(CKM3x3))/(12.*cmath.pi**2) if MT else (complex(0,1)*G**2*yt*complexconjugate(CKM3x3))/(24.*cmath.pi**2) )',0:'( (-13*complex(0,1)*G**2*yt*complexconjugate(CKM3x3))/(24.*cmath.pi**2) + (3*complex(0,1)*G**2*yt*complexconjugate(CKM3x3)*reglog(MT/MU_R))/(4.*cmath.pi**2) if MT else -(complex(0,1)*G**2*yt*complexconjugate(CKM3x3))/(24.*cmath.pi**2) ) + (complex(0,1)*G**2*yt*complexconjugate(CKM3x3))/(24.*cmath.pi**2)'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_467_124 = Coupling(name = 'UVGC_467_124',
+UVGC_481_126 = Coupling(name = 'UVGC_481_126',
                         value = {-1:'-(complex(0,1)*G**2*yt*complexconjugate(CKM3x3))/(3.*cmath.pi**2)'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_468_125 = Coupling(name = 'UVGC_468_125',
-                        value = {-1:'( 0 if MB else -(complex(0,1)*G**2)/(24.*cmath.pi**2) ) + (complex(0,1)*G**2)/(24.*cmath.pi**2)',0:'( -(complex(0,1)*G**2*reglog(MB/MU_R))/(12.*cmath.pi**2) if MB else 0 )'},
-                        order = {'QCD':2})
-
-UVGC_468_126 = Coupling(name = 'UVGC_468_126',
-                        value = {-1:'( 0 if MC else -(complex(0,1)*G**2)/(24.*cmath.pi**2) ) + (complex(0,1)*G**2)/(24.*cmath.pi**2)',0:'( -(complex(0,1)*G**2*reglog(MC/MU_R))/(12.*cmath.pi**2) if MC else 0 )'},
-                        order = {'QCD':2})
-
-UVGC_468_127 = Coupling(name = 'UVGC_468_127',
-                        value = {-1:'( 0 if MD else -(complex(0,1)*G**2)/(24.*cmath.pi**2) ) + (complex(0,1)*G**2)/(24.*cmath.pi**2)',0:'( -(complex(0,1)*G**2*reglog(MD/MU_R))/(12.*cmath.pi**2) if MD else 0 )'},
-                        order = {'QCD':2})
-
-UVGC_468_128 = Coupling(name = 'UVGC_468_128',
-                        value = {-1:'( 0 if MS else -(complex(0,1)*G**2)/(24.*cmath.pi**2) ) + (complex(0,1)*G**2)/(24.*cmath.pi**2)',0:'( -(complex(0,1)*G**2*reglog(MS/MU_R))/(12.*cmath.pi**2) if MS else 0 )'},
-                        order = {'QCD':2})
-
-UVGC_468_129 = Coupling(name = 'UVGC_468_129',
-                        value = {-1:'( 0 if MT else -(complex(0,1)*G**2)/(24.*cmath.pi**2) ) + (complex(0,1)*G**2)/(24.*cmath.pi**2)',0:'( -(complex(0,1)*G**2*reglog(MT/MU_R))/(12.*cmath.pi**2) if MT else 0 )'},
-                        order = {'QCD':2})
-
-UVGC_468_130 = Coupling(name = 'UVGC_468_130',
-                        value = {-1:'( 0 if MU else -(complex(0,1)*G**2)/(24.*cmath.pi**2) ) + (complex(0,1)*G**2)/(24.*cmath.pi**2)',0:'( -(complex(0,1)*G**2*reglog(MU/MU_R))/(12.*cmath.pi**2) if MU else 0 )'},
-                        order = {'QCD':2})
-
-UVGC_469_131 = Coupling(name = 'UVGC_469_131',
+UVGC_482_127 = Coupling(name = 'UVGC_482_127',
                         value = {-1:'( 0 if MB else (complex(0,1)*G**2)/(24.*cmath.pi**2) ) - (complex(0,1)*G**2)/(24.*cmath.pi**2)',0:'( (complex(0,1)*G**2*reglog(MB/MU_R))/(12.*cmath.pi**2) if MB else 0 )'},
                         order = {'QCD':2})
 
-UVGC_469_132 = Coupling(name = 'UVGC_469_132',
+UVGC_482_128 = Coupling(name = 'UVGC_482_128',
                         value = {-1:'( 0 if MC else (complex(0,1)*G**2)/(24.*cmath.pi**2) ) - (complex(0,1)*G**2)/(24.*cmath.pi**2)',0:'( (complex(0,1)*G**2*reglog(MC/MU_R))/(12.*cmath.pi**2) if MC else 0 )'},
                         order = {'QCD':2})
 
-UVGC_469_133 = Coupling(name = 'UVGC_469_133',
+UVGC_482_129 = Coupling(name = 'UVGC_482_129',
                         value = {-1:'( 0 if MD else (complex(0,1)*G**2)/(24.*cmath.pi**2) ) - (complex(0,1)*G**2)/(24.*cmath.pi**2)',0:'( (complex(0,1)*G**2*reglog(MD/MU_R))/(12.*cmath.pi**2) if MD else 0 )'},
                         order = {'QCD':2})
 
-UVGC_469_134 = Coupling(name = 'UVGC_469_134',
-                        value = {-1:'(3*complex(0,1)*G**2)/(64.*cmath.pi**2)'},
-                        order = {'QCD':2})
-
-UVGC_469_135 = Coupling(name = 'UVGC_469_135',
-                        value = {-1:'(-3*complex(0,1)*G**2)/(64.*cmath.pi**2)'},
-                        order = {'QCD':2})
-
-UVGC_469_136 = Coupling(name = 'UVGC_469_136',
+UVGC_482_130 = Coupling(name = 'UVGC_482_130',
                         value = {-1:'( 0 if MS else (complex(0,1)*G**2)/(24.*cmath.pi**2) ) - (complex(0,1)*G**2)/(24.*cmath.pi**2)',0:'( (complex(0,1)*G**2*reglog(MS/MU_R))/(12.*cmath.pi**2) if MS else 0 )'},
                         order = {'QCD':2})
 
-UVGC_469_137 = Coupling(name = 'UVGC_469_137',
+UVGC_482_131 = Coupling(name = 'UVGC_482_131',
                         value = {-1:'( 0 if MT else (complex(0,1)*G**2)/(24.*cmath.pi**2) ) - (complex(0,1)*G**2)/(24.*cmath.pi**2)',0:'( (complex(0,1)*G**2*reglog(MT/MU_R))/(12.*cmath.pi**2) if MT else 0 )'},
                         order = {'QCD':2})
 
-UVGC_469_138 = Coupling(name = 'UVGC_469_138',
+UVGC_482_132 = Coupling(name = 'UVGC_482_132',
                         value = {-1:'( 0 if MU else (complex(0,1)*G**2)/(24.*cmath.pi**2) ) - (complex(0,1)*G**2)/(24.*cmath.pi**2)',0:'( (complex(0,1)*G**2*reglog(MU/MU_R))/(12.*cmath.pi**2) if MU else 0 )'},
                         order = {'QCD':2})
 
-UVGC_470_139 = Coupling(name = 'UVGC_470_139',
+UVGC_483_133 = Coupling(name = 'UVGC_483_133',
                         value = {-1:'( 0 if MB else -G**3/(16.*cmath.pi**2) ) + G**3/(24.*cmath.pi**2)',0:'( -(G**3*reglog(MB/MU_R))/(12.*cmath.pi**2) if MB else 0 )'},
                         order = {'QCD':3})
 
-UVGC_470_140 = Coupling(name = 'UVGC_470_140',
+UVGC_483_134 = Coupling(name = 'UVGC_483_134',
                         value = {-1:'( 0 if MC else -G**3/(16.*cmath.pi**2) ) + G**3/(24.*cmath.pi**2)',0:'( -(G**3*reglog(MC/MU_R))/(12.*cmath.pi**2) if MC else 0 )'},
                         order = {'QCD':3})
 
-UVGC_470_141 = Coupling(name = 'UVGC_470_141',
+UVGC_483_135 = Coupling(name = 'UVGC_483_135',
                         value = {-1:'( 0 if MD else -G**3/(16.*cmath.pi**2) ) + G**3/(24.*cmath.pi**2)',0:'( -(G**3*reglog(MD/MU_R))/(12.*cmath.pi**2) if MD else 0 )'},
                         order = {'QCD':3})
 
-UVGC_470_142 = Coupling(name = 'UVGC_470_142',
+UVGC_483_136 = Coupling(name = 'UVGC_483_136',
                         value = {-1:'( 0 if MS else -G**3/(16.*cmath.pi**2) ) + G**3/(24.*cmath.pi**2)',0:'( -(G**3*reglog(MS/MU_R))/(12.*cmath.pi**2) if MS else 0 )'},
                         order = {'QCD':3})
 
-UVGC_470_143 = Coupling(name = 'UVGC_470_143',
+UVGC_483_137 = Coupling(name = 'UVGC_483_137',
                         value = {-1:'( 0 if MT else -G**3/(16.*cmath.pi**2) ) + G**3/(24.*cmath.pi**2)',0:'( -(G**3*reglog(MT/MU_R))/(12.*cmath.pi**2) if MT else 0 )'},
                         order = {'QCD':3})
 
-UVGC_470_144 = Coupling(name = 'UVGC_470_144',
+UVGC_483_138 = Coupling(name = 'UVGC_483_138',
                         value = {-1:'( 0 if MU else -G**3/(16.*cmath.pi**2) ) + G**3/(24.*cmath.pi**2)',0:'( -(G**3*reglog(MU/MU_R))/(12.*cmath.pi**2) if MU else 0 )'},
                         order = {'QCD':3})
 
-UVGC_471_145 = Coupling(name = 'UVGC_471_145',
+UVGC_484_139 = Coupling(name = 'UVGC_484_139',
                         value = {-1:'( 0 if MB else -(complex(0,1)*G**4)/(12.*cmath.pi**2) )',0:'( -(complex(0,1)*G**4*reglog(MB/MU_R))/(12.*cmath.pi**2) if MB else 0 )'},
                         order = {'QCD':4})
 
-UVGC_471_146 = Coupling(name = 'UVGC_471_146',
+UVGC_484_140 = Coupling(name = 'UVGC_484_140',
                         value = {-1:'( 0 if MC else -(complex(0,1)*G**4)/(12.*cmath.pi**2) )',0:'( -(complex(0,1)*G**4*reglog(MC/MU_R))/(12.*cmath.pi**2) if MC else 0 )'},
                         order = {'QCD':4})
 
-UVGC_471_147 = Coupling(name = 'UVGC_471_147',
+UVGC_484_141 = Coupling(name = 'UVGC_484_141',
                         value = {-1:'( 0 if MD else -(complex(0,1)*G**4)/(12.*cmath.pi**2) )',0:'( -(complex(0,1)*G**4*reglog(MD/MU_R))/(12.*cmath.pi**2) if MD else 0 )'},
                         order = {'QCD':4})
 
-UVGC_471_148 = Coupling(name = 'UVGC_471_148',
+UVGC_484_142 = Coupling(name = 'UVGC_484_142',
                         value = {-1:'(523*complex(0,1)*G**4)/(512.*cmath.pi**2)'},
                         order = {'QCD':4})
 
-UVGC_471_149 = Coupling(name = 'UVGC_471_149',
+UVGC_484_143 = Coupling(name = 'UVGC_484_143',
                         value = {-1:'(13*complex(0,1)*G**4)/(512.*cmath.pi**2)'},
                         order = {'QCD':4})
 
-UVGC_471_150 = Coupling(name = 'UVGC_471_150',
+UVGC_484_144 = Coupling(name = 'UVGC_484_144',
                         value = {-1:'( 0 if MS else -(complex(0,1)*G**4)/(12.*cmath.pi**2) )',0:'( -(complex(0,1)*G**4*reglog(MS/MU_R))/(12.*cmath.pi**2) if MS else 0 )'},
                         order = {'QCD':4})
 
-UVGC_471_151 = Coupling(name = 'UVGC_471_151',
+UVGC_484_145 = Coupling(name = 'UVGC_484_145',
                         value = {-1:'( 0 if MT else -(complex(0,1)*G**4)/(12.*cmath.pi**2) )',0:'( -(complex(0,1)*G**4*reglog(MT/MU_R))/(12.*cmath.pi**2) if MT else 0 )'},
                         order = {'QCD':4})
 
-UVGC_471_152 = Coupling(name = 'UVGC_471_152',
+UVGC_484_146 = Coupling(name = 'UVGC_484_146',
                         value = {-1:'( 0 if MU else -(complex(0,1)*G**4)/(12.*cmath.pi**2) )',0:'( -(complex(0,1)*G**4*reglog(MU/MU_R))/(12.*cmath.pi**2) if MU else 0 )'},
                         order = {'QCD':4})
 
-UVGC_472_153 = Coupling(name = 'UVGC_472_153',
+UVGC_485_147 = Coupling(name = 'UVGC_485_147',
                         value = {-1:'( 0 if MB else -(complex(0,1)*G**4)/(12.*cmath.pi**2) ) + (complex(0,1)*G**4)/(12.*cmath.pi**2)',0:'( -(complex(0,1)*G**4*reglog(MB/MU_R))/(12.*cmath.pi**2) if MB else 0 )'},
                         order = {'QCD':4})
 
-UVGC_472_154 = Coupling(name = 'UVGC_472_154',
+UVGC_485_148 = Coupling(name = 'UVGC_485_148',
                         value = {-1:'( 0 if MC else -(complex(0,1)*G**4)/(12.*cmath.pi**2) ) + (complex(0,1)*G**4)/(12.*cmath.pi**2)',0:'( -(complex(0,1)*G**4*reglog(MC/MU_R))/(12.*cmath.pi**2) if MC else 0 )'},
                         order = {'QCD':4})
 
-UVGC_472_155 = Coupling(name = 'UVGC_472_155',
+UVGC_485_149 = Coupling(name = 'UVGC_485_149',
                         value = {-1:'( 0 if MD else -(complex(0,1)*G**4)/(12.*cmath.pi**2) ) + (complex(0,1)*G**4)/(12.*cmath.pi**2)',0:'( -(complex(0,1)*G**4*reglog(MD/MU_R))/(12.*cmath.pi**2) if MD else 0 )'},
                         order = {'QCD':4})
 
-UVGC_472_156 = Coupling(name = 'UVGC_472_156',
+UVGC_485_150 = Coupling(name = 'UVGC_485_150',
                         value = {-1:'(147*complex(0,1)*G**4)/(128.*cmath.pi**2)'},
                         order = {'QCD':4})
 
-UVGC_472_157 = Coupling(name = 'UVGC_472_157',
+UVGC_485_151 = Coupling(name = 'UVGC_485_151',
                         value = {-1:'(3*complex(0,1)*G**4)/(128.*cmath.pi**2)'},
                         order = {'QCD':4})
 
-UVGC_472_158 = Coupling(name = 'UVGC_472_158',
+UVGC_485_152 = Coupling(name = 'UVGC_485_152',
                         value = {-1:'( 0 if MS else -(complex(0,1)*G**4)/(12.*cmath.pi**2) ) + (complex(0,1)*G**4)/(12.*cmath.pi**2)',0:'( -(complex(0,1)*G**4*reglog(MS/MU_R))/(12.*cmath.pi**2) if MS else 0 )'},
                         order = {'QCD':4})
 
-UVGC_472_159 = Coupling(name = 'UVGC_472_159',
+UVGC_485_153 = Coupling(name = 'UVGC_485_153',
                         value = {-1:'( 0 if MT else -(complex(0,1)*G**4)/(12.*cmath.pi**2) ) + (complex(0,1)*G**4)/(12.*cmath.pi**2)',0:'( -(complex(0,1)*G**4*reglog(MT/MU_R))/(12.*cmath.pi**2) if MT else 0 )'},
                         order = {'QCD':4})
 
-UVGC_472_160 = Coupling(name = 'UVGC_472_160',
+UVGC_485_154 = Coupling(name = 'UVGC_485_154',
                         value = {-1:'( 0 if MU else -(complex(0,1)*G**4)/(12.*cmath.pi**2) ) + (complex(0,1)*G**4)/(12.*cmath.pi**2)',0:'( -(complex(0,1)*G**4*reglog(MU/MU_R))/(12.*cmath.pi**2) if MU else 0 )'},
                         order = {'QCD':4})
 
-UVGC_473_161 = Coupling(name = 'UVGC_473_161',
+UVGC_486_155 = Coupling(name = 'UVGC_486_155',
                         value = {-1:'(147*complex(0,1)*G**4)/(512.*cmath.pi**2)'},
                         order = {'QCD':4})
 
-UVGC_473_162 = Coupling(name = 'UVGC_473_162',
+UVGC_486_156 = Coupling(name = 'UVGC_486_156',
                         value = {-1:'(21*complex(0,1)*G**4)/(512.*cmath.pi**2)'},
                         order = {'QCD':4})
 
-UVGC_474_163 = Coupling(name = 'UVGC_474_163',
+UVGC_487_157 = Coupling(name = 'UVGC_487_157',
                         value = {-1:'( 0 if MB else (complex(0,1)*G**4)/(12.*cmath.pi**2) )',0:'( (complex(0,1)*G**4*reglog(MB/MU_R))/(12.*cmath.pi**2) if MB else 0 )'},
                         order = {'QCD':4})
 
-UVGC_474_164 = Coupling(name = 'UVGC_474_164',
+UVGC_487_158 = Coupling(name = 'UVGC_487_158',
                         value = {-1:'( 0 if MC else (complex(0,1)*G**4)/(12.*cmath.pi**2) )',0:'( (complex(0,1)*G**4*reglog(MC/MU_R))/(12.*cmath.pi**2) if MC else 0 )'},
                         order = {'QCD':4})
 
-UVGC_474_165 = Coupling(name = 'UVGC_474_165',
+UVGC_487_159 = Coupling(name = 'UVGC_487_159',
                         value = {-1:'( 0 if MD else (complex(0,1)*G**4)/(12.*cmath.pi**2) )',0:'( (complex(0,1)*G**4*reglog(MD/MU_R))/(12.*cmath.pi**2) if MD else 0 )'},
                         order = {'QCD':4})
 
-UVGC_474_166 = Coupling(name = 'UVGC_474_166',
+UVGC_487_160 = Coupling(name = 'UVGC_487_160',
                         value = {-1:'(-85*complex(0,1)*G**4)/(512.*cmath.pi**2)'},
                         order = {'QCD':4})
 
-UVGC_474_167 = Coupling(name = 'UVGC_474_167',
+UVGC_487_161 = Coupling(name = 'UVGC_487_161',
                         value = {-1:'(-19*complex(0,1)*G**4)/(512.*cmath.pi**2)'},
                         order = {'QCD':4})
 
-UVGC_474_168 = Coupling(name = 'UVGC_474_168',
+UVGC_487_162 = Coupling(name = 'UVGC_487_162',
                         value = {-1:'( 0 if MS else (complex(0,1)*G**4)/(12.*cmath.pi**2) )',0:'( (complex(0,1)*G**4*reglog(MS/MU_R))/(12.*cmath.pi**2) if MS else 0 )'},
                         order = {'QCD':4})
 
-UVGC_474_169 = Coupling(name = 'UVGC_474_169',
+UVGC_487_163 = Coupling(name = 'UVGC_487_163',
                         value = {-1:'( 0 if MT else (complex(0,1)*G**4)/(12.*cmath.pi**2) )',0:'( (complex(0,1)*G**4*reglog(MT/MU_R))/(12.*cmath.pi**2) if MT else 0 )'},
                         order = {'QCD':4})
 
-UVGC_474_170 = Coupling(name = 'UVGC_474_170',
+UVGC_487_164 = Coupling(name = 'UVGC_487_164',
                         value = {-1:'( 0 if MU else (complex(0,1)*G**4)/(12.*cmath.pi**2) )',0:'( (complex(0,1)*G**4*reglog(MU/MU_R))/(12.*cmath.pi**2) if MU else 0 )'},
                         order = {'QCD':4})
 
-UVGC_475_171 = Coupling(name = 'UVGC_475_171',
+UVGC_488_165 = Coupling(name = 'UVGC_488_165',
                         value = {-1:'( 0 if MB else (complex(0,1)*G**4)/(12.*cmath.pi**2) ) - (complex(0,1)*G**4)/(24.*cmath.pi**2)',0:'( (complex(0,1)*G**4*reglog(MB/MU_R))/(12.*cmath.pi**2) if MB else 0 )'},
                         order = {'QCD':4})
 
-UVGC_475_172 = Coupling(name = 'UVGC_475_172',
+UVGC_488_166 = Coupling(name = 'UVGC_488_166',
                         value = {-1:'( 0 if MC else (complex(0,1)*G**4)/(12.*cmath.pi**2) ) - (complex(0,1)*G**4)/(24.*cmath.pi**2)',0:'( (complex(0,1)*G**4*reglog(MC/MU_R))/(12.*cmath.pi**2) if MC else 0 )'},
                         order = {'QCD':4})
 
-UVGC_475_173 = Coupling(name = 'UVGC_475_173',
+UVGC_488_167 = Coupling(name = 'UVGC_488_167',
                         value = {-1:'( 0 if MD else (complex(0,1)*G**4)/(12.*cmath.pi**2) ) - (complex(0,1)*G**4)/(24.*cmath.pi**2)',0:'( (complex(0,1)*G**4*reglog(MD/MU_R))/(12.*cmath.pi**2) if MD else 0 )'},
                         order = {'QCD':4})
 
-UVGC_475_174 = Coupling(name = 'UVGC_475_174',
+UVGC_488_168 = Coupling(name = 'UVGC_488_168',
                         value = {-1:'(-341*complex(0,1)*G**4)/(512.*cmath.pi**2)'},
                         order = {'QCD':4})
 
-UVGC_475_175 = Coupling(name = 'UVGC_475_175',
+UVGC_488_169 = Coupling(name = 'UVGC_488_169',
                         value = {-1:'(-11*complex(0,1)*G**4)/(512.*cmath.pi**2)'},
                         order = {'QCD':4})
 
-UVGC_475_176 = Coupling(name = 'UVGC_475_176',
+UVGC_488_170 = Coupling(name = 'UVGC_488_170',
                         value = {-1:'( 0 if MS else (complex(0,1)*G**4)/(12.*cmath.pi**2) ) - (complex(0,1)*G**4)/(24.*cmath.pi**2)',0:'( (complex(0,1)*G**4*reglog(MS/MU_R))/(12.*cmath.pi**2) if MS else 0 )'},
                         order = {'QCD':4})
 
-UVGC_475_177 = Coupling(name = 'UVGC_475_177',
+UVGC_488_171 = Coupling(name = 'UVGC_488_171',
                         value = {-1:'( 0 if MT else (complex(0,1)*G**4)/(12.*cmath.pi**2) ) - (complex(0,1)*G**4)/(24.*cmath.pi**2)',0:'( (complex(0,1)*G**4*reglog(MT/MU_R))/(12.*cmath.pi**2) if MT else 0 )'},
                         order = {'QCD':4})
 
-UVGC_475_178 = Coupling(name = 'UVGC_475_178',
+UVGC_488_172 = Coupling(name = 'UVGC_488_172',
                         value = {-1:'( 0 if MU else (complex(0,1)*G**4)/(12.*cmath.pi**2) ) - (complex(0,1)*G**4)/(24.*cmath.pi**2)',0:'( (complex(0,1)*G**4*reglog(MU/MU_R))/(12.*cmath.pi**2) if MU else 0 )'},
                         order = {'QCD':4})
 
-UVGC_476_179 = Coupling(name = 'UVGC_476_179',
+UVGC_489_173 = Coupling(name = 'UVGC_489_173',
                         value = {-1:'(-83*complex(0,1)*G**4)/(128.*cmath.pi**2)'},
                         order = {'QCD':4})
 
-UVGC_476_180 = Coupling(name = 'UVGC_476_180',
+UVGC_489_174 = Coupling(name = 'UVGC_489_174',
                         value = {-1:'(-5*complex(0,1)*G**4)/(128.*cmath.pi**2)'},
                         order = {'QCD':4})
 
-UVGC_477_181 = Coupling(name = 'UVGC_477_181',
+UVGC_490_175 = Coupling(name = 'UVGC_490_175',
                         value = {-1:'( (complex(0,1)*G**2)/(6.*cmath.pi**2) if MU else -(complex(0,1)*G**2)/(12.*cmath.pi**2) ) + (complex(0,1)*G**2)/(12.*cmath.pi**2)',0:'( (5*complex(0,1)*G**2)/(12.*cmath.pi**2) - (complex(0,1)*G**2*reglog(MU/MU_R))/(2.*cmath.pi**2) if MU else (complex(0,1)*G**2)/(12.*cmath.pi**2) ) - (complex(0,1)*G**2)/(12.*cmath.pi**2)'},
                         order = {'QCD':2})
 
-UVGC_478_182 = Coupling(name = 'UVGC_478_182',
+UVGC_491_176 = Coupling(name = 'UVGC_491_176',
                         value = {-1:'( -(ee*complex(0,1)*G**2)/(9.*cmath.pi**2) if MU else (ee*complex(0,1)*G**2)/(18.*cmath.pi**2) )',0:'( (-5*ee*complex(0,1)*G**2)/(18.*cmath.pi**2) + (ee*complex(0,1)*G**2*reglog(MU/MU_R))/(3.*cmath.pi**2) if MU else -(ee*complex(0,1)*G**2)/(18.*cmath.pi**2) ) + (ee*complex(0,1)*G**2)/(18.*cmath.pi**2)'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_479_183 = Coupling(name = 'UVGC_479_183',
+UVGC_492_177 = Coupling(name = 'UVGC_492_177',
                         value = {-1:'( -(complex(0,1)*G**3)/(6.*cmath.pi**2) if MU else (complex(0,1)*G**3)/(12.*cmath.pi**2) )',0:'( (-5*complex(0,1)*G**3)/(12.*cmath.pi**2) + (complex(0,1)*G**3*reglog(MU/MU_R))/(2.*cmath.pi**2) if MU else -(complex(0,1)*G**3)/(12.*cmath.pi**2) ) + (complex(0,1)*G**3)/(12.*cmath.pi**2)'},
                         order = {'QCD':3})
 
-UVGC_480_184 = Coupling(name = 'UVGC_480_184',
+UVGC_493_178 = Coupling(name = 'UVGC_493_178',
                         value = {-1:'( (complex(0,1)*G**2*MU)/(6.*cmath.pi**2) if MU else -(complex(0,1)*G**2*MU)/(12.*cmath.pi**2) ) + (complex(0,1)*G**2*MU)/(3.*cmath.pi**2)',0:'( (3*complex(0,1)*G**2*MU)/(4.*cmath.pi**2) - (complex(0,1)*G**2*MU*reglog(MU/MU_R))/cmath.pi**2 if MU else (complex(0,1)*G**2*MU)/(12.*cmath.pi**2) ) - (complex(0,1)*G**2*MU)/(12.*cmath.pi**2)'},
                         order = {'QCD':2})
 
-UVGC_481_185 = Coupling(name = 'UVGC_481_185',
+UVGC_494_179 = Coupling(name = 'UVGC_494_179',
                         value = {-1:'( -(CKM1x1*ee*complex(0,1)*G**2)/(12.*cmath.pi**2*sw*cmath.sqrt(2)) if MD else (CKM1x1*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw*cmath.sqrt(2)) )',0:'( (-5*CKM1x1*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw*cmath.sqrt(2)) + (CKM1x1*ee*complex(0,1)*G**2*reglog(MD/MU_R))/(4.*cmath.pi**2*sw*cmath.sqrt(2)) if MD else -(CKM1x1*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw*cmath.sqrt(2)) ) + (CKM1x1*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw*cmath.sqrt(2))'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_481_186 = Coupling(name = 'UVGC_481_186',
+UVGC_494_180 = Coupling(name = 'UVGC_494_180',
                         value = {-1:'( -(CKM1x1*ee*complex(0,1)*G**2)/(12.*cmath.pi**2*sw*cmath.sqrt(2)) if MU else (CKM1x1*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw*cmath.sqrt(2)) )',0:'( (-5*CKM1x1*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw*cmath.sqrt(2)) + (CKM1x1*ee*complex(0,1)*G**2*reglog(MU/MU_R))/(4.*cmath.pi**2*sw*cmath.sqrt(2)) if MU else -(CKM1x1*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw*cmath.sqrt(2)) ) + (CKM1x1*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw*cmath.sqrt(2))'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_481_187 = Coupling(name = 'UVGC_481_187',
+UVGC_494_181 = Coupling(name = 'UVGC_494_181',
                         value = {-1:'-(CKM1x1*ee*complex(0,1)*G**2)/(12.*cmath.pi**2*sw*cmath.sqrt(2))'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_482_188 = Coupling(name = 'UVGC_482_188',
+UVGC_495_182 = Coupling(name = 'UVGC_495_182',
                         value = {-1:'( -(CKM1x2*ee*complex(0,1)*G**2)/(12.*cmath.pi**2*sw*cmath.sqrt(2)) if MS else (CKM1x2*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw*cmath.sqrt(2)) )',0:'( (-5*CKM1x2*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw*cmath.sqrt(2)) + (CKM1x2*ee*complex(0,1)*G**2*reglog(MS/MU_R))/(4.*cmath.pi**2*sw*cmath.sqrt(2)) if MS else -(CKM1x2*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw*cmath.sqrt(2)) ) + (CKM1x2*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw*cmath.sqrt(2))'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_482_189 = Coupling(name = 'UVGC_482_189',
+UVGC_495_183 = Coupling(name = 'UVGC_495_183',
                         value = {-1:'( -(CKM1x2*ee*complex(0,1)*G**2)/(12.*cmath.pi**2*sw*cmath.sqrt(2)) if MU else (CKM1x2*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw*cmath.sqrt(2)) )',0:'( (-5*CKM1x2*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw*cmath.sqrt(2)) + (CKM1x2*ee*complex(0,1)*G**2*reglog(MU/MU_R))/(4.*cmath.pi**2*sw*cmath.sqrt(2)) if MU else -(CKM1x2*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw*cmath.sqrt(2)) ) + (CKM1x2*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw*cmath.sqrt(2))'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_482_190 = Coupling(name = 'UVGC_482_190',
+UVGC_495_184 = Coupling(name = 'UVGC_495_184',
                         value = {-1:'-(CKM1x2*ee*complex(0,1)*G**2)/(12.*cmath.pi**2*sw*cmath.sqrt(2))'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_483_191 = Coupling(name = 'UVGC_483_191',
-                        value = {-1:'( -(cw*ee*complex(0,1)*G**2)/(12.*cmath.pi**2*sw) + (ee*complex(0,1)*G**2*sw)/(36.*cw*cmath.pi**2) if MU else (cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) - (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2) ) - (cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) + (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2)',0:'( (-5*cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) + (5*ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2) + (cw*ee*complex(0,1)*G**2*reglog(MU/MU_R))/(4.*cmath.pi**2*sw) - (ee*complex(0,1)*G**2*sw*reglog(MU/MU_R))/(12.*cw*cmath.pi**2) if MU else -(cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) + (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2) ) + (cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) - (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2)'},
+UVGC_496_185 = Coupling(name = 'UVGC_496_185',
+                        value = {-1:'( -(cw*ee*complex(0,1)*G**2)/(12.*cmath.pi**2*sw) if MU else (cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) ) - (cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw)',0:'( (-5*cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) + (cw*ee*complex(0,1)*G**2*reglog(MU/MU_R))/(4.*cmath.pi**2*sw) if MU else -(cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw) ) + (cw*ee*complex(0,1)*G**2)/(24.*cmath.pi**2*sw)'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_484_192 = Coupling(name = 'UVGC_484_192',
-                        value = {-1:'( (ee*complex(0,1)*G**2*sw)/(9.*cw*cmath.pi**2) if MU else -(ee*complex(0,1)*G**2*sw)/(18.*cw*cmath.pi**2) ) + (ee*complex(0,1)*G**2*sw)/(18.*cw*cmath.pi**2)',0:'( (5*ee*complex(0,1)*G**2*sw)/(18.*cw*cmath.pi**2) - (ee*complex(0,1)*G**2*sw*reglog(MU/MU_R))/(3.*cw*cmath.pi**2) if MU else (ee*complex(0,1)*G**2*sw)/(18.*cw*cmath.pi**2) ) - (ee*complex(0,1)*G**2*sw)/(18.*cw*cmath.pi**2)'},
+UVGC_497_186 = Coupling(name = 'UVGC_497_186',
+                        value = {-1:'( (ee*complex(0,1)*G**2*sw)/(36.*cw*cmath.pi**2) if MU else -(ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2) ) + (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2)',0:'( (5*ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2) - (ee*complex(0,1)*G**2*sw*reglog(MU/MU_R))/(12.*cw*cmath.pi**2) if MU else (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2) ) - (ee*complex(0,1)*G**2*sw)/(72.*cw*cmath.pi**2)'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_485_193 = Coupling(name = 'UVGC_485_193',
+UVGC_498_187 = Coupling(name = 'UVGC_498_187',
                         value = {-1:'( (CKM1x1*complex(0,1)*G**2*ydo)/(12.*cmath.pi**2) if MD else -(CKM1x1*complex(0,1)*G**2*ydo)/(24.*cmath.pi**2) )',0:'( (13*CKM1x1*complex(0,1)*G**2*ydo)/(24.*cmath.pi**2) - (3*CKM1x1*complex(0,1)*G**2*ydo*reglog(MD/MU_R))/(4.*cmath.pi**2) if MD else (CKM1x1*complex(0,1)*G**2*ydo)/(24.*cmath.pi**2) ) - (CKM1x1*complex(0,1)*G**2*ydo)/(24.*cmath.pi**2)'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_485_194 = Coupling(name = 'UVGC_485_194',
+UVGC_498_188 = Coupling(name = 'UVGC_498_188',
                         value = {-1:'( (CKM1x1*complex(0,1)*G**2*ydo)/(12.*cmath.pi**2) if MU else -(CKM1x1*complex(0,1)*G**2*ydo)/(24.*cmath.pi**2) )',0:'( (5*CKM1x1*complex(0,1)*G**2*ydo)/(24.*cmath.pi**2) - (CKM1x1*complex(0,1)*G**2*ydo*reglog(MU/MU_R))/(4.*cmath.pi**2) if MU else (CKM1x1*complex(0,1)*G**2*ydo)/(24.*cmath.pi**2) ) - (CKM1x1*complex(0,1)*G**2*ydo)/(24.*cmath.pi**2)'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_485_195 = Coupling(name = 'UVGC_485_195',
+UVGC_498_189 = Coupling(name = 'UVGC_498_189',
                         value = {-1:'(CKM1x1*complex(0,1)*G**2*ydo)/(3.*cmath.pi**2)'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_486_196 = Coupling(name = 'UVGC_486_196',
+UVGC_499_190 = Coupling(name = 'UVGC_499_190',
                         value = {-1:'( (CKM1x2*complex(0,1)*G**2*ys)/(12.*cmath.pi**2) if MS else -(CKM1x2*complex(0,1)*G**2*ys)/(24.*cmath.pi**2) )',0:'( (13*CKM1x2*complex(0,1)*G**2*ys)/(24.*cmath.pi**2) - (3*CKM1x2*complex(0,1)*G**2*ys*reglog(MS/MU_R))/(4.*cmath.pi**2) if MS else (CKM1x2*complex(0,1)*G**2*ys)/(24.*cmath.pi**2) ) - (CKM1x2*complex(0,1)*G**2*ys)/(24.*cmath.pi**2)'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_486_197 = Coupling(name = 'UVGC_486_197',
+UVGC_499_191 = Coupling(name = 'UVGC_499_191',
                         value = {-1:'( (CKM1x2*complex(0,1)*G**2*ys)/(12.*cmath.pi**2) if MU else -(CKM1x2*complex(0,1)*G**2*ys)/(24.*cmath.pi**2) )',0:'( (5*CKM1x2*complex(0,1)*G**2*ys)/(24.*cmath.pi**2) - (CKM1x2*complex(0,1)*G**2*ys*reglog(MU/MU_R))/(4.*cmath.pi**2) if MU else (CKM1x2*complex(0,1)*G**2*ys)/(24.*cmath.pi**2) ) - (CKM1x2*complex(0,1)*G**2*ys)/(24.*cmath.pi**2)'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_486_198 = Coupling(name = 'UVGC_486_198',
+UVGC_499_192 = Coupling(name = 'UVGC_499_192',
                         value = {-1:'(CKM1x2*complex(0,1)*G**2*ys)/(3.*cmath.pi**2)'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_487_199 = Coupling(name = 'UVGC_487_199',
+UVGC_500_193 = Coupling(name = 'UVGC_500_193',
                         value = {-1:'( (G**2*yup)/(6.*cmath.pi**2*cmath.sqrt(2)) if MU else -(G**2*yup)/(12.*cmath.pi**2*cmath.sqrt(2)) ) + (G**2*yup)/(3.*cmath.pi**2*cmath.sqrt(2))',0:'( (3*G**2*yup)/(4.*cmath.pi**2*cmath.sqrt(2)) - (G**2*yup*reglog(MU/MU_R))/(cmath.pi**2*cmath.sqrt(2)) if MU else (G**2*yup)/(12.*cmath.pi**2*cmath.sqrt(2)) ) - (G**2*yup)/(12.*cmath.pi**2*cmath.sqrt(2))'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_488_200 = Coupling(name = 'UVGC_488_200',
+UVGC_501_194 = Coupling(name = 'UVGC_501_194',
                         value = {-1:'( (cab*complex(0,1)*G**2*yup)/(6.*cmath.pi**2*cmath.sqrt(2)) if MU else -(cab*complex(0,1)*G**2*yup)/(12.*cmath.pi**2*cmath.sqrt(2)) ) + (cab*complex(0,1)*G**2*yup)/(3.*cmath.pi**2*cmath.sqrt(2))',0:'( (3*cab*complex(0,1)*G**2*yup)/(4.*cmath.pi**2*cmath.sqrt(2)) - (cab*complex(0,1)*G**2*yup*reglog(MU/MU_R))/(cmath.pi**2*cmath.sqrt(2)) if MU else (cab*complex(0,1)*G**2*yup)/(12.*cmath.pi**2*cmath.sqrt(2)) ) - (cab*complex(0,1)*G**2*yup)/(12.*cmath.pi**2*cmath.sqrt(2))'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_489_201 = Coupling(name = 'UVGC_489_201',
+UVGC_502_195 = Coupling(name = 'UVGC_502_195',
                         value = {-1:'( -(CKM1x1*complex(0,1)*G**2*yup)/(12.*cmath.pi**2) if MD else (CKM1x1*complex(0,1)*G**2*yup)/(24.*cmath.pi**2) )',0:'( (-5*CKM1x1*complex(0,1)*G**2*yup)/(24.*cmath.pi**2) + (CKM1x1*complex(0,1)*G**2*yup*reglog(MD/MU_R))/(4.*cmath.pi**2) if MD else -(CKM1x1*complex(0,1)*G**2*yup)/(24.*cmath.pi**2) ) + (CKM1x1*complex(0,1)*G**2*yup)/(24.*cmath.pi**2)'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_489_202 = Coupling(name = 'UVGC_489_202',
+UVGC_502_196 = Coupling(name = 'UVGC_502_196',
                         value = {-1:'( -(CKM1x1*complex(0,1)*G**2*yup)/(12.*cmath.pi**2) if MU else (CKM1x1*complex(0,1)*G**2*yup)/(24.*cmath.pi**2) )',0:'( (-13*CKM1x1*complex(0,1)*G**2*yup)/(24.*cmath.pi**2) + (3*CKM1x1*complex(0,1)*G**2*yup*reglog(MU/MU_R))/(4.*cmath.pi**2) if MU else -(CKM1x1*complex(0,1)*G**2*yup)/(24.*cmath.pi**2) ) + (CKM1x1*complex(0,1)*G**2*yup)/(24.*cmath.pi**2)'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_489_203 = Coupling(name = 'UVGC_489_203',
+UVGC_502_197 = Coupling(name = 'UVGC_502_197',
                         value = {-1:'-(CKM1x1*complex(0,1)*G**2*yup)/(3.*cmath.pi**2)'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_490_204 = Coupling(name = 'UVGC_490_204',
+UVGC_503_198 = Coupling(name = 'UVGC_503_198',
                         value = {-1:'( -(CKM1x2*complex(0,1)*G**2*yup)/(12.*cmath.pi**2) if MS else (CKM1x2*complex(0,1)*G**2*yup)/(24.*cmath.pi**2) )',0:'( (-5*CKM1x2*complex(0,1)*G**2*yup)/(24.*cmath.pi**2) + (CKM1x2*complex(0,1)*G**2*yup*reglog(MS/MU_R))/(4.*cmath.pi**2) if MS else -(CKM1x2*complex(0,1)*G**2*yup)/(24.*cmath.pi**2) ) + (CKM1x2*complex(0,1)*G**2*yup)/(24.*cmath.pi**2)'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_490_205 = Coupling(name = 'UVGC_490_205',
+UVGC_503_199 = Coupling(name = 'UVGC_503_199',
                         value = {-1:'( -(CKM1x2*complex(0,1)*G**2*yup)/(12.*cmath.pi**2) if MU else (CKM1x2*complex(0,1)*G**2*yup)/(24.*cmath.pi**2) )',0:'( (-13*CKM1x2*complex(0,1)*G**2*yup)/(24.*cmath.pi**2) + (3*CKM1x2*complex(0,1)*G**2*yup*reglog(MU/MU_R))/(4.*cmath.pi**2) if MU else -(CKM1x2*complex(0,1)*G**2*yup)/(24.*cmath.pi**2) ) + (CKM1x2*complex(0,1)*G**2*yup)/(24.*cmath.pi**2)'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_490_206 = Coupling(name = 'UVGC_490_206',
+UVGC_503_200 = Coupling(name = 'UVGC_503_200',
                         value = {-1:'-(CKM1x2*complex(0,1)*G**2*yup)/(3.*cmath.pi**2)'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_491_207 = Coupling(name = 'UVGC_491_207',
+UVGC_504_201 = Coupling(name = 'UVGC_504_201',
                         value = {-1:'( -(complex(0,1)*G**2*sab*yup)/(6.*cmath.pi**2*cmath.sqrt(2)) if MU else (complex(0,1)*G**2*sab*yup)/(12.*cmath.pi**2*cmath.sqrt(2)) ) - (complex(0,1)*G**2*sab*yup)/(3.*cmath.pi**2*cmath.sqrt(2))',0:'( (-3*complex(0,1)*G**2*sab*yup)/(4.*cmath.pi**2*cmath.sqrt(2)) + (complex(0,1)*G**2*sab*yup*reglog(MU/MU_R))/(cmath.pi**2*cmath.sqrt(2)) if MU else -(complex(0,1)*G**2*sab*yup)/(12.*cmath.pi**2*cmath.sqrt(2)) ) + (complex(0,1)*G**2*sab*yup)/(12.*cmath.pi**2*cmath.sqrt(2))'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_492_208 = Coupling(name = 'UVGC_492_208',
+UVGC_505_202 = Coupling(name = 'UVGC_505_202',
                         value = {-1:'( -(ee*complex(0,1)*G**2*complexconjugate(CKM1x1))/(12.*cmath.pi**2*sw*cmath.sqrt(2)) if MD else (ee*complex(0,1)*G**2*complexconjugate(CKM1x1))/(24.*cmath.pi**2*sw*cmath.sqrt(2)) )',0:'( (-5*ee*complex(0,1)*G**2*complexconjugate(CKM1x1))/(24.*cmath.pi**2*sw*cmath.sqrt(2)) + (ee*complex(0,1)*G**2*complexconjugate(CKM1x1)*reglog(MD/MU_R))/(4.*cmath.pi**2*sw*cmath.sqrt(2)) if MD else -(ee*complex(0,1)*G**2*complexconjugate(CKM1x1))/(24.*cmath.pi**2*sw*cmath.sqrt(2)) ) + (ee*complex(0,1)*G**2*complexconjugate(CKM1x1))/(24.*cmath.pi**2*sw*cmath.sqrt(2))'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_492_209 = Coupling(name = 'UVGC_492_209',
+UVGC_505_203 = Coupling(name = 'UVGC_505_203',
                         value = {-1:'( -(ee*complex(0,1)*G**2*complexconjugate(CKM1x1))/(12.*cmath.pi**2*sw*cmath.sqrt(2)) if MU else (ee*complex(0,1)*G**2*complexconjugate(CKM1x1))/(24.*cmath.pi**2*sw*cmath.sqrt(2)) )',0:'( (-5*ee*complex(0,1)*G**2*complexconjugate(CKM1x1))/(24.*cmath.pi**2*sw*cmath.sqrt(2)) + (ee*complex(0,1)*G**2*complexconjugate(CKM1x1)*reglog(MU/MU_R))/(4.*cmath.pi**2*sw*cmath.sqrt(2)) if MU else -(ee*complex(0,1)*G**2*complexconjugate(CKM1x1))/(24.*cmath.pi**2*sw*cmath.sqrt(2)) ) + (ee*complex(0,1)*G**2*complexconjugate(CKM1x1))/(24.*cmath.pi**2*sw*cmath.sqrt(2))'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_492_210 = Coupling(name = 'UVGC_492_210',
+UVGC_505_204 = Coupling(name = 'UVGC_505_204',
                         value = {-1:'-(ee*complex(0,1)*G**2*complexconjugate(CKM1x1))/(12.*cmath.pi**2*sw*cmath.sqrt(2))'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_493_211 = Coupling(name = 'UVGC_493_211',
+UVGC_506_205 = Coupling(name = 'UVGC_506_205',
                         value = {-1:'( (complex(0,1)*G**2*ydo*complexconjugate(CKM1x1))/(12.*cmath.pi**2) if MD else -(complex(0,1)*G**2*ydo*complexconjugate(CKM1x1))/(24.*cmath.pi**2) )',0:'( (13*complex(0,1)*G**2*ydo*complexconjugate(CKM1x1))/(24.*cmath.pi**2) - (3*complex(0,1)*G**2*ydo*complexconjugate(CKM1x1)*reglog(MD/MU_R))/(4.*cmath.pi**2) if MD else (complex(0,1)*G**2*ydo*complexconjugate(CKM1x1))/(24.*cmath.pi**2) ) - (complex(0,1)*G**2*ydo*complexconjugate(CKM1x1))/(24.*cmath.pi**2)'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_493_212 = Coupling(name = 'UVGC_493_212',
+UVGC_506_206 = Coupling(name = 'UVGC_506_206',
                         value = {-1:'( (complex(0,1)*G**2*ydo*complexconjugate(CKM1x1))/(12.*cmath.pi**2) if MU else -(complex(0,1)*G**2*ydo*complexconjugate(CKM1x1))/(24.*cmath.pi**2) )',0:'( (5*complex(0,1)*G**2*ydo*complexconjugate(CKM1x1))/(24.*cmath.pi**2) - (complex(0,1)*G**2*ydo*complexconjugate(CKM1x1)*reglog(MU/MU_R))/(4.*cmath.pi**2) if MU else (complex(0,1)*G**2*ydo*complexconjugate(CKM1x1))/(24.*cmath.pi**2) ) - (complex(0,1)*G**2*ydo*complexconjugate(CKM1x1))/(24.*cmath.pi**2)'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_493_213 = Coupling(name = 'UVGC_493_213',
+UVGC_506_207 = Coupling(name = 'UVGC_506_207',
                         value = {-1:'(complex(0,1)*G**2*ydo*complexconjugate(CKM1x1))/(3.*cmath.pi**2)'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_494_214 = Coupling(name = 'UVGC_494_214',
+UVGC_507_208 = Coupling(name = 'UVGC_507_208',
                         value = {-1:'( -(complex(0,1)*G**2*yup*complexconjugate(CKM1x1))/(12.*cmath.pi**2) if MD else (complex(0,1)*G**2*yup*complexconjugate(CKM1x1))/(24.*cmath.pi**2) )',0:'( (-5*complex(0,1)*G**2*yup*complexconjugate(CKM1x1))/(24.*cmath.pi**2) + (complex(0,1)*G**2*yup*complexconjugate(CKM1x1)*reglog(MD/MU_R))/(4.*cmath.pi**2) if MD else -(complex(0,1)*G**2*yup*complexconjugate(CKM1x1))/(24.*cmath.pi**2) ) + (complex(0,1)*G**2*yup*complexconjugate(CKM1x1))/(24.*cmath.pi**2)'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_494_215 = Coupling(name = 'UVGC_494_215',
+UVGC_507_209 = Coupling(name = 'UVGC_507_209',
                         value = {-1:'( -(complex(0,1)*G**2*yup*complexconjugate(CKM1x1))/(12.*cmath.pi**2) if MU else (complex(0,1)*G**2*yup*complexconjugate(CKM1x1))/(24.*cmath.pi**2) )',0:'( (-13*complex(0,1)*G**2*yup*complexconjugate(CKM1x1))/(24.*cmath.pi**2) + (3*complex(0,1)*G**2*yup*complexconjugate(CKM1x1)*reglog(MU/MU_R))/(4.*cmath.pi**2) if MU else -(complex(0,1)*G**2*yup*complexconjugate(CKM1x1))/(24.*cmath.pi**2) ) + (complex(0,1)*G**2*yup*complexconjugate(CKM1x1))/(24.*cmath.pi**2)'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_494_216 = Coupling(name = 'UVGC_494_216',
+UVGC_507_210 = Coupling(name = 'UVGC_507_210',
                         value = {-1:'-(complex(0,1)*G**2*yup*complexconjugate(CKM1x1))/(3.*cmath.pi**2)'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_495_217 = Coupling(name = 'UVGC_495_217',
+UVGC_508_211 = Coupling(name = 'UVGC_508_211',
                         value = {-1:'( -(ee*complex(0,1)*G**2*complexconjugate(CKM1x2))/(12.*cmath.pi**2*sw*cmath.sqrt(2)) if MS else (ee*complex(0,1)*G**2*complexconjugate(CKM1x2))/(24.*cmath.pi**2*sw*cmath.sqrt(2)) )',0:'( (-5*ee*complex(0,1)*G**2*complexconjugate(CKM1x2))/(24.*cmath.pi**2*sw*cmath.sqrt(2)) + (ee*complex(0,1)*G**2*complexconjugate(CKM1x2)*reglog(MS/MU_R))/(4.*cmath.pi**2*sw*cmath.sqrt(2)) if MS else -(ee*complex(0,1)*G**2*complexconjugate(CKM1x2))/(24.*cmath.pi**2*sw*cmath.sqrt(2)) ) + (ee*complex(0,1)*G**2*complexconjugate(CKM1x2))/(24.*cmath.pi**2*sw*cmath.sqrt(2))'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_495_218 = Coupling(name = 'UVGC_495_218',
+UVGC_508_212 = Coupling(name = 'UVGC_508_212',
                         value = {-1:'( -(ee*complex(0,1)*G**2*complexconjugate(CKM1x2))/(12.*cmath.pi**2*sw*cmath.sqrt(2)) if MU else (ee*complex(0,1)*G**2*complexconjugate(CKM1x2))/(24.*cmath.pi**2*sw*cmath.sqrt(2)) )',0:'( (-5*ee*complex(0,1)*G**2*complexconjugate(CKM1x2))/(24.*cmath.pi**2*sw*cmath.sqrt(2)) + (ee*complex(0,1)*G**2*complexconjugate(CKM1x2)*reglog(MU/MU_R))/(4.*cmath.pi**2*sw*cmath.sqrt(2)) if MU else -(ee*complex(0,1)*G**2*complexconjugate(CKM1x2))/(24.*cmath.pi**2*sw*cmath.sqrt(2)) ) + (ee*complex(0,1)*G**2*complexconjugate(CKM1x2))/(24.*cmath.pi**2*sw*cmath.sqrt(2))'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_495_219 = Coupling(name = 'UVGC_495_219',
+UVGC_508_213 = Coupling(name = 'UVGC_508_213',
                         value = {-1:'-(ee*complex(0,1)*G**2*complexconjugate(CKM1x2))/(12.*cmath.pi**2*sw*cmath.sqrt(2))'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_496_220 = Coupling(name = 'UVGC_496_220',
+UVGC_509_214 = Coupling(name = 'UVGC_509_214',
                         value = {-1:'( (complex(0,1)*G**2*ys*complexconjugate(CKM1x2))/(12.*cmath.pi**2) if MS else -(complex(0,1)*G**2*ys*complexconjugate(CKM1x2))/(24.*cmath.pi**2) )',0:'( (13*complex(0,1)*G**2*ys*complexconjugate(CKM1x2))/(24.*cmath.pi**2) - (3*complex(0,1)*G**2*ys*complexconjugate(CKM1x2)*reglog(MS/MU_R))/(4.*cmath.pi**2) if MS else (complex(0,1)*G**2*ys*complexconjugate(CKM1x2))/(24.*cmath.pi**2) ) - (complex(0,1)*G**2*ys*complexconjugate(CKM1x2))/(24.*cmath.pi**2)'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_496_221 = Coupling(name = 'UVGC_496_221',
+UVGC_509_215 = Coupling(name = 'UVGC_509_215',
                         value = {-1:'( (complex(0,1)*G**2*ys*complexconjugate(CKM1x2))/(12.*cmath.pi**2) if MU else -(complex(0,1)*G**2*ys*complexconjugate(CKM1x2))/(24.*cmath.pi**2) )',0:'( (5*complex(0,1)*G**2*ys*complexconjugate(CKM1x2))/(24.*cmath.pi**2) - (complex(0,1)*G**2*ys*complexconjugate(CKM1x2)*reglog(MU/MU_R))/(4.*cmath.pi**2) if MU else (complex(0,1)*G**2*ys*complexconjugate(CKM1x2))/(24.*cmath.pi**2) ) - (complex(0,1)*G**2*ys*complexconjugate(CKM1x2))/(24.*cmath.pi**2)'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_496_222 = Coupling(name = 'UVGC_496_222',
+UVGC_509_216 = Coupling(name = 'UVGC_509_216',
                         value = {-1:'(complex(0,1)*G**2*ys*complexconjugate(CKM1x2))/(3.*cmath.pi**2)'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_497_223 = Coupling(name = 'UVGC_497_223',
+UVGC_510_217 = Coupling(name = 'UVGC_510_217',
                         value = {-1:'( -(complex(0,1)*G**2*yup*complexconjugate(CKM1x2))/(12.*cmath.pi**2) if MS else (complex(0,1)*G**2*yup*complexconjugate(CKM1x2))/(24.*cmath.pi**2) )',0:'( (-5*complex(0,1)*G**2*yup*complexconjugate(CKM1x2))/(24.*cmath.pi**2) + (complex(0,1)*G**2*yup*complexconjugate(CKM1x2)*reglog(MS/MU_R))/(4.*cmath.pi**2) if MS else -(complex(0,1)*G**2*yup*complexconjugate(CKM1x2))/(24.*cmath.pi**2) ) + (complex(0,1)*G**2*yup*complexconjugate(CKM1x2))/(24.*cmath.pi**2)'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_497_224 = Coupling(name = 'UVGC_497_224',
+UVGC_510_218 = Coupling(name = 'UVGC_510_218',
                         value = {-1:'( -(complex(0,1)*G**2*yup*complexconjugate(CKM1x2))/(12.*cmath.pi**2) if MU else (complex(0,1)*G**2*yup*complexconjugate(CKM1x2))/(24.*cmath.pi**2) )',0:'( (-13*complex(0,1)*G**2*yup*complexconjugate(CKM1x2))/(24.*cmath.pi**2) + (3*complex(0,1)*G**2*yup*complexconjugate(CKM1x2)*reglog(MU/MU_R))/(4.*cmath.pi**2) if MU else -(complex(0,1)*G**2*yup*complexconjugate(CKM1x2))/(24.*cmath.pi**2) ) + (complex(0,1)*G**2*yup*complexconjugate(CKM1x2))/(24.*cmath.pi**2)'},
                         order = {'QCD':2,'QED':1})
 
-UVGC_497_225 = Coupling(name = 'UVGC_497_225',
+UVGC_510_219 = Coupling(name = 'UVGC_510_219',
                         value = {-1:'-(complex(0,1)*G**2*yup*complexconjugate(CKM1x2))/(3.*cmath.pi**2)'},
                         order = {'QCD':2,'QED':1})
 

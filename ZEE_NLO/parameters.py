@@ -1,6 +1,6 @@
-# This file was automatically created by FeynRules 2.3.35
-# Mathematica version: 12.0.0 for Linux x86 (64-bit) (April 7, 2019)
-# Date: Sun 10 Nov 2019 01:09:20
+# This file was automatically created by FeynRules 2.3.36
+# Mathematica version: 11.3.0 for Linux x86 (64-bit) (March 7, 2018)
+# Date: Thu 12 Dec 2019 23:19:43
 
 
 
@@ -141,7 +141,7 @@ beta = Parameter(name = 'beta',
 alpha = Parameter(name = 'alpha',
                   nature = 'external',
                   type = 'real',
-                  value = 0.7854,
+                  value = 0.7853,
                   texname = '\\alpha',
                   lhablock = 'ZEEINPUTS',
                   lhacode = [ 2 ])

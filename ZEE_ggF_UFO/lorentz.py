@@ -1,6 +1,6 @@
-# This file was automatically created by FeynRules 2.3.35
-# Mathematica version: 12.0.0 for Linux x86 (64-bit) (April 7, 2019)
-# Date: Sat 9 Nov 2019 23:08:17
+# This file was automatically created by FeynRules 2.3.36
+# Mathematica version: 11.3.0 for Linux x86 (64-bit) (March 7, 2018)
+# Date: Thu 12 Dec 2019 22:17:38
 
 
 from object_library import all_lorentz, Lorentz
@@ -44,25 +44,25 @@ FFS10 = Lorentz(name = 'FFS10',
                 spins = [ 2, 2, 1 ],
                 structure = 'ProjM(2,1) + ProjP(2,1)')
 
-FFV6 = Lorentz(name = 'FFV6',
+FFV4 = Lorentz(name = 'FFV4',
                spins = [ 2, 2, 3 ],
                structure = 'Gamma(3,2,1)')
 
-FFV7 = Lorentz(name = 'FFV7',
+FFV5 = Lorentz(name = 'FFV5',
                spins = [ 2, 2, 3 ],
                structure = 'Gamma(3,2,-1)*ProjM(-1,1)')
 
-FFV8 = Lorentz(name = 'FFV8',
+FFV6 = Lorentz(name = 'FFV6',
                spins = [ 2, 2, 3 ],
                structure = 'Gamma(3,2,-1)*ProjM(-1,1) - 2*Gamma(3,2,-1)*ProjP(-1,1)')
 
-FFV9 = Lorentz(name = 'FFV9',
+FFV7 = Lorentz(name = 'FFV7',
                spins = [ 2, 2, 3 ],
                structure = 'Gamma(3,2,-1)*ProjM(-1,1) + 2*Gamma(3,2,-1)*ProjP(-1,1)')
 
-FFV10 = Lorentz(name = 'FFV10',
-                spins = [ 2, 2, 3 ],
-                structure = 'Gamma(3,2,-1)*ProjM(-1,1) + 4*Gamma(3,2,-1)*ProjP(-1,1)')
+FFV8 = Lorentz(name = 'FFV8',
+               spins = [ 2, 2, 3 ],
+               structure = 'Gamma(3,2,-1)*ProjM(-1,1) + 4*Gamma(3,2,-1)*ProjP(-1,1)')
 
 VSS2 = Lorentz(name = 'VSS2',
                spins = [ 3, 1, 1 ],

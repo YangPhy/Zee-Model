@@ -120,7 +120,7 @@ M$Parameters = {
     ParameterType -> External,
     BlockName     -> ZEEINPUTS,
     OrderBlock    -> 2,
-    Value         -> 0.7854,
+    Value         -> 0.7853,
     TeX           -> \[Alpha],
     Description   -> "Angle alpha in Zee Model, similar to 2HDM" 
   },
@@ -145,7 +145,7 @@ M$Parameters = {
     BlockName     -> ZEELAMS,
     OrderBlock    -> 1,
     Value         -> 1,
-    InteractionOrder -> {QED,2},
+    InteractionOrder -> {ZEE,1},
     TeX           -> Subscript[\[Lambda],2],
     Description   -> "Quatric coupling 2"
   }, 
@@ -154,7 +154,7 @@ M$Parameters = {
     BlockName     -> ZEELAMS,
     OrderBlock    -> 2,
     Value         -> 1,
-    InteractionOrder -> {QED,2},
+    InteractionOrder -> {ZEE,1},
     TeX           -> Subscript[\[Lambda],3],
     Description   -> "Quatric coupling 3"
   }, 
@@ -163,7 +163,7 @@ M$Parameters = {
     BlockName     -> ZEELAMS,
     OrderBlock    -> 3,
     Value         -> 1,
-    InteractionOrder -> {QED,2},
+    InteractionOrder -> {ZEE,1},
     TeX           -> Subscript[\[Lambda],7],
     Description   -> "Quatric coupling 7"
   },   
@@ -172,7 +172,7 @@ M$Parameters = {
     BlockName     -> ZEELAMS,
     OrderBlock    -> 4,
     Value         -> 1,
-    InteractionOrder -> {QED,2},
+    InteractionOrder -> {ZEE,1},
     TeX           -> Subscript[\[Lambda],8],
     Description   -> "Quatric coupling 8"
   }, 
@@ -181,7 +181,7 @@ M$Parameters = {
     BlockName     -> ZEELAMS,
     OrderBlock    -> 5,
     Value         -> 1,
-    InteractionOrder -> {QED,2},
+    InteractionOrder -> {ZEE,1},
     TeX           -> Subscript[\[Lambda],9],
     Description   -> "Quatric coupling 9"
   }, 
@@ -190,7 +190,7 @@ M$Parameters = {
     BlockName     -> ZEELAMS,
     OrderBlock    -> 6,
     Value         -> 1,
-    InteractionOrder -> {QED,2},
+    InteractionOrder -> {ZEE,1},
     TeX           -> Subscript[\[Lambda],10],
     Description   -> "Quatric coupling 10"
   }, 
@@ -199,7 +199,7 @@ M$Parameters = {
     BlockName     -> ZEELAMS,
     OrderBlock    -> 7,
     Value         -> 1,
-    InteractionOrder -> {QED,2},
+    InteractionOrder -> {ZEE,1},
     TeX           -> Subscript[\[Lambda],\[Eta]],
     Description   -> "Quatric coupling eta"
   }, 
@@ -208,7 +208,7 @@ M$Parameters = {
     BlockName     -> ZEEYUKAWAF,
     OrderBlock    -> 1,
     Value         -> 1,
-    InteractionOrder -> {QED, 1},
+    InteractionOrder -> {ZEE,1},
     TeX           -> Subscript[f,e \[Mu]],
     Description   -> "Yukawa coupling femu"
   },
@@ -217,7 +217,7 @@ M$Parameters = {
     BlockName     -> ZEEYUKAWAF,
     OrderBlock    -> 2,
     Value         -> 1,
-    InteractionOrder -> {QED, 1},
+    InteractionOrder -> {ZEE,1},
     TeX           -> Subscript[f,e \[Tau]],
     Description   -> "Yukawa coupling fetau"
   }, 
@@ -226,7 +226,7 @@ M$Parameters = {
     BlockName     -> ZEEYUKAWAF,
     OrderBlock    -> 3,
     Value         -> 1,
-    InteractionOrder -> {QED, 1},
+    InteractionOrder -> {ZEE,1},
     TeX           -> Subscript[f,\[Mu] \[Tau]],
     Description   -> "Yukawa coupling fmutau"
   }, 
@@ -235,6 +235,7 @@ M$Parameters = {
     BlockName     -> ZEEYUKAWAY,
     OrderBlock    -> 1,
     Value         -> 1,
+    InteractionOrder -> {ZEE,1},
     TeX           -> Subscript[Y,ee],
     Description   -> "Yukawa coupling Yee"
   },
@@ -243,6 +244,7 @@ M$Parameters = {
     BlockName     -> ZEEYUKAWAY,
     OrderBlock    -> 2,
     Value         -> 1,
+    InteractionOrder -> {ZEE,1},
     TeX           -> Subscript[Y,e \[Mu]],
     Description   -> "Yukawa coupling Yemu"
   },
@@ -251,6 +253,7 @@ M$Parameters = {
     BlockName     -> ZEEYUKAWAY,
     OrderBlock    -> 3,
     Value         -> 1,
+    InteractionOrder -> {ZEE,1},
     TeX           -> Subscript[Y,e \[Tau]],
     Description   -> "Yukawa coupling Yetau"
   },
@@ -259,6 +262,7 @@ M$Parameters = {
     BlockName     -> ZEEYUKAWAY,
     OrderBlock    -> 4,
     Value         -> 1,
+    InteractionOrder -> {ZEE,1},
     TeX           -> Subscript[Y,\[Mu] e],
     Description   -> "Yukawa coupling Ymue"
   },
@@ -267,6 +271,7 @@ M$Parameters = {
     BlockName     -> ZEEYUKAWAY,
     OrderBlock    -> 5,
     Value         -> 1,
+    InteractionOrder -> {ZEE,1},
     TeX           -> Subscript[Y,\[Mu] \[Mu]],
     Description   -> "Yukawa coupling Ymumu"
   },
@@ -275,6 +280,7 @@ M$Parameters = {
     BlockName     -> ZEEYUKAWAY,
     OrderBlock    -> 6,
     Value         -> 1,
+    InteractionOrder -> {ZEE,1},
     TeX           -> Subscript[Y,\[Mu] \[Tau]],
     Description   -> "Yukawa coupling Ymutau"
   },
@@ -283,6 +289,7 @@ M$Parameters = {
     BlockName     -> ZEEYUKAWAY,
     OrderBlock    -> 7,
     Value         -> 1,
+    InteractionOrder -> {ZEE,1},
     TeX           -> Subscript[Y,\[Tau] e],
     Description   -> "Yukawa coupling Ymue"
   },
@@ -291,6 +298,7 @@ M$Parameters = {
     BlockName     -> ZEEYUKAWAY,
     OrderBlock    -> 8,
     Value         -> 1,
+    InteractionOrder -> {ZEE,1},
     TeX           -> Subscript[Y,\[Tau] \[Mu]],
     Description   -> "Yukawa coupling Ytaumu"
   },
@@ -299,6 +307,7 @@ M$Parameters = {
     BlockName     -> ZEEYUKAWAY,
     OrderBlock    -> 9,
     Value         -> 1,
+    InteractionOrder -> {ZEE,1},
     TeX           -> Subscript[Y,\[Tau] \[Tau]],
     Description   -> "Yukawa coupling Ytautau"
   },                          
@@ -438,30 +447,30 @@ M$Parameters = {
   muzee=={
     ParameterType    -> Internal,
     Value            -> (Sqrt[2]*cphi*(-MHp^2 + MHpH^2)*sphi)/vev,
-    InteractionOrder -> {QED, 2}
+    InteractionOrder -> {ZEE,1}
   },
   lam1 == {
     ParameterType    -> Internal,
     Value            -> (MHL^2*(1 + cab^2 - sab^2) + MHH^2*(1 - cab^2 + sab^2))/(2*vev^2),
-    InteractionOrder -> {QED, 2},
+    InteractionOrder -> {ZEE,1},
     Description      -> "lambda1"
   },
   lam4 == {
     ParameterType    -> Internal,
     Value            -> (2*MHA^2 + MHH^2*(1 + cab^2 - sab^2) + MHL^2*(1 - cab^2 + sab^2) + 2*MHp^2*(-1 + cphi^2 - sphi^2) - 2*MHpH^2*(1 + cphi^2 - sphi^2))/(2*vev^2), 
-    InteractionOrder -> {QED, 2},
+    InteractionOrder -> {ZEE,1},
     Description      -> "lambda4"
   },
   lam5 == {
     ParameterType    -> Internal,
     Value            -> (-2*MHA^2 + MHH^2*(1 + cab^2 - sab^2) + MHL^2*(1 - cab^2 + sab^2))/(2*vev^2),
-    InteractionOrder -> {QED, 2},
+    InteractionOrder -> {ZEE,1},
     Description      -> "lambda5"
   },
   lam6 == {
     ParameterType    -> Internal,
     Value            -> (cab*(-MHH^2 + MHL^2)*sab)/vev^2,
-    InteractionOrder -> {QED, 2},
+    InteractionOrder -> {ZEE,1},
     Description      -> "lambda6"
   },
   GHL == {
@@ -476,7 +485,7 @@ M$Parameters = {
     Indices          -> {Index[Generation], Index[Generation]},
     Definitions      -> {yl[i_?NumericQ, j_?NumericQ] :> 0  /; (i =!= j)},
     Value            -> {yl[1,1] -> Sqrt[2] yme / vev, yl[2,2] -> Sqrt[2] ymm / vev, yl[3,3] -> Sqrt[2] ymtau / vev},
-    InteractionOrder -> {QED, 1},
+    InteractionOrder -> {QED,1},
     ParameterName    -> {yl[1,1] -> ye, yl[2,2] -> ym, yl[3,3] -> ytau},
     TeX              -> Superscript[y, l],
     Description      -> "Lepton Yukawa couplings on H1"
@@ -485,7 +494,7 @@ M$Parameters = {
     ParameterType    -> Internal,
     Indices          -> {Index[Generation], Index[Generation]},
     Value            -> {ylz[1,1] -> ylzee, ylz[1,2] -> ylzem,ylz[1,3] -> ylzet,ylz[2,1] -> ylzme, ylz[2,2] -> ylzmm,ylz[2,3] -> ylzmt,ylz[3,1] -> ylzte, ylz[3,2] -> ylztm,ylz[3,3] -> ylztt},
-    InteractionOrder -> {QED, 1},
+    InteractionOrder -> {ZEE,1},
     ParameterName    -> {ylz[1,1] -> yzee, ylz[1,2] -> yzem,ylz[1,3] -> yzet,ylz[2,1] -> yzme, ylz[2,2] -> yzmm,ylz[2,3] -> yzmt,ylz[3,1] -> yzte, ylz[3,2] -> yztm,ylz[3,3] -> yztt},
     TeX              -> Superscript[Yz, l],
     Description      -> "Lepton Yukawa couplings on H2"
