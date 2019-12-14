@@ -235,7 +235,6 @@ M$Parameters = {
     BlockName     -> ZEEYUKAWAY,
     OrderBlock    -> 1,
     Value         -> 1,
-    InteractionOrder -> {ZEE,1},
     TeX           -> Subscript[Y,ee],
     Description   -> "Yukawa coupling Yee"
   },
@@ -244,7 +243,6 @@ M$Parameters = {
     BlockName     -> ZEEYUKAWAY,
     OrderBlock    -> 2,
     Value         -> 1,
-    InteractionOrder -> {ZEE,1},
     TeX           -> Subscript[Y,e \[Mu]],
     Description   -> "Yukawa coupling Yemu"
   },
@@ -253,7 +251,6 @@ M$Parameters = {
     BlockName     -> ZEEYUKAWAY,
     OrderBlock    -> 3,
     Value         -> 1,
-    InteractionOrder -> {ZEE,1},
     TeX           -> Subscript[Y,e \[Tau]],
     Description   -> "Yukawa coupling Yetau"
   },
@@ -262,7 +259,6 @@ M$Parameters = {
     BlockName     -> ZEEYUKAWAY,
     OrderBlock    -> 4,
     Value         -> 1,
-    InteractionOrder -> {ZEE,1},
     TeX           -> Subscript[Y,\[Mu] e],
     Description   -> "Yukawa coupling Ymue"
   },
@@ -271,7 +267,6 @@ M$Parameters = {
     BlockName     -> ZEEYUKAWAY,
     OrderBlock    -> 5,
     Value         -> 1,
-    InteractionOrder -> {ZEE,1},
     TeX           -> Subscript[Y,\[Mu] \[Mu]],
     Description   -> "Yukawa coupling Ymumu"
   },
@@ -280,7 +275,6 @@ M$Parameters = {
     BlockName     -> ZEEYUKAWAY,
     OrderBlock    -> 6,
     Value         -> 1,
-    InteractionOrder -> {ZEE,1},
     TeX           -> Subscript[Y,\[Mu] \[Tau]],
     Description   -> "Yukawa coupling Ymutau"
   },
@@ -289,7 +283,6 @@ M$Parameters = {
     BlockName     -> ZEEYUKAWAY,
     OrderBlock    -> 7,
     Value         -> 1,
-    InteractionOrder -> {ZEE,1},
     TeX           -> Subscript[Y,\[Tau] e],
     Description   -> "Yukawa coupling Ymue"
   },
@@ -298,7 +291,6 @@ M$Parameters = {
     BlockName     -> ZEEYUKAWAY,
     OrderBlock    -> 8,
     Value         -> 1,
-    InteractionOrder -> {ZEE,1},
     TeX           -> Subscript[Y,\[Tau] \[Mu]],
     Description   -> "Yukawa coupling Ytaumu"
   },
@@ -307,7 +299,6 @@ M$Parameters = {
     BlockName     -> ZEEYUKAWAY,
     OrderBlock    -> 9,
     Value         -> 1,
-    InteractionOrder -> {ZEE,1},
     TeX           -> Subscript[Y,\[Tau] \[Tau]],
     Description   -> "Yukawa coupling Ytautau"
   },                          
@@ -447,30 +438,30 @@ M$Parameters = {
   muzee=={
     ParameterType    -> Internal,
     Value            -> (Sqrt[2]*cphi*(-MHp^2 + MHpH^2)*sphi)/vev,
-    InteractionOrder -> {ZEE,1}
+    InteractionOrder -> {QED,1}
   },
   lam1 == {
     ParameterType    -> Internal,
     Value            -> (MHL^2*(1 + cab^2 - sab^2) + MHH^2*(1 - cab^2 + sab^2))/(2*vev^2),
-    InteractionOrder -> {ZEE,1},
+    InteractionOrder -> {QED,2},
     Description      -> "lambda1"
   },
   lam4 == {
     ParameterType    -> Internal,
     Value            -> (2*MHA^2 + MHH^2*(1 + cab^2 - sab^2) + MHL^2*(1 - cab^2 + sab^2) + 2*MHp^2*(-1 + cphi^2 - sphi^2) - 2*MHpH^2*(1 + cphi^2 - sphi^2))/(2*vev^2), 
-    InteractionOrder -> {ZEE,1},
+    InteractionOrder -> {QED,2},
     Description      -> "lambda4"
   },
   lam5 == {
     ParameterType    -> Internal,
     Value            -> (-2*MHA^2 + MHH^2*(1 + cab^2 - sab^2) + MHL^2*(1 - cab^2 + sab^2))/(2*vev^2),
-    InteractionOrder -> {ZEE,1},
+    InteractionOrder -> {QED,2},
     Description      -> "lambda5"
   },
   lam6 == {
     ParameterType    -> Internal,
     Value            -> (cab*(-MHH^2 + MHL^2)*sab)/vev^2,
-    InteractionOrder -> {ZEE,1},
+    InteractionOrder -> {QED,2},
     Description      -> "lambda6"
   },
   GHL == {

@@ -1,6 +1,6 @@
 # This file was automatically created by FeynRules 2.3.36
 # Mathematica version: 11.3.0 for Linux x86 (64-bit) (March 7, 2018)
-# Date: Thu 12 Dec 2019 22:16:45
+# Date: Fri 13 Dec 2019 17:08:22
 
 
 # 
@@ -53,7 +53,7 @@
 # Vertex definitions
 #
 
-   * 474 vertices written.
+   * 502 vertices written.
    * vertices.py written.
 #
 # Lorentz structure definitions
@@ -65,31 +65,19 @@
 # Coupling definitions
 #
 
-   >>>> Non positive interaction order QED found for coupling GC_251.
-   >>>> Non positive interaction order QED found for coupling GC_252.
-   >>>> Non positive interaction order QED found for coupling GC_253.
-   >>>> Non positive interaction order QED found for coupling GC_254.
-   >>>> Non positive interaction order QED found for coupling GC_255.
-   >>>> Non positive interaction order QED found for coupling GC_256.
-   >>>> Non positive interaction order QED found for coupling GC_257.
-   >>>> Non positive interaction order QED found for coupling GC_258.
-   >>>> Non positive interaction order QED found for coupling GC_259.
-   >>>> Non positive interaction order QED found for coupling GC_260.
-   >>>> Non positive interaction order QED found for coupling GC_261.
-   >>>> Non positive interaction order QED found for coupling GC_262.
-   >>>> Non positive interaction order QED found for coupling GC_263.
-   >>>> Non positive interaction order QED found for coupling GC_264.
-   >>>> Non positive interaction order QED found for coupling GC_265.
-   >>>> Non positive interaction order QED found for coupling GC_266.
    >>>> Non positive interaction order QED found for coupling GC_267.
    >>>> Non positive interaction order QED found for coupling GC_268.
-   >>>> Non positive interaction order QED found for coupling GC_269.
-   >>>> Non positive interaction order QED found for coupling GC_270.
-   >>>> Non positive interaction order QED found for coupling GC_271.
-   >>>> Non positive interaction order QED found for coupling GC_272.
-   >>>> Non positive interaction order QED found for coupling GC_273.
-   >>>> Non positive interaction order QED found for coupling GC_274.
-   * 381 couplings written.
+   >>>> Non positive interaction order QED found for coupling GC_275.
+   >>>> Non positive interaction order QED found for coupling GC_276.
+   >>>> Non positive interaction order QED found for coupling GC_279.
+   >>>> Non positive interaction order QED found for coupling GC_282.
+   >>>> Non positive interaction order QED found for coupling GC_287.
+   >>>> Non positive interaction order QED found for coupling GC_288.
+   >>>> Non positive interaction order QED found for coupling GC_289.
+   >>>> Non positive interaction order QED found for coupling GC_290.
+   >>>> Non positive interaction order QED found for coupling GC_291.
+   >>>> Non positive interaction order QED found for coupling GC_292.
+   * 399 couplings written.
    * couplings.py written.
 #
 # Coupling order definitions

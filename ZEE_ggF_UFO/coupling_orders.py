@@ -1,6 +1,6 @@
 # This file was automatically created by FeynRules 2.3.36
 # Mathematica version: 11.3.0 for Linux x86 (64-bit) (March 7, 2018)
-# Date: Thu 12 Dec 2019 22:17:38
+# Date: Fri 13 Dec 2019 17:09:15
 
 
 from object_library import all_orders, CouplingOrder
