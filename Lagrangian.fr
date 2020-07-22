@@ -37,8 +37,10 @@ LYukawa := Block[{sp,ii,jj,cc,ff1,ff2,ff3,yuk,yukq,yukl1,yukl2,feynmangaugerules
     yu[ff1, ff2] QLbar[sp, ii, ff1, cc].uR [sp, ff2, cc] H1bar[jj] Eps[ii, jj], FlavorExpand -> SU2D];
   yukq = yukq /. { CKM[a_, b_] Conjugate[CKM[a_, c_]] -> IndexDelta[b, c], CKM[b_, a_] Conjugate[CKM[c_, a_]] -> IndexDelta[b, c]};
 
-  yukl1 = ExpandIndices[-2*etap*(fem*( vlbar[sp,1] l[sp,2] - vlbar[sp,2] l[sp,1]) + fet*(vlbar[sp,1] l[sp,3] - vlbar[sp,3] l[sp,1]) + 
-      fmt*(vlbar[sp,2] l[sp,3] - vlbar[sp,3] l[sp,2])),FlavorExpand -> SU2D];
+  (*yukl1 = ExpandIndices[-2*etap*(fem*( vlbar[sp,1] l[sp,2] - vlbar[sp,2] l[sp,1]) + fet*(vlbar[sp,1] l[sp,3] - vlbar[sp,3] l[sp,1]) + 
+      fmt*(vlbar[sp,2] l[sp,3] - vlbar[sp,3] l[sp,2])),FlavorExpand -> SU2D];*)
+
+  yukl1 = ExpandIndices[-fl[ff1,ff2] anti[ CC[ LL[sp,ii,ff1] ] ] Eps[ii,jj] LL[sp,jj,ff2] etap, FlavorExpand -> SU2D ];
 
   yukl2= ExpandIndices[ -yl[ff1, ff3] LLbar[sp, ii, ff1].lR [sp, ff3] H1[ii] -
       ylz[ff1, ff3] LLbar[sp, ii, ff1].lR [sp, ff3] H2[ii], FlavorExpand -> SU2D];
