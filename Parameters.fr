@@ -481,6 +481,15 @@ M$Parameters = {
     TeX              -> Superscript[y, l],
     Description      -> "Lepton Yukawa couplings on H1"
   },
+  fl == {
+    ParameterType    -> Internal,
+    Indices          -> {Index[Generation], Index[Generation]},
+    Definitions      -> {fl[i_?NumericQ, j_?NumericQ] :> 0 /; (i == j)},
+    Value            -> {fl[1,2] -> fem, fl[1,3] -> fet, fl[2,3] -> fmt, fl[2,1] -> -fem, fl[3,1] -> -fet, fl[3,2] -> -fmt},
+    InteractionOrder -> {ZEE,1},
+    TeX              -> Superscript[f, l],
+    Description      -> "Lepton Yukawa couplings from eta"
+  },
   ylz == {
     ParameterType    -> Internal,
     Indices          -> {Index[Generation], Index[Generation]},
