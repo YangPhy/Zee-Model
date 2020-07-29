@@ -145,7 +145,7 @@ M$Parameters = {
     BlockName     -> ZEELAMS,
     OrderBlock    -> 1,
     Value         -> 1,
-    InteractionOrder -> {ZEE,1},
+    InteractionOrder -> {QED,2},
     TeX           -> Subscript[\[Lambda],2],
     Description   -> "Quatric coupling 2"
   }, 
@@ -154,7 +154,7 @@ M$Parameters = {
     BlockName     -> ZEELAMS,
     OrderBlock    -> 2,
     Value         -> 1,
-    InteractionOrder -> {ZEE,1},
+    InteractionOrder -> {QED,2},
     TeX           -> Subscript[\[Lambda],3],
     Description   -> "Quatric coupling 3"
   }, 
@@ -163,7 +163,7 @@ M$Parameters = {
     BlockName     -> ZEELAMS,
     OrderBlock    -> 3,
     Value         -> 1,
-    InteractionOrder -> {ZEE,1},
+    InteractionOrder -> {QED,2},
     TeX           -> Subscript[\[Lambda],7],
     Description   -> "Quatric coupling 7"
   },   
@@ -172,7 +172,7 @@ M$Parameters = {
     BlockName     -> ZEELAMS,
     OrderBlock    -> 4,
     Value         -> 1,
-    InteractionOrder -> {ZEE,1},
+    InteractionOrder -> {QED,2},
     TeX           -> Subscript[\[Lambda],8],
     Description   -> "Quatric coupling 8"
   }, 
@@ -181,7 +181,7 @@ M$Parameters = {
     BlockName     -> ZEELAMS,
     OrderBlock    -> 5,
     Value         -> 1,
-    InteractionOrder -> {ZEE,1},
+    InteractionOrder -> {QED,2},
     TeX           -> Subscript[\[Lambda],9],
     Description   -> "Quatric coupling 9"
   }, 
@@ -190,7 +190,7 @@ M$Parameters = {
     BlockName     -> ZEELAMS,
     OrderBlock    -> 6,
     Value         -> 1,
-    InteractionOrder -> {ZEE,1},
+    InteractionOrder -> {QED,2},
     TeX           -> Subscript[\[Lambda],10],
     Description   -> "Quatric coupling 10"
   }, 
@@ -199,7 +199,7 @@ M$Parameters = {
     BlockName     -> ZEELAMS,
     OrderBlock    -> 7,
     Value         -> 1,
-    InteractionOrder -> {ZEE,1},
+    InteractionOrder -> {QED,2},
     TeX           -> Subscript[\[Lambda],\[Eta]],
     Description   -> "Quatric coupling eta"
   }, 
