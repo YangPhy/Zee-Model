@@ -95,7 +95,8 @@ IndexStyle[Generation, f];
 
 M$InteractionOrderHierarchy = {
   {QCD, 1},
-  {QED, 2}
+  {QED, 2},
+  {ZEE, 2}
 };
 
 Get["Particles.fr"];
