@@ -419,42 +419,21 @@ M$Parameters = {
     TeX              -> Subscript[s,\[Phi]],
     Description      -> "Sine of phi"
   }, 
-  mu12=={
-    ParameterType    -> Internal,
-    Value            -> (MHL^2*(1 + cab^2 - sab^2) + MHH^2*(1 - cab^2 + sab^2))/4
-  },
-  mu22=={
-    ParameterType    -> Internal,
-    Value            -> (MHpH^2*(1 + cphi^2 - sphi^2) + MHp^2*(1 - cphi^2 + sphi^2) - lam3*vev^2)/2 
-  },
-  mu32=={
-    ParameterType    -> Internal,
-    Value            -> (cab*(-MHH^2 + MHL^2)*sab)/2
-  },
-  mueta2=={
-    ParameterType    -> Internal,
-    Value            -> (MHp^2*(1 + cphi^2 - sphi^2) + MHpH^2*(1 - cphi^2 + sphi^2) - lam8*vev^2)/2
-  },
-  muzee=={
-    ParameterType    -> Internal,
-    Value            -> (Sqrt[2]*cphi*(-MHp^2 + MHpH^2)*sphi)/vev,
-    InteractionOrder -> {QED,1}
-  },
   lam1 == {
     ParameterType    -> Internal,
-    Value            -> (MHL^2*(1 + cab^2 - sab^2) + MHH^2*(1 - cab^2 + sab^2))/(2*vev^2),
+    Value            -> (MHL^2*cab^2 + MHH^2*sab^2)/(vev^2),
     InteractionOrder -> {QED,2},
     Description      -> "lambda1"
   },
   lam4 == {
     ParameterType    -> Internal,
-    Value            -> (2*MHA^2 + MHH^2*(1 + cab^2 - sab^2) + MHL^2*(1 - cab^2 + sab^2) + 2*MHp^2*(-1 + cphi^2 - sphi^2) - 2*MHpH^2*(1 + cphi^2 - sphi^2))/(2*vev^2), 
+    Value            -> (MHA^2 + MHH^2*cab^2 + MHL^2*sab^2 - 2*MHp^2*sphi^2 - 2*MHpH^2*cphi^2)/(vev^2), 
     InteractionOrder -> {QED,2},
     Description      -> "lambda4"
   },
   lam5 == {
     ParameterType    -> Internal,
-    Value            -> (-2*MHA^2 + MHH^2*(1 + cab^2 - sab^2) + MHL^2*(1 - cab^2 + sab^2))/(2*vev^2),
+    Value            -> (-MHA^2 + MHH^2*cab^2 + MHL^2*sab^2)/(vev^2),
     InteractionOrder -> {QED,2},
     Description      -> "lambda5"
   },
@@ -463,6 +442,27 @@ M$Parameters = {
     Value            -> (cab*(-MHH^2 + MHL^2)*sab)/vev^2,
     InteractionOrder -> {QED,2},
     Description      -> "lambda6"
+  },
+  mu12=={
+    ParameterType    -> Internal,
+    Value            -> lam1*vev^2/2
+  },
+  mu22=={
+    ParameterType    -> Internal,
+    Value            -> (2*MHpH^2*cphi^2 + 2*MHp^2*sphi^2 - lam3*vev^2)/2 
+  },
+  mu32=={
+    ParameterType    -> Internal,
+    Value            -> lam6*vev^2/2
+  },
+  mueta2=={
+    ParameterType    -> Internal,
+    Value            -> (2*MHp^2*cphi^2 + 2*MHpH^2*sphi^2 - lam8*vev^2)/2
+  },
+  muzee=={
+    ParameterType    -> Internal,
+    Value            -> (Sqrt[2]*cphi*(-MHp^2 + MHpH^2)*sphi)/vev,
+    InteractionOrder -> {QED,1}
   },
   GHL == {
     ParameterType    -> Internal,
